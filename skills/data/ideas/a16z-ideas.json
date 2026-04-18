@@ -1,0 +1,22 @@
+[
+  {"id":"a16z-001","name":"AI Agent Wallet","source":"a16z","one_liner":"Wallet infrastructure for AI agents with spending limits, programmatic guardrails, and audit trails","category":"agent","tags":["ai","wallet","agent"]},
+  {"id":"a16z-002","name":"On-Chain Reputation Graph","source":"a16z","one_liner":"Composable reputation system where actions across dApps build a unified trust score","category":"infra","tags":["reputation","identity","graph"]},
+  {"id":"a16z-003","name":"Decentralized Compute Marketplace","source":"a16z","one_liner":"Marketplace for GPU/CPU compute where providers stake collateral for SLA guarantees","category":"infra","tags":["depin","compute","marketplace"]},
+  {"id":"a16z-004","name":"Crypto-Native Publishing","source":"a16z","one_liner":"Publishing platform where readers directly fund writers via micropayments and subscriptions","category":"consumer","tags":["content","publishing","micropayments"]},
+  {"id":"a16z-005","name":"Verifiable AI Inference","source":"a16z","one_liner":"Prove that an AI model produced a specific output without revealing the model weights","category":"infra","tags":["ai","zk","verification"]},
+  {"id":"a16z-006","name":"Autonomous World","source":"a16z","one_liner":"Fully on-chain game world where state persists and evolves even without players","category":"gaming","tags":["gaming","autonomous","onchain"]},
+  {"id":"a16z-007","name":"Token-Gated Commerce","source":"a16z","one_liner":"E-commerce where token holders get exclusive access, discounts, or products","category":"consumer","tags":["commerce","tokens","loyalty"]},
+  {"id":"a16z-008","name":"Decentralized Science (DeSci)","source":"a16z","one_liner":"Fund, conduct, and publish scientific research with on-chain coordination","category":"infra","tags":["desci","research","funding"]},
+  {"id":"a16z-009","name":"Music NFT Platform","source":"a16z","one_liner":"Musicians release songs as NFTs, fans earn from streaming royalties","category":"consumer","tags":["music","nft","royalties"]},
+  {"id":"a16z-010","name":"LLM Token Exchange","source":"a16z","one_liner":"Buy, sell, and redeem inference credits for any AI model in one marketplace","category":"agent","tags":["ai","marketplace","inference"]},
+  {"id":"a16z-011","name":"Decentralized Wireless","source":"a16z","one_liner":"Community-owned cellular/WiFi networks incentivized by token rewards","category":"infra","tags":["depin","wireless","telecom"]},
+  {"id":"a16z-012","name":"On-Chain Governance Framework","source":"a16z","one_liner":"Modular governance primitives: voting, delegation, timelock, veto, quorum","category":"infra","tags":["governance","dao","voting"]},
+  {"id":"a16z-013","name":"Privacy-Preserving DeFi","source":"a16z","one_liner":"DeFi protocols with private balances and transaction amounts using ZK proofs","category":"defi","tags":["privacy","zk","defi"]},
+  {"id":"a16z-014","name":"Tokenized Carbon Credits","source":"a16z","one_liner":"Bring carbon credits on-chain for transparent retirement and trading","category":"defi","tags":["rwa","carbon","sustainability"]},
+  {"id":"a16z-015","name":"Crypto-Native HR Platform","source":"a16z","one_liner":"Hiring, onboarding, payroll, and equity management for crypto-native teams","category":"infra","tags":["hr","payroll","equity"]},
+  {"id":"a16z-016","name":"Conditional Prediction Markets","source":"a16z","one_liner":"Markets for conditional outcomes — if X happens, what's the probability of Y?","category":"defi","tags":["prediction-market","conditional"]},
+  {"id":"a16z-017","name":"Cross-Chain Intent Protocol","source":"a16z","one_liner":"Express what you want (swap, bridge, stake) and solvers compete to fill it optimally","category":"defi","tags":["intents","cross-chain","solver"]},
+  {"id":"a16z-018","name":"Decentralized Map","source":"a16z","one_liner":"Community-contributed mapping data owned by contributors, not corporations","category":"consumer","tags":["depin","maps","community"]},
+  {"id":"a16z-019","name":"On-Chain Derivatives Clearing","source":"a16z","one_liner":"Clearinghouse for structured products with automated margin and settlement","category":"defi","tags":["derivatives","clearing","institutional"]},
+  {"id":"a16z-020","name":"AI-Powered Smart Contract Auditor","source":"a16z","one_liner":"AI tool that finds vulnerabilities in Move code before deployment","category":"infra","tags":["security","ai","audit"]}
+]

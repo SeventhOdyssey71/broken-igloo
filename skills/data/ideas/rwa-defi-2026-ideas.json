@@ -1,0 +1,22 @@
+[
+  {"id":"rwa-001","name":"Tokenized US Treasury Bills","source":"2026-trends","one_liner":"On-chain T-bill wrapper providing 4-5% risk-free yield to stablecoin holders","category":"defi","tags":["rwa","treasury","yield"]},
+  {"id":"rwa-002","name":"Private Credit Marketplace","source":"2026-trends","one_liner":"Platform for accredited investors to fund and trade private credit positions on-chain","category":"defi","tags":["rwa","credit","marketplace"]},
+  {"id":"rwa-003","name":"Tokenized Money Market Fund","source":"2026-trends","one_liner":"On-chain money market fund shares redeemable 24/7 with instant settlement","category":"defi","tags":["rwa","money-market","institutional"]},
+  {"id":"rwa-004","name":"Real Estate Revenue Share","source":"2026-trends","one_liner":"Fractional ownership of commercial properties with automated rental distribution","category":"defi","tags":["rwa","real-estate","revenue-share"]},
+  {"id":"rwa-005","name":"Commodities Vault","source":"2026-trends","one_liner":"Physically-backed gold, silver, or commodity tokens with proof of reserves","category":"defi","tags":["rwa","commodities","proof-of-reserves"]},
+  {"id":"rwa-006","name":"Equipment Financing Protocol","source":"2026-trends","one_liner":"On-chain equipment leasing with tokenized payment streams and collateral","category":"defi","tags":["rwa","equipment","leasing"]},
+  {"id":"rwa-007","name":"Tokenized Structured Notes","source":"2026-trends","one_liner":"Principal-protected or leveraged exposure to crypto via on-chain structured products","category":"defi","tags":["rwa","structured-products","derivatives"]},
+  {"id":"rwa-008","name":"Supply Chain Finance","source":"2026-trends","one_liner":"Tokenize purchase orders and invoices for immediate supplier financing","category":"defi","tags":["rwa","supply-chain","factoring"]},
+  {"id":"rwa-009","name":"Carbon Credit DEX","source":"2026-trends","one_liner":"Trade verified carbon credits on-chain with transparent retirement tracking","category":"defi","tags":["rwa","carbon","sustainability"]},
+  {"id":"rwa-010","name":"Mining Revenue Tokens","source":"2026-trends","one_liner":"Tokenized claims on crypto mining revenue with transparent hashrate verification","category":"defi","tags":["rwa","mining","revenue-share"]},
+  {"id":"rwa-011","name":"BTC-Backed Stablecoin","source":"2026-trends","one_liner":"Stablecoin collateralized by BTC via Hashi with automated liquidation","category":"defi","tags":["stablecoin","btc","hashi"]},
+  {"id":"rwa-012","name":"Tokenized Art Fund","source":"2026-trends","one_liner":"Fractional ownership of fine art portfolios curated by expert dealers","category":"defi","tags":["rwa","art","fractionalization"]},
+  {"id":"rwa-013","name":"IP Royalty Tokens","source":"2026-trends","one_liner":"Tokenize intellectual property royalties for patents, music, and software licenses","category":"defi","tags":["rwa","ip","royalties"]},
+  {"id":"rwa-014","name":"Renewable Energy Credits","source":"2026-trends","one_liner":"On-chain renewable energy certificates with IoT-verified generation data","category":"defi","tags":["rwa","energy","depin"]},
+  {"id":"rwa-015","name":"Agricultural Commodity Pool","source":"2026-trends","one_liner":"Tokenized pre-harvest agricultural commodity contracts with weather oracle triggers","category":"defi","tags":["rwa","agriculture","oracle"]},
+  {"id":"rwa-016","name":"Primary Bond Issuance","source":"2026-trends","one_liner":"Issue corporate bonds on-chain with automated coupon payments and maturity redemption","category":"defi","tags":["rwa","bonds","issuance"]},
+  {"id":"rwa-017","name":"Insurance-Linked Securities","source":"2026-trends","one_liner":"Tokenized catastrophe bonds and insurance-linked investments on-chain","category":"defi","tags":["rwa","insurance","ils"]},
+  {"id":"rwa-018","name":"Sports Team Revenue Token","source":"2026-trends","one_liner":"Fan tokens backed by actual team revenue streams with governance rights","category":"defi","tags":["rwa","sports","fan-token"]},
+  {"id":"rwa-019","name":"Pharmaceutical Royalties","source":"2026-trends","one_liner":"Tokenized drug royalty streams from approved pharmaceutical products","category":"defi","tags":["rwa","pharma","royalties"]},
+  {"id":"rwa-020","name":"Infrastructure Revenue Bonds","source":"2026-trends","one_liner":"Tokenized toll road, airport, or utility revenue bonds with automated distributions","category":"defi","tags":["rwa","infrastructure","bonds"]}
+]

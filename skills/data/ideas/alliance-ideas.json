@@ -1,0 +1,17 @@
+[
+  {"id":"alliance-001","name":"Stablecoin FX Platform","source":"alliance","one_liner":"Trade between stablecoins pegged to different fiat currencies with minimal slippage","category":"defi","tags":["stablecoin","fx","trading"]},
+  {"id":"alliance-002","name":"Crypto-Native Freelance Marketplace","source":"alliance","one_liner":"Upwork competitor with escrow, milestone payments, and reputation on-chain","category":"consumer","tags":["marketplace","freelance","escrow"]},
+  {"id":"alliance-003","name":"Decentralized Options Protocol","source":"alliance","one_liner":"European/American options with on-chain settlement and automated exercise","category":"defi","tags":["options","derivatives","settlement"]},
+  {"id":"alliance-004","name":"On-Chain Lottery","source":"alliance","one_liner":"Provably fair lottery using on-chain randomness with transparent prize pools","category":"consumer","tags":["lottery","randomness","gaming"]},
+  {"id":"alliance-005","name":"NFT Rental Protocol","source":"alliance","one_liner":"Rent NFTs for gaming, events, or social status without selling them","category":"consumer","tags":["nft","rental","gaming"]},
+  {"id":"alliance-006","name":"Yield-Bearing Stablecoin","source":"alliance","one_liner":"Stablecoin that automatically earns yield from lending protocol deposits","category":"defi","tags":["stablecoin","yield","lending"]},
+  {"id":"alliance-007","name":"On-Chain Voting","source":"alliance","one_liner":"Gasless, private voting for organizations using ZK proofs","category":"infra","tags":["voting","zk","governance"]},
+  {"id":"alliance-008","name":"Crypto Payment Gateway for SMBs","source":"alliance","one_liner":"Accept crypto payments with instant fiat settlement for small businesses","category":"consumer","tags":["payments","merchant","settlement"]},
+  {"id":"alliance-009","name":"Decentralized ETF","source":"alliance","one_liner":"On-chain index funds that automatically rebalance across DeFi protocols","category":"defi","tags":["index","etf","rebalancing"]},
+  {"id":"alliance-010","name":"Social Token Launchpad","source":"alliance","one_liner":"Creators launch personal tokens with bonding curves and utility hooks","category":"consumer","tags":["social","token","creator"]},
+  {"id":"alliance-011","name":"On-Chain Escrow Service","source":"alliance","one_liner":"Programmable escrow with dispute resolution and multi-party signatures","category":"infra","tags":["escrow","multisig","disputes"]},
+  {"id":"alliance-012","name":"DeFi Position Manager","source":"alliance","one_liner":"Unified dashboard to manage positions across all DeFi protocols with one-click actions","category":"defi","tags":["dashboard","portfolio","management"]},
+  {"id":"alliance-013","name":"Crypto Gift Cards","source":"alliance","one_liner":"Buy, send, and redeem gift cards using crypto with zkLogin for recipients","category":"consumer","tags":["gift-cards","payments","onboarding"]},
+  {"id":"alliance-014","name":"Automated Market Making Vault","source":"alliance","one_liner":"Depositor-funded MM vaults for concentrated liquidity with auto-rebalancing","category":"defi","tags":["amm","vault","market-making"]},
+  {"id":"alliance-015","name":"On-Chain Bounty Platform","source":"alliance","one_liner":"Post and claim bounties for bug fixes, features, content, and research","category":"consumer","tags":["bounty","marketplace","development"]}
+]

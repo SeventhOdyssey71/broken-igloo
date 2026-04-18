@@ -1,0 +1,59 @@
+{
+  "name": "DefiLlama API",
+  "description": "Free, open API for DeFi protocol data. No API key required.",
+  "base_url": "https://api.llama.fi",
+  "endpoints": {
+    "protocols": {
+      "url": "/protocols",
+      "description": "List all DeFi protocols with TVL data",
+      "filter_for_sui": "Filter results where chains[] includes 'Sui'"
+    },
+    "protocol_detail": {
+      "url": "/protocol/{slug}",
+      "description": "Detailed TVL history for a specific protocol",
+      "example": "/protocol/cetus"
+    },
+    "chains": {
+      "url": "/v2/chains",
+      "description": "TVL for all chains. Find Sui's total TVL here."
+    },
+    "chain_tvl_history": {
+      "url": "/v2/historicalChainTvl/Sui",
+      "description": "Historical TVL data for Sui specifically"
+    },
+    "yields_pools": {
+      "url": "https://yields.llama.fi/pools",
+      "description": "All yield farming pools across chains. Filter for chain='Sui'"
+    },
+    "stablecoins": {
+      "url": "https://stablecoins.llama.fi/stablecoins?includePrices=true",
+      "description": "All stablecoins with market caps. Filter for chains including Sui."
+    },
+    "stablecoin_chains": {
+      "url": "https://stablecoins.llama.fi/stablecoinchains",
+      "description": "Stablecoin market cap by chain"
+    },
+    "volumes": {
+      "url": "https://api.llama.fi/overview/dexs/Sui",
+      "description": "DEX trading volume for Sui"
+    },
+    "fees": {
+      "url": "https://api.llama.fi/overview/fees/Sui",
+      "description": "Protocol fees/revenue for Sui protocols"
+    }
+  },
+  "usage_notes": [
+    "All endpoints are GET requests, no authentication needed",
+    "Rate limit: ~300 requests per 5 minutes (be reasonable)",
+    "TVL data updates every ~15 minutes",
+    "Yields update every ~30 minutes",
+    "Use /v2/ endpoints for the latest data format",
+    "Sui chain slug is 'Sui' (capital S)"
+  ],
+  "sui_protocol_slugs": [
+    "cetus", "scallop", "navi-protocol", "suilend", "aftermath-finance",
+    "deepbook", "turbos-finance", "flowx-finance", "bucket-protocol",
+    "haedal", "volo", "kriya-dex", "bluefin", "typus-finance",
+    "7k-aggregator", "mole", "kai-finance"
+  ]
+}
