@@ -1,0 +1,39 @@
+{
+  "name": "brokenigloo",
+  "version": "0.1.0",
+  "description": "Ship on Sui — Idea to Launch. The agentic layer for Sui.",
+  "type": "module",
+  "bin": {
+    "brokenigloo": "./dist/cli/index.js",
+    "sui-new": "./dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx cli/index.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "sui",
+    "move",
+    "blockchain",
+    "ai",
+    "agent",
+    "claude",
+    "codex",
+    "defi",
+    "web3"
+  ],
+  "author": "eromonseleodigie",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "convex": "^1.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

@@ -1,0 +1,219 @@
+[
+  {
+    "id": "sui-beginner",
+    "name": "Sui Beginner",
+    "phase": "idea",
+    "description": "Learn Sui fundamentals — object model, Move language, PTBs, zkLogin. Adaptive for EVM devs, Solana devs, or total beginners.",
+    "triggers": ["learn sui", "teach me sui", "sui beginner", "new to sui", "getting started with sui"]
+  },
+  {
+    "id": "learn",
+    "name": "Learn",
+    "phase": "idea",
+    "description": "Review, search, and export project learnings across sessions.",
+    "triggers": ["review learnings", "what did I learn", "export learnings"]
+  },
+  {
+    "id": "find-next-crypto-idea",
+    "name": "Find Next Crypto Idea",
+    "phase": "idea",
+    "description": "Discover and evaluate crypto startup ideas on Sui. 500+ curated ideas from YC, Alliance, a16z, and Sui ecosystem.",
+    "triggers": ["find idea", "crypto idea", "startup idea", "what should I build"]
+  },
+  {
+    "id": "validate-idea",
+    "name": "Validate Idea",
+    "phase": "idea",
+    "description": "Stress-test your Sui project idea with on-chain demand signals and competitive analysis.",
+    "triggers": ["validate idea", "stress test idea", "is this a good idea"]
+  },
+  {
+    "id": "competitive-landscape",
+    "name": "Competitive Landscape",
+    "phase": "idea",
+    "description": "Map competitors, substitutes, and moats in the Sui ecosystem.",
+    "triggers": ["competitive landscape", "competitors", "market map"]
+  },
+  {
+    "id": "defillama-research",
+    "name": "DefiLlama Research",
+    "phase": "idea",
+    "description": "Real-time DeFi market research using DefiLlama data filtered for Sui.",
+    "triggers": ["defillama", "defi research", "tvl research", "defi data"]
+  },
+  {
+    "id": "sui-overflow-copilot",
+    "name": "Sui Overflow Copilot",
+    "phase": "idea",
+    "description": "Research Sui Overflow hackathon projects, run gap analysis, explore winning patterns.",
+    "triggers": ["sui overflow", "hackathon research", "hackathon copilot"]
+  },
+  {
+    "id": "scaffold-project",
+    "name": "Scaffold Project",
+    "phase": "build",
+    "description": "Set up a complete Sui workspace from a validated idea. Stack decisions, starter repos, MCP/skill installation.",
+    "triggers": ["scaffold", "setup project", "init project", "start building", "scaffold project"]
+  },
+  {
+    "id": "build-with-claude",
+    "name": "Build with Claude",
+    "phase": "build",
+    "description": "Guided MVP implementation on Sui in 3-5 milestones, each 1-2 hours.",
+    "triggers": ["build mvp", "start coding", "build with claude", "implement"]
+  },
+  {
+    "id": "build-defi-protocol",
+    "name": "Build DeFi Protocol",
+    "phase": "build",
+    "description": "Build DeFi on Sui — AMMs, lending, vaults using Move modules, shared objects, and PTBs.",
+    "triggers": ["build defi", "defi protocol", "amm", "lending protocol", "vault"]
+  },
+  {
+    "id": "launch-token",
+    "name": "Launch Token",
+    "phase": "build",
+    "description": "Create and launch a Sui Coin using coin::create_currency, TreasuryCap, and CoinMetadata.",
+    "triggers": ["launch token", "create token", "create coin", "mint token", "token launch"]
+  },
+  {
+    "id": "build-data-pipeline",
+    "name": "Build Data Pipeline",
+    "phase": "build",
+    "description": "Build indexers, event subscriptions, and analytics pipelines on Sui.",
+    "triggers": ["data pipeline", "indexer", "events", "analytics", "webhooks"]
+  },
+  {
+    "id": "build-mobile",
+    "name": "Build Mobile",
+    "phase": "build",
+    "description": "Build mobile Sui dApps with React Native and @mysten/dapp-kit.",
+    "triggers": ["mobile app", "react native", "mobile dapp"]
+  },
+  {
+    "id": "debug-move",
+    "name": "Debug Move",
+    "phase": "build",
+    "description": "Diagnose Move errors, object ownership issues, failed transactions, and gas estimation problems.",
+    "triggers": ["debug", "error", "failed transaction", "move error", "object ownership"]
+  },
+  {
+    "id": "review-and-iterate",
+    "name": "Review and Iterate",
+    "phase": "build",
+    "description": "Code review for quality, Move security, and production readiness on Sui.",
+    "triggers": ["code review", "review code", "security review", "audit"]
+  },
+  {
+    "id": "virtual-sui-incubator",
+    "name": "Virtual Sui Incubator",
+    "phase": "build",
+    "description": "Deep technical bootcamp: Sui architecture, Mysticeti consensus, object model, PTBs, Move patterns.",
+    "triggers": ["incubator", "bootcamp", "deep dive sui", "sui architecture"]
+  },
+  {
+    "id": "brand-design",
+    "name": "Brand Design",
+    "phase": "build",
+    "description": "Color palettes, typography, gradients, and shadcn integration for your Sui app.",
+    "triggers": ["brand design", "colors", "typography", "design system"]
+  },
+  {
+    "id": "frontend-design-guidelines",
+    "name": "Frontend Design Guidelines",
+    "phase": "build",
+    "description": "Layout, animations, forms, and Sui-specific UI patterns with dApp Kit.",
+    "triggers": ["frontend design", "ui guidelines", "layout", "sui ui"]
+  },
+  {
+    "id": "number-formatting",
+    "name": "Number Formatting",
+    "phase": "build",
+    "description": "Crypto-specific number formatting for SUI, MIST, large token amounts.",
+    "triggers": ["number formatting", "format numbers", "decimals", "mist"]
+  },
+  {
+    "id": "page-load-animations",
+    "name": "Page Load Animations",
+    "phase": "build",
+    "description": "Motion design with spring presets for loading states and transitions.",
+    "triggers": ["animations", "page load", "motion", "transitions"]
+  },
+  {
+    "id": "design-taste",
+    "name": "Design Taste",
+    "phase": "build",
+    "description": "Anti-AI-slop design judgment. Build apps that look crafted, not generated.",
+    "triggers": ["design taste", "design review", "looks bad", "ai slop"]
+  },
+  {
+    "id": "navigate-skills",
+    "name": "Navigate Skills",
+    "phase": "build",
+    "description": "Browse all installed brokenigloo skills, repos, and MCPs.",
+    "triggers": ["navigate skills", "browse skills", "what skills", "list skills"]
+  },
+  {
+    "id": "product-review",
+    "name": "Product Review",
+    "phase": "build",
+    "description": "Balanced UX evaluation with improvement roadmap for your Sui app.",
+    "triggers": ["product review", "ux review", "evaluate product"]
+  },
+  {
+    "id": "roast-my-product",
+    "name": "Roast My Product",
+    "phase": "build",
+    "description": "Brutal, honest product critique. Find every flaw before your users do.",
+    "triggers": ["roast", "roast my product", "critique", "tear it apart"]
+  },
+  {
+    "id": "cso",
+    "name": "CSO — Security Audit",
+    "phase": "build",
+    "description": "Infrastructure security audit: secrets, dependencies, CI/CD, OWASP checks.",
+    "triggers": ["security audit", "cso", "infrastructure security", "owasp"]
+  },
+  {
+    "id": "deploy-to-mainnet",
+    "name": "Deploy to Mainnet",
+    "phase": "launch",
+    "description": "Pre-flight checklist, sui client publish, UpgradeCap management, production RPC setup.",
+    "triggers": ["deploy", "mainnet", "publish", "go live", "deploy to mainnet"]
+  },
+  {
+    "id": "create-pitch-deck",
+    "name": "Create Pitch Deck",
+    "phase": "launch",
+    "description": "12-slide investor pitch deck framework for Sui projects.",
+    "triggers": ["pitch deck", "investor deck", "fundraise", "pitch"]
+  },
+  {
+    "id": "submit-to-hackathon",
+    "name": "Submit to Hackathon",
+    "phase": "launch",
+    "description": "Optimized Sui Overflow submission with demo script and judging criteria alignment.",
+    "triggers": ["hackathon submission", "submit hackathon", "sui overflow submit"]
+  },
+  {
+    "id": "marketing-video",
+    "name": "Marketing Video",
+    "phase": "launch",
+    "description": "Code-driven video production via Remotion + AI generation.",
+    "triggers": ["marketing video", "promo video", "product video"]
+  },
+  {
+    "id": "video-craft",
+    "name": "Video Craft",
+    "phase": "launch",
+    "description": "Frame composition and visual polish for marketing videos.",
+    "triggers": ["video craft", "video polish", "frame composition"]
+  },
+  {
+    "id": "apply-grant",
+    "name": "Apply for Grant",
+    "phase": "launch",
+    "description": "Sui Foundation grant application guidance and templates.",
+    "triggers": ["grant", "apply grant", "sui foundation grant", "funding"]
+  }
+]

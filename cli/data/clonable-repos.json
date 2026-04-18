@@ -1,0 +1,185 @@
+[
+  {
+    "id": "sui-dapp-starter",
+    "name": "Sui dApp Starter",
+    "repo": "suiware/sui-dapp-starter",
+    "category": "scaffold",
+    "description": "Full-stack Sui dApp template with Move backend and React frontend.",
+    "stars": 67,
+    "tags": ["template", "react", "move", "fullstack"]
+  },
+  {
+    "id": "nextjs-sui-template",
+    "name": "Next.js Sui dApp Template",
+    "repo": "hoh-zone/Nextjs-Sui-Dapp-Template",
+    "category": "scaffold",
+    "description": "Next.js + Sui dApp Kit template for rapid prototyping.",
+    "stars": 30,
+    "tags": ["template", "nextjs", "dapp-kit"]
+  },
+  {
+    "id": "sui-move-examples",
+    "name": "Sui Move Examples (Official)",
+    "repo": "MystenLabs/sui",
+    "path": "examples/move",
+    "category": "examples",
+    "description": "Official Move examples: coins, NFTs, DeFi patterns, games.",
+    "stars": 50000,
+    "tags": ["move", "examples", "official"]
+  },
+  {
+    "id": "scallop-lending",
+    "name": "Scallop Lending Protocol",
+    "repo": "scallop-io/sui-lending-protocol",
+    "category": "defi",
+    "description": "Production lending protocol on Sui. Reference for building lending/borrowing.",
+    "stars": 86,
+    "tags": ["defi", "lending", "move"]
+  },
+  {
+    "id": "scallop-sdk",
+    "name": "Scallop TypeScript SDK",
+    "repo": "scallop-io/sui-scallop-sdk",
+    "category": "sdk",
+    "description": "TypeScript SDK for interacting with Scallop lending protocol.",
+    "stars": 53,
+    "tags": ["sdk", "typescript", "defi", "lending"]
+  },
+  {
+    "id": "cetus-clmm-sdk",
+    "name": "Cetus CLMM SDK",
+    "repo": "CetusProtocol/cetus-clmm-sui-sdk",
+    "category": "sdk",
+    "description": "Concentrated liquidity market maker SDK for Cetus Protocol.",
+    "stars": 40,
+    "tags": ["sdk", "typescript", "defi", "amm"]
+  },
+  {
+    "id": "sui-pump-move",
+    "name": "Sui Pump (Move)",
+    "repo": "haredoggy/Sui-Pump--Move",
+    "category": "defi",
+    "description": "Pump.fun-style bonding curve token launchpad on Sui in Move.",
+    "stars": 61,
+    "tags": ["defi", "launchpad", "move", "bonding-curve"]
+  },
+  {
+    "id": "sui-typescript-sdk",
+    "name": "Sui TypeScript SDK (Official)",
+    "repo": "MystenLabs/sui",
+    "path": "sdk/typescript",
+    "category": "sdk",
+    "description": "Official Sui TypeScript SDK — RPC client, PTB builder, BCS, keypairs.",
+    "stars": 50000,
+    "tags": ["sdk", "typescript", "official"]
+  },
+  {
+    "id": "sui-dapp-kit",
+    "name": "Sui dApp Kit (Official)",
+    "repo": "MystenLabs/sui",
+    "path": "sdk/dapp-kit",
+    "category": "sdk",
+    "description": "Official React components for Sui wallet connection and transactions.",
+    "stars": 50000,
+    "tags": ["sdk", "react", "wallet", "official"]
+  },
+  {
+    "id": "sui-kit",
+    "name": "Sui Kit (Scallop)",
+    "repo": "scallop-io/sui-kit",
+    "category": "sdk",
+    "description": "Ergonomic Sui SDK wrapper by Scallop. Simplifies common operations.",
+    "stars": 188,
+    "tags": ["sdk", "typescript", "utility"]
+  },
+  {
+    "id": "pysui",
+    "name": "PySui — Python SDK",
+    "repo": "FrankC01/pysui",
+    "category": "sdk",
+    "description": "Python SDK for Sui blockchain interaction.",
+    "stars": 212,
+    "tags": ["sdk", "python"]
+  },
+  {
+    "id": "sui-agent-kit-pelagos",
+    "name": "Sui Agent Kit (PelagosAI)",
+    "repo": "pelagosaionsui/sui-agent-kit",
+    "category": "agent",
+    "description": "Autonomous AI agent framework for Sui. LangChain, LangGraph, Vercel AI integration.",
+    "stars": 11,
+    "tags": ["agent", "ai", "langchain"]
+  },
+  {
+    "id": "nimbus-sui-agent",
+    "name": "Sui Agent Kit (Nimbus)",
+    "repo": "getnimbus/sui-agent-kit",
+    "category": "agent",
+    "description": "AI agent toolkit for Sui with DeFi integrations.",
+    "stars": 20,
+    "tags": ["agent", "ai", "defi"]
+  },
+  {
+    "id": "nexus-sdk-talus",
+    "name": "Nexus SDK (Talus Network)",
+    "repo": "Talus-Network/nexus-sdk",
+    "category": "agent",
+    "description": "Agentic workflow engine for building AI agent pipelines.",
+    "stars": 183,
+    "tags": ["agent", "ai", "workflow"]
+  },
+  {
+    "id": "walrus-sites",
+    "name": "Walrus Sites (Official)",
+    "repo": "MystenLabs/walrus-sites",
+    "category": "infrastructure",
+    "description": "Build decentralized websites on Walrus (Sui's decentralized storage).",
+    "stars": 179,
+    "tags": ["walrus", "storage", "website", "official"]
+  },
+  {
+    "id": "suibase",
+    "name": "Suibase",
+    "repo": "ChainMovers/suibase",
+    "category": "tooling",
+    "description": "Local Sui development environment manager. Easier localnet/devnet/testnet switching.",
+    "stars": 52,
+    "tags": ["tooling", "devenv", "localnet"]
+  },
+  {
+    "id": "move-book",
+    "name": "The Move Book",
+    "repo": "MystenLabs/move-book",
+    "category": "learning",
+    "description": "Comprehensive Move language reference and tutorial.",
+    "stars": 261,
+    "tags": ["learning", "move", "documentation"]
+  },
+  {
+    "id": "sui-fuzzer",
+    "name": "Sui Move Fuzzer",
+    "repo": "FuzzingLabs/sui-fuzzer",
+    "category": "security",
+    "description": "Smart contract fuzzer for Sui Move programs.",
+    "stars": 51,
+    "tags": ["security", "testing", "fuzzing"]
+  },
+  {
+    "id": "suiet-wallet-kit",
+    "name": "Suiet Wallet Kit",
+    "repo": "suiet/wallet-kit",
+    "category": "wallet",
+    "description": "Multi-wallet connection kit for Sui dApps.",
+    "stars": 207,
+    "tags": ["wallet", "react", "multi-wallet"]
+  },
+  {
+    "id": "suimon",
+    "name": "Suimon — Network Monitor",
+    "repo": "bartosian/suimon",
+    "category": "tooling",
+    "description": "Real-time Sui network monitoring and validator dashboard.",
+    "stars": 70,
+    "tags": ["monitoring", "validator", "dashboard"]
+  }
+]

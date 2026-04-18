@@ -1,0 +1,7 @@
+skills/
+scripts/
+public/
+convex/
+.env*
+.github/
+*.tar.gz

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "sui-mcp-mysten",
+    "name": "SuiMCP (Mysten)",
+    "repo": "Jordan-Mysten/sui-mcp",
+    "category": "infrastructure",
+    "description": "12 tools: wallet management, balance queries, Move build/test/publish. Built by Mysten Labs engineer.",
+    "install": "npx -y @anthropic-ai/claude-code mcp add sui-mcp -- npx -y sui-mcp",
+    "tools_count": 12,
+    "official": true
+  },
+  {
+    "id": "sui-mcp-tamago",
+    "name": "Sui MCP (Tamago Labs)",
+    "repo": "tamago-labs/sui-mcp",
+    "category": "infrastructure",
+    "description": "33+ tools: wallet ops, staking, Scallop DeFi integration, Pyth oracle, SuiNS domains.",
+    "install": "npx -y @anthropic-ai/claude-code mcp add sui-mcp-tamago -- npx -y tamago-sui-mcp",
+    "tools_count": 33,
+    "official": false
+  },
+  {
+    "id": "sui-mcp-probono",
+    "name": "Sui MCP Server",
+    "repo": "ProbonoBonobo/sui-mcp-server",
+    "category": "infrastructure",
+    "description": "General Sui blockchain MCP server for transaction building and querying.",
+    "install": "npx -y @anthropic-ai/claude-code mcp add sui-mcp-server -- npx -y sui-mcp-server",
+    "tools_count": null,
+    "official": false
+  },
+  {
+    "id": "sui-wallet-mcp",
+    "name": "Sui Wallet MCP",
+    "repo": "StronglyTypedSoul/sui-mcp-server-wallet-management",
+    "category": "tooling",
+    "description": "Wallet management, transactions, and blockchain operations for Sui.",
+    "install": "npx -y @anthropic-ai/claude-code mcp add sui-wallet-mcp -- npx -y sui-wallet-mcp",
+    "tools_count": null,
+    "official": false
+  },
+  {
+    "id": "suisource-mcp",
+    "name": "SuiSource MCP",
+    "repo": "PassKeyRa/suisource-mcp",
+    "category": "tooling",
+    "description": "Source code verification for Sui Move packages.",
+    "install": "npx -y @anthropic-ai/claude-code mcp add suisource-mcp -- npx -y suisource-mcp",
+    "tools_count": null,
+    "official": false
+  },
+  {
+    "id": "suins-mcp",
+    "name": "SuiNS MCP",
+    "repo": "ossybadman/suins-mcp",
+    "category": "infrastructure",
+    "description": "SuiNS domain name service integration — resolve names, register domains.",
+    "install": "npx -y @anthropic-ai/claude-code mcp add suins-mcp -- npx -y suins-mcp",
+    "tools_count": null,
+    "official": false
+  },
+  {
+    "id": "sui-agent-kit-mcp",
+    "name": "Sui AI Agent Kit",
+    "repo": "caterpillardev/Sui-AI-Agent-Kit",
+    "category": "defi",
+    "description": "DeFi tools for Suilend, STEAMM, SpringSui. MCP server + TypeScript framework for AI agents.",
+    "install": "npx -y @anthropic-ai/claude-code mcp add sui-agent-kit -- npx -y sui-agent-kit-mcp",
+    "tools_count": null,
+    "official": false
+  },
+  {
+    "id": "motion-labs-sui-mcp",
+    "name": "Motion Labs Sui MCP",
+    "repo": "Motion-Labs-Sui/sui-mcp",
+    "category": "infrastructure",
+    "description": "Sui blockchain MCP server by Motion Labs.",
+    "install": "npx -y @anthropic-ai/claude-code mcp add motion-sui-mcp -- npx -y motion-sui-mcp",
+    "tools_count": null,
+    "official": false
+  }
+]
