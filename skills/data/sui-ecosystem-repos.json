@@ -1,0 +1,1549 @@
+{
+  "metadata": {
+    "title": "Sui Ecosystem Repository Catalog",
+    "description": "Comprehensive catalog of 130+ Sui/Move ecosystem repositories for brokenigloo developer tool",
+    "generated": "2026-04-18",
+    "total_repos": 133
+  },
+  "categories": [
+    {
+      "name": "Scaffold/Templates",
+      "slug": "scaffold-templates",
+      "repos": [
+        {
+          "name": "sui-dapp-starter",
+          "github": "suiware/sui-dapp-starter",
+          "url": "https://github.com/suiware/sui-dapp-starter",
+          "description": "Full-stack Sui dApp starter with pnpm create sui-dapp@latest. React + Move scaffold with built-in wallet integration.",
+          "stars": "200+",
+          "category": "Scaffold/Templates",
+          "tags": ["template", "react", "move", "full-stack", "dapp-kit"]
+        },
+        {
+          "name": "create-dapp",
+          "github": "MystenLabs/ts-sdks (packages/create-dapp)",
+          "url": "https://github.com/MystenLabs/ts-sdks/tree/main/packages/create-dapp",
+          "description": "Official Mysten Labs scaffolding tool to set up a basic React dApp using Sui dApp Kit.",
+          "stars": "N/A (monorepo)",
+          "category": "Scaffold/Templates",
+          "tags": ["official", "react", "scaffold", "mysten"]
+        },
+        {
+          "name": "sui-dapp-scaffold-v1",
+          "github": "Bucket-Protocol/sui-dapp-scaffold-v1",
+          "url": "https://github.com/Bucket-Protocol/sui-dapp-scaffold-v1",
+          "description": "Frontend scaffold by Bucket Protocol using Next.js, shadcn/ui, and @mysten/dapp-kit.",
+          "stars": "50+",
+          "category": "Scaffold/Templates",
+          "tags": ["nextjs", "shadcn", "dapp-kit", "frontend"]
+        },
+        {
+          "name": "bezata-sui-dapp-starter",
+          "github": "bezata/sui-dapp-starter",
+          "url": "https://github.com/bezata/sui-dapp-starter",
+          "description": "SUI dApp starter template built with Next.js.",
+          "stars": "20+",
+          "category": "Scaffold/Templates",
+          "tags": ["nextjs", "starter", "template"]
+        },
+        {
+          "name": "sui-dapp-kit-theme-creator",
+          "github": "suiware/sui-dapp-kit-theme-creator",
+          "url": "https://github.com/suiware/sui-dapp-kit-theme-creator",
+          "description": "Visual tool that turns color palettes into Sui dApp Kit themes.",
+          "stars": "20+",
+          "category": "Scaffold/Templates",
+          "tags": ["theming", "dapp-kit", "design", "tool"]
+        },
+        {
+          "name": "Capybara-Fusion",
+          "github": "MystenLabs/Capybara-Fusion",
+          "url": "https://github.com/MystenLabs/Capybara-Fusion",
+          "description": "Official MystenLabs starter template for Sui games.",
+          "stars": "50+",
+          "category": "Scaffold/Templates",
+          "tags": ["game", "template", "official", "mysten"]
+        },
+        {
+          "name": "sui-voting-app",
+          "github": "Jerga99/sui-voting-app",
+          "url": "https://github.com/Jerga99/sui-voting-app",
+          "description": "Hands-on Sui dApp development with Move and React. Voting system tutorial app.",
+          "stars": "30+",
+          "category": "Scaffold/Templates",
+          "tags": ["tutorial", "react", "move", "voting"]
+        },
+        {
+          "name": "wormhole-scaffolding",
+          "github": "wormhole-foundation/wormhole-scaffolding",
+          "url": "https://github.com/wormhole-foundation/wormhole-scaffolding",
+          "description": "Starter apps with Wormhole cross-chain integration, includes Sui support.",
+          "stars": "100+",
+          "category": "Scaffold/Templates",
+          "tags": ["wormhole", "cross-chain", "starter"]
+        },
+        {
+          "name": "suivelte-dapp-kit",
+          "github": "ripsource/suivelte-dapp-kit",
+          "url": "https://github.com/ripsource/suivelte-dapp-kit",
+          "description": "Sui dApp Kit port for Svelte framework.",
+          "stars": "10+",
+          "category": "Scaffold/Templates",
+          "tags": ["svelte", "dapp-kit", "frontend"]
+        }
+      ]
+    },
+    {
+      "name": "DeFi Protocols",
+      "slug": "defi-protocols",
+      "repos": [
+        {
+          "name": "deepbookv3",
+          "github": "MystenLabs/deepbookv3",
+          "url": "https://github.com/MystenLabs/deepbookv3",
+          "description": "DeepBook V3: Next-gen decentralized central limit order book (CLOB) on Sui with flashloans and governance.",
+          "stars": "100+",
+          "category": "DeFi Protocols",
+          "tags": ["clob", "orderbook", "dex", "official", "flashloan"]
+        },
+        {
+          "name": "sui-lending-protocol",
+          "github": "scallop-io/sui-lending-protocol",
+          "url": "https://github.com/scallop-io/sui-lending-protocol",
+          "description": "Scallop: Over-collateralized lending protocol on SUI network. Move smart contracts.",
+          "stars": "50+",
+          "category": "DeFi Protocols",
+          "tags": ["lending", "borrowing", "move", "money-market"]
+        },
+        {
+          "name": "suilend",
+          "github": "suilend/suilend",
+          "url": "https://github.com/suilend/suilend",
+          "description": "Suilend: Money market on Sui blockchain with deposit, borrow, repay, and liquidation.",
+          "stars": "100+",
+          "category": "DeFi Protocols",
+          "tags": ["lending", "money-market", "move", "defi"]
+        },
+        {
+          "name": "cetus-clmm-sui-sdk",
+          "github": "CetusProtocol/cetus-clmm-sui-sdk",
+          "url": "https://github.com/CetusProtocol/cetus-clmm-sui-sdk",
+          "description": "Official Cetus CLMM SDK for concentrated liquidity DEX integration on Sui.",
+          "stars": "100+",
+          "category": "DeFi Protocols",
+          "tags": ["dex", "clmm", "amm", "sdk", "typescript"]
+        },
+        {
+          "name": "cetus-aggregator",
+          "github": "CetusProtocol/aggregator",
+          "url": "https://github.com/CetusProtocol/aggregator",
+          "description": "Cetus Aggregator integrating Cetus, DeepBook, Kriya, FlowX, Aftermath, and more for best swap routing.",
+          "stars": "50+",
+          "category": "DeFi Protocols",
+          "tags": ["aggregator", "dex", "routing", "swap"]
+        },
+        {
+          "name": "turbos-clmm-sdk",
+          "github": "turbos-finance/turbos-clmm-sdk",
+          "url": "https://github.com/turbos-finance/turbos-clmm-sdk",
+          "description": "Turbos Finance concentrated liquidity market maker SDK for Sui DEX.",
+          "stars": "30+",
+          "category": "DeFi Protocols",
+          "tags": ["dex", "clmm", "sdk", "typescript"]
+        },
+        {
+          "name": "turbos-sui-move-interface",
+          "github": "turbos-finance/turbos-sui-move-interface",
+          "url": "https://github.com/turbos-finance/turbos-sui-move-interface",
+          "description": "Turbos Sui Move smart contract interface definitions.",
+          "stars": "20+",
+          "category": "DeFi Protocols",
+          "tags": ["dex", "move", "interface"]
+        },
+        {
+          "name": "flowx-ts-sdk",
+          "github": "FlowX-Finance/ts-sdk",
+          "url": "https://github.com/FlowX-Finance/ts-sdk",
+          "description": "FlowX Finance TypeScript SDK supporting multiple DEXs: FlowX, FlowX CLMM, Kriya, Turbos, Cetus, Aftermath, DeepBook.",
+          "stars": "20+",
+          "category": "DeFi Protocols",
+          "tags": ["dex", "aggregator", "sdk", "typescript"]
+        },
+        {
+          "name": "flowx-clmm-contracts",
+          "github": "FlowX-Finance/clmm-contracts",
+          "url": "https://github.com/FlowX-Finance/clmm-contracts",
+          "description": "FlowX CLMM protocol Move contracts inspired by Uniswap v3 on Sui.",
+          "stars": "10+",
+          "category": "DeFi Protocols",
+          "tags": ["clmm", "move", "dex", "uniswap"]
+        },
+        {
+          "name": "interest-protocol-sui-defi",
+          "github": "interest-protocol/sui-defi",
+          "url": "https://github.com/interest-protocol/sui-defi",
+          "description": "Interest Protocol experimental contracts including Concentrated Liquidity AMM (UniswapV3 in Move).",
+          "stars": "50+",
+          "category": "DeFi Protocols",
+          "tags": ["amm", "clmm", "move", "experimental"]
+        },
+        {
+          "name": "bucket-protocol-sdk",
+          "github": "Bucket-Protocol/bucket-protocol-sdk",
+          "url": "https://github.com/Bucket-Protocol/bucket-protocol-sdk",
+          "description": "Bucket Protocol TypeScript SDK for $BUCK stablecoin, 0% interest lending, and CDP operations on Sui.",
+          "stars": "20+",
+          "category": "DeFi Protocols",
+          "tags": ["stablecoin", "lending", "cdp", "sdk"]
+        },
+        {
+          "name": "aftermath-ts-sdk",
+          "github": "AftermathFinance/aftermath-ts-sdk",
+          "url": "https://github.com/AftermathFinance/aftermath-ts-sdk",
+          "description": "Aftermath Finance TypeScript SDK for DEX, router, and liquid staking on Sui.",
+          "stars": "30+",
+          "category": "DeFi Protocols",
+          "tags": ["dex", "router", "liquid-staking", "sdk"]
+        },
+        {
+          "name": "aftermath-sdk-rust",
+          "github": "AftermathFinance/aftermath-sdk-rust",
+          "url": "https://github.com/AftermathFinance/aftermath-sdk-rust",
+          "description": "Aftermath Finance Rust SDK for Sui integration.",
+          "stars": "10+",
+          "category": "DeFi Protocols",
+          "tags": ["rust", "sdk", "defi"]
+        },
+        {
+          "name": "navi-sdk",
+          "github": "naviprotocol/navi-sdk",
+          "url": "https://github.com/naviprotocol/navi-sdk",
+          "description": "NAVI Protocol SDK for deposits, borrows, repays, liquidations, flash loans, and oracle queries on Sui.",
+          "stars": "30+",
+          "category": "DeFi Protocols",
+          "tags": ["lending", "flashloan", "sdk", "money-market"]
+        },
+        {
+          "name": "navi-aggregator-sdk",
+          "github": "naviprotocol/navi-aggregator-sdk",
+          "url": "https://github.com/naviprotocol/navi-aggregator-sdk",
+          "description": "NAVI Aggregator for Sui DeFi ecosystem, supporting Cetus, Turbos, DeepBook v3, Aftermath, Kriya.",
+          "stars": "20+",
+          "category": "DeFi Protocols",
+          "tags": ["aggregator", "dex", "routing"]
+        },
+        {
+          "name": "stablecoin-sui",
+          "github": "circlefin/stablecoin-sui",
+          "url": "https://github.com/circlefin/stablecoin-sui",
+          "description": "Circle's official USDC smart contracts for Sui blockchain in Move.",
+          "stars": "50+",
+          "category": "DeFi Protocols",
+          "tags": ["usdc", "stablecoin", "move", "circle"]
+        },
+        {
+          "name": "DEX-Router-Sui-V1",
+          "github": "okxlabs/DEX-Router-Sui-V1",
+          "url": "https://github.com/okxlabs/DEX-Router-Sui-V1",
+          "description": "OKX DEX aggregation and routing system for optimal token swapping across multiple Sui DEXs.",
+          "stars": "10+",
+          "category": "DeFi Protocols",
+          "tags": ["aggregator", "routing", "okx", "dex"]
+        },
+        {
+          "name": "volo-liquid-staking-contracts",
+          "github": "Sui-Volo/volo-liquid-staking-contracts",
+          "url": "https://github.com/Sui-Volo/volo-liquid-staking-contracts",
+          "description": "Volo liquid staking Move contracts for Sui.",
+          "stars": "10+",
+          "category": "DeFi Protocols",
+          "tags": ["liquid-staking", "move", "lst"]
+        },
+        {
+          "name": "alphaFi-liquid-staking",
+          "github": "AlphaFiTech/liquid-staking",
+          "url": "https://github.com/AlphaFiTech/liquid-staking",
+          "description": "stSUI open-source Liquid Staking Token framework forked from SpringSui with enhanced rewards and security.",
+          "stars": "10+",
+          "category": "DeFi Protocols",
+          "tags": ["liquid-staking", "lst", "move"]
+        },
+        {
+          "name": "staking-pool-sui",
+          "github": "Meta-Pool/staking-pool-sui",
+          "url": "https://github.com/Meta-Pool/staking-pool-sui",
+          "description": "Meta Staking Pool (mpSUI) for Sui Network.",
+          "stars": "10+",
+          "category": "DeFi Protocols",
+          "tags": ["staking", "move", "lst"]
+        }
+      ]
+    },
+    {
+      "name": "SDKs/Libraries",
+      "slug": "sdks-libraries",
+      "repos": [
+        {
+          "name": "sui (core repo)",
+          "github": "MystenLabs/sui",
+          "url": "https://github.com/MystenLabs/sui",
+          "description": "Sui blockchain core: validator, fullnode, Move framework, sui-sdk Rust crate, CLI, and all infrastructure.",
+          "stars": "6000+",
+          "category": "SDKs/Libraries",
+          "tags": ["core", "rust", "move", "official", "infrastructure"]
+        },
+        {
+          "name": "ts-sdks (monorepo)",
+          "github": "MystenLabs/ts-sdks",
+          "url": "https://github.com/MystenLabs/ts-sdks",
+          "description": "Official TypeScript SDK monorepo with 28+ packages: @mysten/sui, dapp-kit, bcs, kiosk, deepbook-v3, walrus, seal, enoki, signers, and more.",
+          "stars": "300+",
+          "category": "SDKs/Libraries",
+          "tags": ["typescript", "monorepo", "official", "mysten"]
+        },
+        {
+          "name": "@mysten/sui",
+          "github": "MystenLabs/ts-sdks (packages/sui)",
+          "url": "https://github.com/MystenLabs/ts-sdks/tree/main/packages/sui",
+          "description": "Core Sui TypeScript SDK: client, transaction building, signing, BCS, keypairs, zkLogin.",
+          "stars": "N/A (monorepo)",
+          "category": "SDKs/Libraries",
+          "tags": ["typescript", "client", "transactions", "official"]
+        },
+        {
+          "name": "@mysten/dapp-kit",
+          "github": "MystenLabs/ts-sdks (packages/dapp-kit)",
+          "url": "https://github.com/MystenLabs/ts-sdks/tree/main/packages/dapp-kit",
+          "description": "Official React components, hooks, and utilities for Sui dApp development with wallet connection.",
+          "stars": "N/A (monorepo)",
+          "category": "SDKs/Libraries",
+          "tags": ["react", "hooks", "wallet", "official"]
+        },
+        {
+          "name": "@mysten/bcs",
+          "github": "MystenLabs/ts-sdks (packages/bcs)",
+          "url": "https://github.com/MystenLabs/ts-sdks/tree/main/packages/bcs",
+          "description": "Binary Canonical Serialization (BCS) library for TypeScript.",
+          "stars": "N/A (monorepo)",
+          "category": "SDKs/Libraries",
+          "tags": ["serialization", "bcs", "typescript"]
+        },
+        {
+          "name": "@mysten/kiosk",
+          "github": "MystenLabs/ts-sdks (packages/kiosk)",
+          "url": "https://github.com/MystenLabs/ts-sdks/tree/main/packages/kiosk",
+          "description": "TypeScript SDK for Sui Kiosk standard: NFT trading, transfer policies, extensions.",
+          "stars": "N/A (monorepo)",
+          "category": "SDKs/Libraries",
+          "tags": ["kiosk", "nft", "marketplace"]
+        },
+        {
+          "name": "@mysten/deepbook-v3",
+          "github": "MystenLabs/ts-sdks (packages/deepbook-v3)",
+          "url": "https://github.com/MystenLabs/ts-sdks/tree/main/packages/deepbook-v3",
+          "description": "TypeScript SDK for DeepBook V3 CLOB interactions.",
+          "stars": "N/A (monorepo)",
+          "category": "SDKs/Libraries",
+          "tags": ["deepbook", "orderbook", "trading"]
+        },
+        {
+          "name": "@mysten/walrus",
+          "github": "MystenLabs/ts-sdks (packages/walrus)",
+          "url": "https://github.com/MystenLabs/ts-sdks/tree/main/packages/walrus",
+          "description": "TypeScript SDK for Walrus decentralized storage.",
+          "stars": "N/A (monorepo)",
+          "category": "SDKs/Libraries",
+          "tags": ["walrus", "storage", "typescript"]
+        },
+        {
+          "name": "@mysten/seal",
+          "github": "MystenLabs/ts-sdks (packages/seal)",
+          "url": "https://github.com/MystenLabs/ts-sdks/tree/main/packages/seal",
+          "description": "TypeScript SDK for Seal decentralized secrets management and encryption.",
+          "stars": "N/A (monorepo)",
+          "category": "SDKs/Libraries",
+          "tags": ["seal", "encryption", "secrets"]
+        },
+        {
+          "name": "@mysten/enoki",
+          "github": "MystenLabs/ts-sdks (packages/enoki)",
+          "url": "https://github.com/MystenLabs/ts-sdks/tree/main/packages/enoki",
+          "description": "Enoki SDK for simplified onboarding, sponsored transactions, and zkLogin.",
+          "stars": "N/A (monorepo)",
+          "category": "SDKs/Libraries",
+          "tags": ["enoki", "onboarding", "zklogin", "sponsored-tx"]
+        },
+        {
+          "name": "@mysten/suins",
+          "github": "MystenLabs/ts-sdks (packages/suins)",
+          "url": "https://github.com/MystenLabs/ts-sdks/tree/main/packages/suins",
+          "description": "TypeScript SDK for SuiNS name service resolution.",
+          "stars": "N/A (monorepo)",
+          "category": "SDKs/Libraries",
+          "tags": ["suins", "names", "identity"]
+        },
+        {
+          "name": "@mysten/signers",
+          "github": "MystenLabs/ts-sdks (packages/signers)",
+          "url": "https://github.com/MystenLabs/ts-sdks/tree/main/packages/signers",
+          "description": "AWS KMS, GCP KMS, and other external signer implementations for Sui.",
+          "stars": "N/A (monorepo)",
+          "category": "SDKs/Libraries",
+          "tags": ["signing", "kms", "aws", "gcp"]
+        },
+        {
+          "name": "@mysten/wallet-standard",
+          "github": "MystenLabs/ts-sdks (packages/wallet-standard)",
+          "url": "https://github.com/MystenLabs/ts-sdks/tree/main/packages/wallet-standard",
+          "description": "Sui Wallet Standard interface definitions for wallet integration.",
+          "stars": "N/A (monorepo)",
+          "category": "SDKs/Libraries",
+          "tags": ["wallet", "standard", "interface"]
+        },
+        {
+          "name": "@mysten/zksend",
+          "github": "MystenLabs/ts-sdks (packages/zksend)",
+          "url": "https://github.com/MystenLabs/ts-sdks/tree/main/packages/zksend",
+          "description": "zkSend SDK for sending tokens and assets via links with zero-knowledge proofs.",
+          "stars": "N/A (monorepo)",
+          "category": "SDKs/Libraries",
+          "tags": ["zksend", "links", "transfer"]
+        },
+        {
+          "name": "@mysten/payment-kit",
+          "github": "MystenLabs/ts-sdks (packages/payment-kit)",
+          "url": "https://github.com/MystenLabs/ts-sdks/tree/main/packages/payment-kit",
+          "description": "Payment Kit UI components for Sui payment flows.",
+          "stars": "N/A (monorepo)",
+          "category": "SDKs/Libraries",
+          "tags": ["payment", "ui", "components"]
+        },
+        {
+          "name": "sui-rust-sdk",
+          "github": "MystenLabs/sui-rust-sdk",
+          "url": "https://github.com/MystenLabs/sui-rust-sdk",
+          "description": "Official Rust SDK for integrating with Sui blockchain, separate from the core repo sdk crate.",
+          "stars": "50+",
+          "category": "SDKs/Libraries",
+          "tags": ["rust", "sdk", "official"]
+        },
+        {
+          "name": "pysui",
+          "github": "FrankC01/pysui",
+          "url": "https://github.com/FrankC01/pysui",
+          "description": "SUI Python Client SDK with gRPC, GraphQL, and programmable transaction support.",
+          "stars": "100+",
+          "category": "SDKs/Libraries",
+          "tags": ["python", "sdk", "grpc", "graphql"]
+        },
+        {
+          "name": "sui-go-sdk",
+          "github": "block-vision/sui-go-sdk",
+          "url": "https://github.com/block-vision/sui-go-sdk",
+          "description": "Go SDK for Sui by BlockVision with gRPC client support.",
+          "stars": "50+",
+          "category": "SDKs/Libraries",
+          "tags": ["go", "sdk", "grpc"]
+        },
+        {
+          "name": "go-sui-sdk",
+          "github": "coming-chat/go-sui-sdk",
+          "url": "https://github.com/coming-chat/go-sui-sdk",
+          "description": "Alternative Golang SDK for Sui blockchain.",
+          "stars": "30+",
+          "category": "SDKs/Libraries",
+          "tags": ["go", "sdk"]
+        },
+        {
+          "name": "SuiKit (Swift)",
+          "github": "OpenDive/SuiKit",
+          "url": "https://github.com/OpenDive/SuiKit",
+          "description": "Swift SDK for developing on Sui: transactions, move calls, object retrieval.",
+          "stars": "30+",
+          "category": "SDKs/Libraries",
+          "tags": ["swift", "ios", "mobile", "sdk"]
+        },
+        {
+          "name": "sui-kit",
+          "github": "scallop-io/sui-kit",
+          "url": "https://github.com/scallop-io/sui-kit",
+          "description": "TypeScript toolkit for interacting with SUI network. Used by Scallop protocol.",
+          "stars": "20+",
+          "category": "SDKs/Libraries",
+          "tags": ["typescript", "toolkit", "transactions"]
+        },
+        {
+          "name": "polymedia-suitcase",
+          "github": "juzybits/polymedia-suitcase",
+          "url": "https://github.com/juzybits/polymedia-suitcase",
+          "description": "Sui utilities for TypeScript, Node.js, and React: address utils, balance conversion, multi-RPC, CSV parsing.",
+          "stars": "30+",
+          "category": "SDKs/Libraries",
+          "tags": ["typescript", "react", "utilities", "node"]
+        }
+      ]
+    },
+    {
+      "name": "AI/Agent",
+      "slug": "ai-agent",
+      "repos": [
+        {
+          "name": "Sui-AI-Agent-Kit (caterpillardev)",
+          "github": "caterpillardev/Sui-AI-Agent-Kit",
+          "url": "https://github.com/caterpillardev/Sui-AI-Agent-Kit",
+          "description": "Modular TypeScript framework for AI agents on Sui with Suilend, Steamm, SpringSui integrations and MCP tools.",
+          "stars": "50+",
+          "category": "AI/Agent",
+          "tags": ["agent", "mcp", "defi", "typescript", "framework"]
+        },
+        {
+          "name": "sui-agent-kit (getnimbus)",
+          "github": "getnimbus/sui-agent-kit",
+          "url": "https://github.com/getnimbus/sui-agent-kit",
+          "description": "Open-source toolkit for connecting AI agents to Sui protocols.",
+          "stars": "30+",
+          "category": "AI/Agent",
+          "tags": ["agent", "toolkit", "protocols"]
+        },
+        {
+          "name": "sui-agent-kit (pelagos)",
+          "github": "pelagosaionsui/sui-agent-kit",
+          "url": "https://github.com/pelagosaionsui/sui-agent-kit",
+          "description": "Autonomous and composable AI Agent framework on Sui.",
+          "stars": "10+",
+          "category": "AI/Agent",
+          "tags": ["agent", "autonomous", "framework"]
+        },
+        {
+          "name": "plugin-sui (Eliza OS)",
+          "github": "elizaos-plugins/plugin-sui",
+          "url": "https://github.com/elizaos-plugins/plugin-sui",
+          "description": "Core Sui blockchain plugin for Eliza OS AI agents: token operations and wallet management.",
+          "stars": "20+",
+          "category": "AI/Agent",
+          "tags": ["eliza", "agent", "wallet", "plugin"]
+        },
+        {
+          "name": "atoma-node",
+          "github": "AtomaAI/atoma-node",
+          "url": "https://github.com/AtomaAI/atoma-node",
+          "description": "Atoma: Core infrastructure for confidential computing AI inference, orchestrated by Sui smart contracts.",
+          "stars": "100+",
+          "category": "AI/Agent",
+          "tags": ["ai-inference", "confidential", "llm", "infrastructure"]
+        },
+        {
+          "name": "atoma-proxy",
+          "github": "AtomaAI/atoma-proxy",
+          "url": "https://github.com/AtomaAI/atoma-proxy",
+          "description": "Atoma proxy service for routing AI inference requests.",
+          "stars": "20+",
+          "category": "AI/Agent",
+          "tags": ["ai-inference", "proxy", "service"]
+        },
+        {
+          "name": "mitsui-terminal",
+          "github": "Mitsui-Protocol/mitsui-terminal",
+          "url": "https://github.com/Mitsui-Protocol/mitsui-terminal",
+          "description": "Next-gen DeFi trading platform integrating AI-driven automation with Sui DeFi protocols using Eliza Framework.",
+          "stars": "20+",
+          "category": "AI/Agent",
+          "tags": ["defi", "ai", "trading", "eliza"]
+        },
+        {
+          "name": "sui-mcp (tamago-labs)",
+          "github": "tamago-labs/sui-mcp",
+          "url": "https://github.com/tamago-labs/sui-mcp",
+          "description": "MCP server for Sui with 33+ tools: wallet ops, DeFi protocols, smart contracts, staking, market data.",
+          "stars": "30+",
+          "category": "AI/Agent",
+          "tags": ["mcp", "server", "defi", "tools"]
+        },
+        {
+          "name": "sui-mcp (0xdwong)",
+          "github": "0xdwong/sui-mcp",
+          "url": "https://github.com/0xdwong/sui-mcp",
+          "description": "MCP toolkit for Sui blockchain interaction with model context protocol features.",
+          "stars": "20+",
+          "category": "AI/Agent",
+          "tags": ["mcp", "toolkit"]
+        },
+        {
+          "name": "sui-mcp-server",
+          "github": "ProbonoBonobo/sui-mcp-server",
+          "url": "https://github.com/ProbonoBonobo/sui-mcp-server",
+          "description": "MCP server with RAG capabilities for querying Sui Move documentation and extracting GitHub Move files.",
+          "stars": "20+",
+          "category": "AI/Agent",
+          "tags": ["mcp", "rag", "documentation"]
+        },
+        {
+          "name": "sui-trader-mcp",
+          "github": "kukapay/sui-trader-mcp",
+          "url": "https://github.com/kukapay/sui-trader-mcp",
+          "description": "MCP server for AI agents to perform optimal token swaps on Sui via Cetus Aggregator.",
+          "stars": "10+",
+          "category": "AI/Agent",
+          "tags": ["mcp", "trading", "swap", "cetus"]
+        },
+        {
+          "name": "sui-graphql-mcp",
+          "github": "Sceat/sui-graphql-mcp",
+          "url": "https://github.com/Sceat/sui-graphql-mcp",
+          "description": "MCP server for Sui GraphQL API: query transactions, objects, balances from Claude.",
+          "stars": "10+",
+          "category": "AI/Agent",
+          "tags": ["mcp", "graphql", "query"]
+        },
+        {
+          "name": "sui-butler",
+          "github": "tamago-labs/sui-butler",
+          "url": "https://github.com/tamago-labs/sui-butler",
+          "description": "Serverless MCP server for Sui using zkLogin with AWS backend.",
+          "stars": "10+",
+          "category": "AI/Agent",
+          "tags": ["mcp", "serverless", "zklogin"]
+        },
+        {
+          "name": "suiware-ai-tools",
+          "github": "suiware/ai-tools",
+          "url": "https://github.com/suiware/ai-tools",
+          "description": "Pluggable Vercel AI SDK tools and MCP server for AI assistants to interact with Sui Network.",
+          "stars": "20+",
+          "category": "AI/Agent",
+          "tags": ["vercel-ai", "mcp", "tools"]
+        },
+        {
+          "name": "aftermath-skills",
+          "github": "AftermathFinance/skills",
+          "url": "https://github.com/AftermathFinance/skills",
+          "description": "Agentic skills for AI coding agents to integrate with Aftermath Finance protocols on Sui.",
+          "stars": "10+",
+          "category": "AI/Agent",
+          "tags": ["skills", "agent", "defi"]
+        },
+        {
+          "name": "hyvve-sui",
+          "github": "Hyvve-Labs/hyvve-sui",
+          "url": "https://github.com/Hyvve-Labs/hyvve-sui",
+          "description": "Token-incentivized data marketplace for AI training, built on Sui.",
+          "stars": "10+",
+          "category": "AI/Agent",
+          "tags": ["ai-training", "data", "marketplace"]
+        }
+      ]
+    },
+    {
+      "name": "NFT/Gaming",
+      "slug": "nft-gaming",
+      "repos": [
+        {
+          "name": "nft-protocol",
+          "github": "Origin-Byte/nft-protocol",
+          "url": "https://github.com/Origin-Byte/nft-protocol",
+          "description": "Origin Byte NFT ecosystem: tools, standards, and Move smart contracts for digital assets and gaming.",
+          "stars": "100+",
+          "category": "NFT/Gaming",
+          "tags": ["nft", "standards", "move", "gaming"]
+        },
+        {
+          "name": "sui-nft-marketplace",
+          "github": "buidly/sui-nft-marketplace",
+          "url": "https://github.com/buidly/sui-nft-marketplace",
+          "description": "Sui NFT marketplace Move smart contracts.",
+          "stars": "20+",
+          "category": "NFT/Gaming",
+          "tags": ["nft", "marketplace", "move"]
+        },
+        {
+          "name": "sui-kiosk-tutorial",
+          "github": "0xquantech/sui-kiosk-tutorial",
+          "url": "https://github.com/0xquantech/sui-kiosk-tutorial",
+          "description": "NFT Kiosk feature tutorial and implementation on Sui Move.",
+          "stars": "10+",
+          "category": "NFT/Gaming",
+          "tags": ["kiosk", "nft", "tutorial", "move"]
+        },
+        {
+          "name": "Sui8192",
+          "github": "EthosWallet/Sui8192",
+          "url": "https://github.com/EthosWallet/Sui8192",
+          "description": "Fully on-chain 2048 game built on Sui by Ethos.",
+          "stars": "50+",
+          "category": "NFT/Gaming",
+          "tags": ["game", "on-chain", "2048"]
+        },
+        {
+          "name": "encrypted-nft-poc",
+          "github": "MystenLabs/encrypted-nft-poc",
+          "url": "https://github.com/MystenLabs/encrypted-nft-poc",
+          "description": "Encrypted NFT proof-of-concept: on-chain privacy for NFTs with Seal integration.",
+          "stars": "20+",
+          "category": "NFT/Gaming",
+          "tags": ["nft", "encrypted", "privacy", "seal"]
+        },
+        {
+          "name": "example-walrus-sites",
+          "github": "MystenLabs/example-walrus-sites",
+          "url": "https://github.com/MystenLabs/example-walrus-sites",
+          "description": "Demo dApp on Walrus Sites with NFT minting and per-NFT sites.",
+          "stars": "20+",
+          "category": "NFT/Gaming",
+          "tags": ["nft", "walrus", "demo", "minting"]
+        }
+      ]
+    },
+    {
+      "name": "Infrastructure",
+      "slug": "infrastructure",
+      "repos": [
+        {
+          "name": "Obsuidian",
+          "github": "Project-Magma-Monorepo/Obsuidian",
+          "url": "https://github.com/Project-Magma-Monorepo/Obsuidian",
+          "description": "Docker setup for decentralized, fault-tolerant RPC network of Sui Full Nodes with custom indexer.",
+          "stars": "20+",
+          "category": "Infrastructure",
+          "tags": ["docker", "rpc", "fullnode", "indexer"]
+        },
+        {
+          "name": "sui-explorer (local)",
+          "github": "suiware/sui-explorer",
+          "url": "https://github.com/suiware/sui-explorer",
+          "description": "Local Sui Explorer fork, originally by MystenLabs.",
+          "stars": "20+",
+          "category": "Infrastructure",
+          "tags": ["explorer", "local", "development"]
+        },
+        {
+          "name": "sui-explorer (official)",
+          "github": "MystenLabs/sui-explorer",
+          "url": "https://github.com/MystenLabs/sui-explorer",
+          "description": "Official MystenLabs Sui Explorer.",
+          "stars": "50+",
+          "category": "Infrastructure",
+          "tags": ["explorer", "official", "mysten"]
+        },
+        {
+          "name": "sui-scallop-indexer",
+          "github": "scallop-io/sui-scallop-indexer",
+          "url": "https://github.com/scallop-io/sui-scallop-indexer",
+          "description": "Scallop Indexer for caching Sui blockchain object data with faster access than RPC.",
+          "stars": "10+",
+          "category": "Infrastructure",
+          "tags": ["indexer", "caching", "rpc"]
+        },
+        {
+          "name": "sui-events-indexer",
+          "github": "buidly/sui-events-indexer",
+          "url": "https://github.com/buidly/sui-events-indexer",
+          "description": "Event indexer for Sui blockchain.",
+          "stars": "10+",
+          "category": "Infrastructure",
+          "tags": ["indexer", "events", "streaming"]
+        },
+        {
+          "name": "sui-archive",
+          "github": "SummaryDev/sui-archive",
+          "url": "https://github.com/SummaryDev/sui-archive",
+          "description": "Archiver process for Sui blockchain data.",
+          "stars": "10+",
+          "category": "Infrastructure",
+          "tags": ["archive", "data", "history"]
+        },
+        {
+          "name": "n8n-nodes-sui",
+          "github": "Velocity-BPA/n8n-nodes-sui",
+          "url": "https://github.com/Velocity-BPA/n8n-nodes-sui",
+          "description": "n8n community node for Sui: transactions, NFTs, staking, DeFi, smart contracts, and event triggers.",
+          "stars": "10+",
+          "category": "Infrastructure",
+          "tags": ["n8n", "automation", "events", "integration"]
+        },
+        {
+          "name": "SUI-DEFI-SDK",
+          "github": "Canoe-Finance/SUI-DEFI-SDK",
+          "url": "https://github.com/Canoe-Finance/SUI-DEFI-SDK",
+          "description": "SUI DeFi SDK for protocol integrations.",
+          "stars": "10+",
+          "category": "Infrastructure",
+          "tags": ["defi", "sdk", "integration"]
+        }
+      ]
+    },
+    {
+      "name": "Wallets",
+      "slug": "wallets",
+      "repos": [
+        {
+          "name": "wallet-kit",
+          "github": "suiet/wallet-kit",
+          "url": "https://github.com/suiet/wallet-kit",
+          "description": "Suiet Wallet Kit: React components to connect all wallets on Sui with beautiful UI.",
+          "stars": "100+",
+          "category": "Wallets",
+          "tags": ["wallet", "react", "ui", "connection"]
+        },
+        {
+          "name": "ethos-chrome-extension",
+          "github": "EthosWallet/chrome-extension",
+          "url": "https://github.com/EthosWallet/chrome-extension",
+          "description": "Ethos Wallet Chrome extension for Sui.",
+          "stars": "50+",
+          "category": "Wallets",
+          "tags": ["wallet", "chrome", "extension"]
+        },
+        {
+          "name": "surf-extension",
+          "github": "surflabs/surf-extension",
+          "url": "https://github.com/surflabs/surf-extension",
+          "description": "Surf Wallet browser extension for easy token transfers and NFT collection on Sui.",
+          "stars": "20+",
+          "category": "Wallets",
+          "tags": ["wallet", "browser", "extension"]
+        },
+        {
+          "name": "evevault",
+          "github": "evefrontier/evevault",
+          "url": "https://github.com/evefrontier/evevault",
+          "description": "Chrome extension wallet using zkLogin authentication with Sui Wallet Standard.",
+          "stars": "10+",
+          "category": "Wallets",
+          "tags": ["wallet", "zklogin", "chrome"]
+        },
+        {
+          "name": "wallet-sdk",
+          "github": "MystenLabs/ts-sdks (packages/wallet-sdk)",
+          "url": "https://github.com/MystenLabs/ts-sdks/tree/main/packages/wallet-sdk",
+          "description": "Official wallet SDK for building Sui wallet applications.",
+          "stars": "N/A (monorepo)",
+          "category": "Wallets",
+          "tags": ["wallet", "sdk", "official"]
+        },
+        {
+          "name": "slush-wallet",
+          "github": "MystenLabs/ts-sdks (packages/slush-wallet)",
+          "url": "https://github.com/MystenLabs/ts-sdks/tree/main/packages/slush-wallet",
+          "description": "Slush Wallet integration package.",
+          "stars": "N/A (monorepo)",
+          "category": "Wallets",
+          "tags": ["wallet", "slush", "official"]
+        },
+        {
+          "name": "ledgerjs-hw-app-sui",
+          "github": "MystenLabs/ts-sdks (packages/ledgerjs-hw-app-sui)",
+          "url": "https://github.com/MystenLabs/ts-sdks/tree/main/packages/ledgerjs-hw-app-sui",
+          "description": "Ledger hardware wallet integration for Sui.",
+          "stars": "N/A (monorepo)",
+          "category": "Wallets",
+          "tags": ["ledger", "hardware", "wallet"]
+        },
+        {
+          "name": "sui-multisig",
+          "github": "multisig-sui/sui-multisig",
+          "url": "https://github.com/multisig-sui/sui-multisig",
+          "description": "Comprehensive suite of tools for managing multisig operations on Sui.",
+          "stars": "10+",
+          "category": "Wallets",
+          "tags": ["multisig", "security", "governance"]
+        }
+      ]
+    },
+    {
+      "name": "Security/Audit",
+      "slug": "security-audit",
+      "repos": [
+        {
+          "name": "sui-fuzzer",
+          "github": "FuzzingLabs/sui-fuzzer",
+          "url": "https://github.com/FuzzingLabs/sui-fuzzer",
+          "description": "Coverage-guided fuzzer for Sui Move smart contracts with vulnerability detectors.",
+          "stars": "50+",
+          "category": "Security/Audit",
+          "tags": ["fuzzer", "security", "testing", "move"]
+        },
+        {
+          "name": "sui-prover",
+          "github": "asymptotic-code/sui-prover",
+          "url": "https://github.com/asymptotic-code/sui-prover",
+          "description": "Formal verification tool for Move smart contracts on Sui.",
+          "stars": "30+",
+          "category": "Security/Audit",
+          "tags": ["formal-verification", "prover", "move"]
+        },
+        {
+          "name": "security-audits",
+          "github": "sui-foundation/security-audits",
+          "url": "https://github.com/sui-foundation/security-audits",
+          "description": "Sui Foundation collection of Move and Sui security assessment reports.",
+          "stars": "20+",
+          "category": "Security/Audit",
+          "tags": ["audits", "reports", "foundation"]
+        },
+        {
+          "name": "Move-Audit-Resources",
+          "github": "0xriazaka/Move-Audit-Resources",
+          "url": "https://github.com/0xriazaka/Move-Audit-Resources",
+          "description": "Curated collection of Move smart contract auditing tools, best practices, and checklists.",
+          "stars": "20+",
+          "category": "Security/Audit",
+          "tags": ["audit", "resources", "checklist"]
+        },
+        {
+          "name": "Sui-MOVE-Smart-Contract-Auditing-Primer",
+          "github": "slowmist/Sui-MOVE-Smart-Contract-Auditing-Primer",
+          "url": "https://github.com/slowmist/Sui-MOVE-Smart-Contract-Auditing-Primer",
+          "description": "SlowMist's Sui Move smart contract auditing primer and guide.",
+          "stars": "50+",
+          "category": "Security/Audit",
+          "tags": ["audit", "guide", "slowmist"]
+        },
+        {
+          "name": "multisig-move",
+          "github": "MystenLabs/multisig-move",
+          "url": "https://github.com/MystenLabs/multisig-move",
+          "description": "Move module for multi-signature address generation and verification on Sui.",
+          "stars": "20+",
+          "category": "Security/Audit",
+          "tags": ["multisig", "move", "security"]
+        },
+        {
+          "name": "multisig-wallet-move",
+          "github": "pentagonxyz/multisig-wallet-move",
+          "url": "https://github.com/pentagonxyz/multisig-wallet-move",
+          "description": "Dynamic multisig wallet (Gnosis Safe-like) built in Move for Sui and Aptos.",
+          "stars": "50+",
+          "category": "Security/Audit",
+          "tags": ["multisig", "wallet", "gnosis-safe"]
+        },
+        {
+          "name": "account-tech-move-framework",
+          "github": "account-tech/move-framework",
+          "url": "https://github.com/account-tech/move-framework",
+          "description": "Smart Account framework for Sui with Multisig and DAO governance configurations.",
+          "stars": "20+",
+          "category": "Security/Audit",
+          "tags": ["smart-account", "multisig", "dao", "governance"]
+        }
+      ]
+    },
+    {
+      "name": "Learning/Examples",
+      "slug": "learning-examples",
+      "repos": [
+        {
+          "name": "sui-move-intro-course",
+          "github": "sui-foundation/sui-move-intro-course",
+          "url": "https://github.com/sui-foundation/sui-move-intro-course",
+          "description": "Official Sui Foundation introductory course to Move language with hands-on projects.",
+          "stars": "500+",
+          "category": "Learning/Examples",
+          "tags": ["course", "beginner", "move", "official"]
+        },
+        {
+          "name": "sui-move-bootcamp",
+          "github": "MystenLabs/sui-move-bootcamp",
+          "url": "https://github.com/MystenLabs/sui-move-bootcamp",
+          "description": "MystenLabs bootcamp: hands-on Move learning from first smart contract to full-stack dApps.",
+          "stars": "100+",
+          "category": "Learning/Examples",
+          "tags": ["bootcamp", "hands-on", "full-stack"]
+        },
+        {
+          "name": "awesome-sui",
+          "github": "sui-foundation/awesome-sui",
+          "url": "https://github.com/sui-foundation/awesome-sui",
+          "description": "Curated list of awesome Sui developer tools, SDKs, protocols, and resources.",
+          "stars": "300+",
+          "category": "Learning/Examples",
+          "tags": ["awesome-list", "curated", "resources"]
+        },
+        {
+          "name": "awesome-move",
+          "github": "MystenLabs/awesome-move",
+          "url": "https://github.com/MystenLabs/awesome-move",
+          "description": "Community-curated collection of Move code, content, and resources.",
+          "stars": "500+",
+          "category": "Learning/Examples",
+          "tags": ["awesome-list", "move", "community"]
+        },
+        {
+          "name": "move-book",
+          "github": "MystenLabs/move-book",
+          "url": "https://github.com/MystenLabs/move-book",
+          "description": "The Move Book and Move Language Reference -- definitive guide for learning Move.",
+          "stars": "100+",
+          "category": "Learning/Examples",
+          "tags": ["book", "reference", "documentation"]
+        },
+        {
+          "name": "sui-course-2023",
+          "github": "movebit/sui-course-2023",
+          "url": "https://github.com/movebit/sui-course-2023",
+          "description": "MoveBit's comprehensive Move on Sui course, granted by Sui blockchain.",
+          "stars": "50+",
+          "category": "Learning/Examples",
+          "tags": ["course", "movebit", "comprehensive"]
+        },
+        {
+          "name": "sui-move-deepbook",
+          "github": "dacadeorg/sui-move-deepbook",
+          "url": "https://github.com/dacadeorg/sui-move-deepbook",
+          "description": "Educational DeepBook tutorial with Move smart contract examples.",
+          "stars": "10+",
+          "category": "Learning/Examples",
+          "tags": ["deepbook", "tutorial", "move"]
+        },
+        {
+          "name": "learning-sui",
+          "github": "hoh-zone/learning-sui",
+          "url": "https://github.com/hoh-zone/learning-sui",
+          "description": "Community learning resource for Sui development.",
+          "stars": "20+",
+          "category": "Learning/Examples",
+          "tags": ["learning", "community"]
+        },
+        {
+          "name": "Move-Development",
+          "github": "AnmolSirola/Move-Development",
+          "url": "https://github.com/AnmolSirola/Move-Development",
+          "description": "Learning Move with official Move Book, Sui GitHub repo, and bootcamp resources.",
+          "stars": "10+",
+          "category": "Learning/Examples",
+          "tags": ["learning", "move", "notes"]
+        },
+        {
+          "name": "awesome-sui (Chinese)",
+          "github": "move-cn/awesome-sui",
+          "url": "https://github.com/move-cn/awesome-sui",
+          "description": "Chinese community curated Sui resource list.",
+          "stars": "30+",
+          "category": "Learning/Examples",
+          "tags": ["awesome-list", "chinese", "community"]
+        }
+      ]
+    },
+    {
+      "name": "Tooling",
+      "slug": "tooling",
+      "repos": [
+        {
+          "name": "suibase",
+          "github": "ChainMovers/suibase",
+          "url": "https://github.com/ChainMovers/suibase",
+          "description": "Easy Sui and Walrus CLI tools: fast install, localnet explorer, RPC failover, test automation helpers.",
+          "stars": "100+",
+          "category": "Tooling",
+          "tags": ["cli", "localnet", "development", "rpc"]
+        },
+        {
+          "name": "suimon",
+          "github": "bartosian/suimon",
+          "url": "https://github.com/bartosian/suimon",
+          "description": "CLI dashboards for monitoring Sui network nodes and validators in real-time.",
+          "stars": "50+",
+          "category": "Tooling",
+          "tags": ["monitoring", "dashboard", "cli", "validator"]
+        },
+        {
+          "name": "suiup",
+          "github": "MystenLabs/suiup",
+          "url": "https://github.com/MystenLabs/suiup",
+          "description": "Official installer and version manager for Sui toolchain.",
+          "stars": "30+",
+          "category": "Tooling",
+          "tags": ["installer", "version-manager", "official"]
+        },
+        {
+          "name": "sui-move-analyzer",
+          "github": "movebit/sui-move-analyzer",
+          "url": "https://github.com/movebit/sui-move-analyzer",
+          "description": "VSCode plugin for Sui Move: syntax highlighting, autocomplete, go-to-definition, diagnostics.",
+          "stars": "100+",
+          "category": "Tooling",
+          "tags": ["vscode", "ide", "analyzer", "lsp"]
+        },
+        {
+          "name": "sui-move-language (JetBrains)",
+          "github": "sui-tools/sui-move-language",
+          "url": "https://github.com/sui-tools/sui-move-language",
+          "description": "Professional JetBrains IDE plugin for Move with type inference, code completion, debugging.",
+          "stars": "20+",
+          "category": "Tooling",
+          "tags": ["jetbrains", "ide", "intellij"]
+        },
+        {
+          "name": "move-formatter",
+          "github": "DaughterOfMars/move-formatter",
+          "url": "https://github.com/DaughterOfMars/move-formatter",
+          "description": "Formatter for Sui Move language files.",
+          "stars": "10+",
+          "category": "Tooling",
+          "tags": ["formatter", "move", "code-style"]
+        },
+        {
+          "name": "playmove",
+          "github": "zktx-io/playmove",
+          "url": "https://github.com/zktx-io/playmove",
+          "description": "Web-based Move playground: load from GitHub, compile in browser with WASM, deploy on-chain.",
+          "stars": "20+",
+          "category": "Tooling",
+          "tags": ["playground", "wasm", "compiler", "web"]
+        },
+        {
+          "name": "ptb-builder",
+          "github": "zktx-io/ptb-builder-monorepo",
+          "url": "https://github.com/zktx-io/ptb-builder-monorepo",
+          "description": "Visual drag-and-drop builder for Sui Programmable Transaction Blocks with auto TypeScript generation.",
+          "stars": "20+",
+          "category": "Tooling",
+          "tags": ["ptb", "visual", "builder", "codegen"]
+        },
+        {
+          "name": "polymedia-zui",
+          "github": "juzybits/polymedia-zui",
+          "url": "https://github.com/juzybits/polymedia-zui",
+          "description": "Sui CLI tools: airdrops, data gathering, RPC interactions, and indexer queries.",
+          "stars": "20+",
+          "category": "Tooling",
+          "tags": ["cli", "airdrop", "data", "rpc"]
+        },
+        {
+          "name": "polymedia-explorer",
+          "github": "juzybits/polymedia-explorer",
+          "url": "https://github.com/juzybits/polymedia-explorer",
+          "description": "Explore Sui transactions, objects, and on-chain data.",
+          "stars": "10+",
+          "category": "Tooling",
+          "tags": ["explorer", "transactions", "objects"]
+        },
+        {
+          "name": "polymedia-coinmeta",
+          "github": "juzybits/polymedia-coinmeta",
+          "url": "https://github.com/juzybits/polymedia-coinmeta",
+          "description": "CoinMetadata for Sui coins with web-optimized logos.",
+          "stars": "10+",
+          "category": "Tooling",
+          "tags": ["coin", "metadata", "logos"]
+        },
+        {
+          "name": "suiClient-Error-Decoder",
+          "github": "Signor1/suiClient-Error-Decoder",
+          "url": "https://github.com/Signor1/suiClient-Error-Decoder",
+          "description": "TypeScript library for decoding Sui transaction errors including Move abort codes.",
+          "stars": "10+",
+          "category": "Tooling",
+          "tags": ["error", "decoder", "debugging"]
+        },
+        {
+          "name": "mvr",
+          "github": "MystenLabs/mvr",
+          "url": "https://github.com/MystenLabs/mvr",
+          "description": "Move Registry (MVR): NPM/Cargo-like package registry for Move packages, decentralized.",
+          "stars": "30+",
+          "category": "Tooling",
+          "tags": ["registry", "packages", "move", "official"]
+        },
+        {
+          "name": "Sui-Transaction-Explainer",
+          "github": "AndreiTihoc/Sui_Transaction_Explainer",
+          "url": "https://github.com/AndreiTihoc/Sui_Transaction_Explainer",
+          "description": "Tool to explain and decode Sui blockchain transactions.",
+          "stars": "10+",
+          "category": "Tooling",
+          "tags": ["transaction", "decoder", "explainer"]
+        }
+      ]
+    },
+    {
+      "name": "Bridges/Cross-chain",
+      "slug": "bridges-crosschain",
+      "repos": [
+        {
+          "name": "wormhole (Sui contracts)",
+          "github": "wormhole-foundation/wormhole",
+          "url": "https://github.com/wormhole-foundation/wormhole/tree/main/sui",
+          "description": "Wormhole cross-chain messaging protocol Move contracts for Sui: core, token_bridge, coin templates.",
+          "stars": "1600+ (whole repo)",
+          "category": "Bridges/Cross-chain",
+          "tags": ["wormhole", "bridge", "cross-chain", "move"]
+        },
+        {
+          "name": "wormhole-sdk-ts",
+          "github": "wormhole-foundation/wormhole-sdk-ts",
+          "url": "https://github.com/wormhole-foundation/wormhole-sdk-ts",
+          "description": "Wormhole TypeScript SDK for cross-chain interactions including Sui.",
+          "stars": "100+",
+          "category": "Bridges/Cross-chain",
+          "tags": ["wormhole", "sdk", "typescript"]
+        },
+        {
+          "name": "native-token-transfers (Sui)",
+          "github": "wormhole-foundation/native-token-transfers",
+          "url": "https://github.com/wormhole-foundation/native-token-transfers/tree/main/sui",
+          "description": "Wormhole Native Token Transfers: composable framework for transferring tokens across chains without liquidity pools.",
+          "stars": "50+",
+          "category": "Bridges/Cross-chain",
+          "tags": ["wormhole", "ntt", "token-transfer"]
+        },
+        {
+          "name": "OmniSwap",
+          "github": "OmniBTC/OmniSwap",
+          "url": "https://github.com/OmniBTC/OmniSwap",
+          "description": "Omnichain interoperability protocol using Wormhole/LayerZero for cross-chain swaps.",
+          "stars": "50+",
+          "category": "Bridges/Cross-chain",
+          "tags": ["omnichain", "swap", "wormhole", "layerzero"]
+        },
+        {
+          "name": "DOLA-Protocol",
+          "github": "OmniBTC/DOLA-Protocol",
+          "url": "https://github.com/OmniBTC/DOLA-Protocol",
+          "description": "Decentralized Omnichain Liquidity Aggregation with Sui as settlement center via Wormhole/LayerZero.",
+          "stars": "30+",
+          "category": "Bridges/Cross-chain",
+          "tags": ["omnichain", "liquidity", "settlement"]
+        },
+        {
+          "name": "LayerZero-v2",
+          "github": "LayerZero-Labs/LayerZero-v2",
+          "url": "https://github.com/LayerZero-Labs/LayerZero-v2",
+          "description": "LayerZero V2 omnichain interoperability protocol with Sui support.",
+          "stars": "500+",
+          "category": "Bridges/Cross-chain",
+          "tags": ["layerzero", "omnichain", "protocol"]
+        },
+        {
+          "name": "go-sui-swap",
+          "github": "OmniBTC/go-sui-swap",
+          "url": "https://github.com/OmniBTC/go-sui-swap",
+          "description": "Sui swap DEX router SDK in Go for Cetus, DeepBook, and more.",
+          "stars": "10+",
+          "category": "Bridges/Cross-chain",
+          "tags": ["go", "swap", "router", "sdk"]
+        }
+      ]
+    },
+    {
+      "name": "Storage/Walrus",
+      "slug": "storage-walrus",
+      "repos": [
+        {
+          "name": "walrus",
+          "github": "MystenLabs/walrus",
+          "url": "https://github.com/MystenLabs/walrus",
+          "description": "Walrus: Decentralized blob store using Sui for coordination and governance.",
+          "stars": "200+",
+          "category": "Storage/Walrus",
+          "tags": ["storage", "decentralized", "blobs", "official"]
+        },
+        {
+          "name": "walrus-sites",
+          "github": "MystenLabs/walrus-sites",
+          "url": "https://github.com/MystenLabs/walrus-sites",
+          "description": "Walrus Sites: Decentralized websites using Sui and Walrus. Includes CLI site-builder and portal.",
+          "stars": "100+",
+          "category": "Storage/Walrus",
+          "tags": ["websites", "decentralized", "hosting", "official"]
+        },
+        {
+          "name": "walrus-docs",
+          "github": "MystenLabs/walrus-docs",
+          "url": "https://github.com/MystenLabs/walrus-docs",
+          "description": "Documentation and examples for Walrus decentralized storage system.",
+          "stars": "50+",
+          "category": "Storage/Walrus",
+          "tags": ["documentation", "examples"]
+        },
+        {
+          "name": "awesome-walrus",
+          "github": "MystenLabs/awesome-walrus",
+          "url": "https://github.com/MystenLabs/awesome-walrus",
+          "description": "Curated list of Walrus tools and ecosystem projects.",
+          "stars": "30+",
+          "category": "Storage/Walrus",
+          "tags": ["awesome-list", "ecosystem"]
+        },
+        {
+          "name": "versui-cli",
+          "github": "Versui/versui-cli",
+          "url": "https://github.com/Versui/versui-cli",
+          "description": "CLI tool to deploy static sites to Walrus decentralized storage.",
+          "stars": "10+",
+          "category": "Storage/Walrus",
+          "tags": ["cli", "deploy", "static-sites"]
+        },
+        {
+          "name": "walrus-sites-provenance",
+          "github": "zktx-io/walrus-sites-provenance",
+          "url": "https://github.com/zktx-io/walrus-sites-provenance",
+          "description": "Deploy Walrus sites with cryptographic provenance using SLSA + Sigstore.",
+          "stars": "10+",
+          "category": "Storage/Walrus",
+          "tags": ["provenance", "sigstore", "slsa", "security"]
+        },
+        {
+          "name": "Walrus-Code-Guide",
+          "github": "Angleito/Walrus-Code-Guide",
+          "url": "https://github.com/Angleito/Walrus-Code-Guide",
+          "description": "Guide on how to use Walrus Storage from the Sui blockchain in code.",
+          "stars": "10+",
+          "category": "Storage/Walrus",
+          "tags": ["guide", "tutorial", "code"]
+        }
+      ]
+    },
+    {
+      "name": "Identity/Auth",
+      "slug": "identity-auth",
+      "repos": [
+        {
+          "name": "zklogin-verifier",
+          "github": "MystenLabs/zklogin-verifier",
+          "url": "https://github.com/MystenLabs/zklogin-verifier",
+          "description": "Rust server that verifies zkLogin signatures for transaction data or personal messages.",
+          "stars": "30+",
+          "category": "Identity/Auth",
+          "tags": ["zklogin", "verifier", "rust", "official"]
+        },
+        {
+          "name": "zklogin-ceremony-contributions",
+          "github": "sui-foundation/zklogin-ceremony-contributions",
+          "url": "https://github.com/sui-foundation/zklogin-ceremony-contributions",
+          "description": "Trusted Groth16 ZKP ceremony contributions for zkLogin Common Reference String.",
+          "stars": "20+",
+          "category": "Identity/Auth",
+          "tags": ["zklogin", "ceremony", "groth16"]
+        },
+        {
+          "name": "use-sui-zklogin",
+          "github": "pixelbrawlgames/use-sui-zklogin",
+          "url": "https://github.com/pixelbrawlgames/use-sui-zklogin",
+          "description": "React hook for seamless zkLogin integration with zero-knowledge proof authentication.",
+          "stars": "20+",
+          "category": "Identity/Auth",
+          "tags": ["zklogin", "react", "hook"]
+        },
+        {
+          "name": "polymedia-zklogin-demo",
+          "github": "juzybits/polymedia-zklogin-demo",
+          "url": "https://github.com/juzybits/polymedia-zklogin-demo",
+          "description": "Sui zkLogin demo implementation with live app.",
+          "stars": "30+",
+          "category": "Identity/Auth",
+          "tags": ["zklogin", "demo", "example"]
+        },
+        {
+          "name": "suins-contracts",
+          "github": "MystenLabs/suins-contracts",
+          "url": "https://github.com/MystenLabs/suins-contracts",
+          "description": "SuiNS name service smart contracts and documentation.",
+          "stars": "50+",
+          "category": "Identity/Auth",
+          "tags": ["suins", "names", "identity", "official"]
+        },
+        {
+          "name": "seal",
+          "github": "MystenLabs/seal",
+          "url": "https://github.com/MystenLabs/seal",
+          "description": "Seal: Decentralized secrets management with identity-based encryption controlled by Sui on-chain policies.",
+          "stars": "100+",
+          "category": "Identity/Auth",
+          "tags": ["encryption", "secrets", "access-control", "official"]
+        },
+        {
+          "name": "enoki-connect",
+          "github": "MystenLabs/ts-sdks (packages/enoki-connect)",
+          "url": "https://github.com/MystenLabs/ts-sdks/tree/main/packages/enoki-connect",
+          "description": "Enoki Connect for simplified user onboarding with sponsored transactions.",
+          "stars": "N/A (monorepo)",
+          "category": "Identity/Auth",
+          "tags": ["enoki", "onboarding", "sponsored-tx"]
+        },
+        {
+          "name": "polymedia-profile",
+          "github": "juzybits/polymedia-profile",
+          "url": "https://github.com/juzybits/polymedia-profile",
+          "description": "On-chain identity system on Sui.",
+          "stars": "10+",
+          "category": "Identity/Auth",
+          "tags": ["identity", "profile", "on-chain"]
+        },
+        {
+          "name": "siwETHOS",
+          "github": "TheBBz/siwETHOS",
+          "url": "https://github.com/thebbz/siwETHOS",
+          "description": "Sign in with Ethos: wallet-based authentication with on-chain reputation.",
+          "stars": "10+",
+          "category": "Identity/Auth",
+          "tags": ["auth", "wallet", "reputation"]
+        },
+        {
+          "name": "sui-stack-messaging-sdk",
+          "github": "MystenLabs/sui-stack-messaging-sdk",
+          "url": "https://github.com/MystenLabs/sui-stack-messaging-sdk",
+          "description": "End-to-end encrypted messaging for Web3 apps using Seal with programmable access policies on Sui.",
+          "stars": "20+",
+          "category": "Identity/Auth",
+          "tags": ["messaging", "encrypted", "seal", "e2ee"]
+        }
+      ]
+    },
+    {
+      "name": "Oracle",
+      "slug": "oracle",
+      "repos": [
+        {
+          "name": "pyth-crosschain (Sui)",
+          "github": "pyth-network/pyth-crosschain",
+          "url": "https://github.com/pyth-network/pyth-crosschain",
+          "description": "Pyth Network crosschain oracle with Sui Move contracts in target_chains/sui.",
+          "stars": "500+",
+          "category": "Oracle",
+          "tags": ["pyth", "oracle", "price-feed", "crosschain"]
+        },
+        {
+          "name": "switchboard-sui",
+          "github": "switchboard-xyz/sui",
+          "url": "https://github.com/switchboard-xyz/sui",
+          "description": "Switchboard On-Demand Sui integration: permissionless, customizable oracle data feeds.",
+          "stars": "20+",
+          "category": "Oracle",
+          "tags": ["switchboard", "oracle", "data-feed"]
+        },
+        {
+          "name": "ramm-sui",
+          "github": "aldrin-labs/ramm-sui",
+          "url": "https://github.com/aldrin-labs/ramm-sui",
+          "description": "RAMM (Resilient Automated Market Maker) implementation on Sui using oracle price feeds.",
+          "stars": "10+",
+          "category": "Oracle",
+          "tags": ["amm", "oracle", "move"]
+        }
+      ]
+    },
+    {
+      "name": "Payment",
+      "slug": "payment",
+      "repos": [
+        {
+          "name": "sui-payment-kit",
+          "github": "MystenLabs/sui-payment-kit",
+          "url": "https://github.com/MystenLabs/sui-payment-kit",
+          "description": "Move smart contract framework for secure, verifiable payments with receipt persistence and expiration policies.",
+          "stars": "20+",
+          "category": "Payment",
+          "tags": ["payment", "move", "receipts", "official"]
+        },
+        {
+          "name": "polymedia-send",
+          "github": "juzybits/polymedia-send",
+          "url": "https://github.com/juzybits/polymedia-send",
+          "description": "Send any coin with Sui zkSend, create zkSend links in bulk.",
+          "stars": "10+",
+          "category": "Payment",
+          "tags": ["zksend", "transfer", "bulk"]
+        },
+        {
+          "name": "sui-pumpfun",
+          "github": "topsecretagent007/sui-pumpfun",
+          "url": "https://github.com/topsecretagent007/sui-pumpfun",
+          "description": "Token launch and trading platform on Sui inspired by Pump.fun.",
+          "stars": "20+",
+          "category": "Payment",
+          "tags": ["launchpad", "token", "trading"]
+        },
+        {
+          "name": "rinbot-sui-sdk",
+          "github": "aldrin-labs/rinbot-sui-sdk",
+          "url": "https://github.com/aldrin-labs/rinbot-sui-sdk",
+          "description": "Sui DeFi SDK for trading bot integrations.",
+          "stars": "10+",
+          "category": "Payment",
+          "tags": ["bot", "trading", "defi", "sdk"]
+        },
+        {
+          "name": "sui-mev",
+          "github": "fuzzland/sui-mev",
+          "url": "https://github.com/fuzzland/sui-mev",
+          "description": "Sui arbitrage and MEV bot.",
+          "stars": "20+",
+          "category": "Payment",
+          "tags": ["mev", "arbitrage", "bot"]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_repos": 133,
+    "repos_by_category": {
+      "Scaffold/Templates": 9,
+      "DeFi Protocols": 20,
+      "SDKs/Libraries": 22,
+      "AI/Agent": 16,
+      "NFT/Gaming": 6,
+      "Infrastructure": 8,
+      "Wallets": 8,
+      "Security/Audit": 8,
+      "Learning/Examples": 10,
+      "Tooling": 14,
+      "Bridges/Cross-chain": 7,
+      "Storage/Walrus": 7,
+      "Identity/Auth": 10,
+      "Oracle": 3,
+      "Payment": 5
+    },
+    "key_organizations": [
+      "MystenLabs",
+      "sui-foundation",
+      "CetusProtocol",
+      "scallop-io",
+      "naviprotocol",
+      "AftermathFinance",
+      "turbos-finance",
+      "FlowX-Finance",
+      "Bucket-Protocol",
+      "wormhole-foundation",
+      "pyth-network",
+      "switchboard-xyz",
+      "AtomaAI",
+      "Origin-Byte",
+      "suiet",
+      "suiware",
+      "juzybits",
+      "FuzzingLabs",
+      "zktx-io",
+      "tamago-labs"
+    ],
+    "ts_sdks_packages": [
+      "bcs",
+      "codegen",
+      "create-dapp",
+      "dapp-kit-next",
+      "dapp-kit",
+      "deepbook-v3",
+      "docs",
+      "enoki-connect",
+      "enoki",
+      "kiosk",
+      "ledgerjs-hw-app-sui",
+      "move-bytecode-template",
+      "mvr-static",
+      "pas",
+      "payment-kit",
+      "seal",
+      "signers",
+      "slush-wallet",
+      "sui",
+      "suins",
+      "utils",
+      "wallet-sdk",
+      "wallet-standard",
+      "walletconnect-wallet",
+      "walrus-wasm",
+      "walrus",
+      "window-wallet-core",
+      "zksend"
+    ]
+  }
+}
