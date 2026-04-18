@@ -215,5 +215,89 @@
     "phase": "launch",
     "description": "Sui Foundation grant application guidance and templates.",
     "triggers": ["grant", "apply grant", "sui foundation grant", "funding"]
+  },
+  {
+    "id": "integrate-cetus",
+    "name": "Integrate Cetus",
+    "phase": "build",
+    "description": "Deep integration guide for Cetus Protocol concentrated liquidity AMM. Pool creation, swaps, LP management, fee collection.",
+    "triggers": ["cetus", "concentrated liquidity", "cetus pool", "cetus swap", "clmm"]
+  },
+  {
+    "id": "integrate-deepbook",
+    "name": "Integrate DeepBook",
+    "phase": "build",
+    "description": "Deep integration guide for DeepBook V3 on-chain CLOB. Limit/market orders, flash loans, balance manager.",
+    "triggers": ["deepbook", "order book", "limit order", "clob", "deepbook pool"]
+  },
+  {
+    "id": "integrate-suilend",
+    "name": "Integrate Suilend",
+    "phase": "build",
+    "description": "Deep integration guide for Suilend lending protocol. Deposit, borrow, repay, withdraw, SpringSui LST.",
+    "triggers": ["suilend", "suilend lending", "borrow suilend", "deposit suilend"]
+  },
+  {
+    "id": "integrate-scallop",
+    "name": "Integrate Scallop",
+    "phase": "build",
+    "description": "Deep integration guide for Scallop lending. Supply, borrow, obligation management, market queries.",
+    "triggers": ["scallop", "scallop lending", "scallop deposit", "scallop borrow"]
+  },
+  {
+    "id": "integrate-7k",
+    "name": "Integrate 7K Aggregator",
+    "phase": "build",
+    "description": "Deep integration guide for 7K meta-DEX aggregator. Best-rate swaps across all Sui DEXs.",
+    "triggers": ["7k", "7k aggregator", "swap aggregator", "best swap rate", "dex aggregator"]
+  },
+  {
+    "id": "integrate-navi",
+    "name": "Integrate NAVI",
+    "phase": "build",
+    "description": "Deep integration guide for NAVI Protocol lending and aggregation. Supply, borrow, swap routing.",
+    "triggers": ["navi", "navi protocol", "navi lending", "navi aggregator"]
+  },
+  {
+    "id": "integrate-walrus",
+    "name": "Integrate Walrus",
+    "phase": "build",
+    "description": "Deep integration guide for Walrus decentralized storage. Store/read blobs, Walrus Sites, file management.",
+    "triggers": ["walrus", "decentralized storage", "blob storage", "walrus sites", "store files"]
+  },
+  {
+    "id": "integrate-enoki",
+    "name": "Integrate Enoki",
+    "phase": "build",
+    "description": "Deep integration guide for Enoki zkLogin + sponsored transactions. Sign in with Google, gasless UX.",
+    "triggers": ["enoki", "zklogin app", "sign in with google sui", "gasless onboarding", "no wallet app"]
+  },
+  {
+    "id": "integrate-shinami",
+    "name": "Integrate Shinami",
+    "phase": "build",
+    "description": "Deep integration guide for Shinami RPC, Gas Station, and Invisible Wallets.",
+    "triggers": ["shinami", "gas station", "sponsored transactions", "invisible wallet", "production rpc"]
+  },
+  {
+    "id": "integrate-seal",
+    "name": "Integrate Seal",
+    "phase": "build",
+    "description": "Deep integration guide for Seal decentralized secrets management. Encrypted storage, token-gated access.",
+    "triggers": ["seal", "encryption", "decentralized secrets", "token-gated content", "encrypted storage"]
+  },
+  {
+    "id": "integrate-suins",
+    "name": "Integrate SuiNS",
+    "phase": "build",
+    "description": "Deep integration guide for SuiNS name service. Resolve names, register domains, display .sui names.",
+    "triggers": ["suins", "sui name service", "domain name", ".sui name", "resolve name"]
+  },
+  {
+    "id": "integrate-dapp-kit",
+    "name": "Integrate dApp Kit",
+    "phase": "build",
+    "description": "Deep integration guide for @mysten/dapp-kit React wallet connection. All hooks, providers, and patterns.",
+    "triggers": ["dapp kit", "wallet connection", "connect wallet", "sui react", "connect button"]
   }
 ]
