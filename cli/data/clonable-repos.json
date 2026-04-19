@@ -1,5 +1,428 @@
 [
   {
+    "id": "sui",
+    "name": "Sui Blockchain",
+    "repo": "MystenLabs/sui",
+    "category": "infra",
+    "description": "The Sui blockchain source code, Move framework, and official examples.",
+    "stars": 7664,
+    "tags": ["blockchain", "move", "official", "core"]
+  },
+  {
+    "id": "walrus",
+    "name": "Walrus Decentralized Storage",
+    "repo": "MystenLabs/walrus",
+    "category": "storage",
+    "description": "Decentralized storage protocol built on Sui for large binary data.",
+    "stars": 348,
+    "tags": ["storage", "decentralized", "official"]
+  },
+  {
+    "id": "seal",
+    "name": "Seal Access Control",
+    "repo": "MystenLabs/seal",
+    "category": "identity",
+    "description": "Decentralized access control and encryption framework for Sui.",
+    "stars": 407,
+    "tags": ["encryption", "access-control", "official"]
+  },
+  {
+    "id": "deepbookv3",
+    "name": "DeepBook V3",
+    "repo": "MystenLabs/deepbookv3",
+    "category": "defi",
+    "description": "Central limit order book (CLOB) protocol native to Sui.",
+    "stars": 188,
+    "tags": ["orderbook", "defi", "clob", "official"]
+  },
+  {
+    "id": "walrus-sites",
+    "name": "Walrus Sites",
+    "repo": "MystenLabs/walrus-sites",
+    "category": "storage",
+    "description": "Build and deploy decentralized websites on Walrus storage.",
+    "stars": 179,
+    "tags": ["walrus", "storage", "website", "official"]
+  },
+  {
+    "id": "suins-contracts",
+    "name": "SuiNS Contracts",
+    "repo": "MystenLabs/suins-contracts",
+    "category": "identity",
+    "description": "Sui Name Service smart contracts for on-chain naming.",
+    "stars": 133,
+    "tags": ["naming", "identity", "move", "official"]
+  },
+  {
+    "id": "move-book",
+    "name": "The Move Book",
+    "repo": "MystenLabs/move-book",
+    "category": "learning",
+    "description": "Comprehensive Move language reference and tutorial.",
+    "stars": 261,
+    "tags": ["learning", "move", "documentation", "official"]
+  },
+  {
+    "id": "ts-sdks",
+    "name": "Sui TypeScript SDKs",
+    "repo": "MystenLabs/ts-sdks",
+    "category": "sdk",
+    "description": "Official Sui TypeScript SDKs including dApp Kit, BCS, and GraphQL transport.",
+    "stars": 94,
+    "tags": ["sdk", "typescript", "official", "dapp-kit"]
+  },
+  {
+    "id": "sui-rust-sdk",
+    "name": "Sui Rust SDK",
+    "repo": "MystenLabs/sui-rust-sdk",
+    "category": "sdk",
+    "description": "Official Rust SDK for interacting with the Sui blockchain.",
+    "stars": 83,
+    "tags": ["sdk", "rust", "official"]
+  },
+  {
+    "id": "nautilus",
+    "name": "Nautilus",
+    "repo": "MystenLabs/nautilus",
+    "category": "infra",
+    "description": "Off-chain execution engine enabling Move contracts to call external services.",
+    "stars": 76,
+    "tags": ["off-chain", "execution", "official"]
+  },
+  {
+    "id": "capybot",
+    "name": "CapyBot",
+    "repo": "MystenLabs/capybot",
+    "category": "defi",
+    "description": "Reference DEX arbitrage and trading bot for Sui.",
+    "stars": 109,
+    "tags": ["bot", "arbitrage", "defi", "official"]
+  },
+  {
+    "id": "suiup",
+    "name": "Suiup",
+    "repo": "MystenLabs/suiup",
+    "category": "tooling",
+    "description": "Sui toolchain installer and version manager.",
+    "stars": 78,
+    "tags": ["tooling", "installer", "cli", "official"]
+  },
+  {
+    "id": "sui-gas-pool",
+    "name": "Sui Gas Pool",
+    "repo": "MystenLabs/sui-gas-pool",
+    "category": "infra",
+    "description": "Sponsored transaction gas pool service for Sui applications.",
+    "stars": 39,
+    "tags": ["gas", "sponsored-tx", "infra", "official"]
+  },
+  {
+    "id": "asset-tokenization",
+    "name": "Asset Tokenization",
+    "repo": "MystenLabs/asset-tokenization",
+    "category": "learning",
+    "description": "Reference implementation for real-world asset tokenization on Sui.",
+    "stars": 11,
+    "tags": ["rwa", "tokenization", "learning", "official"]
+  },
+  {
+    "id": "sui-payment-kit",
+    "name": "Sui Payment Kit",
+    "repo": "MystenLabs/sui-payment-kit",
+    "category": "payment",
+    "description": "Payment integration toolkit for Sui applications.",
+    "stars": 5,
+    "tags": ["payment", "integration", "official"]
+  },
+  {
+    "id": "cetus-clmm-sdk",
+    "name": "Cetus CLMM SDK",
+    "repo": "CetusProtocol/cetus-clmm-sui-sdk",
+    "category": "defi",
+    "description": "Concentrated liquidity market maker SDK for Cetus Protocol on Sui.",
+    "stars": 70,
+    "tags": ["sdk", "defi", "amm", "clmm"]
+  },
+  {
+    "id": "cetus-aggregator",
+    "name": "Cetus Aggregator",
+    "repo": "CetusProtocol/aggregator",
+    "category": "defi",
+    "description": "DEX aggregator by Cetus for optimal swap routing on Sui.",
+    "stars": 60,
+    "tags": ["defi", "aggregator", "swap"]
+  },
+  {
+    "id": "scallop-sdk",
+    "name": "Scallop TypeScript SDK",
+    "repo": "scallop-io/sui-scallop-sdk",
+    "category": "defi",
+    "description": "TypeScript SDK for interacting with Scallop lending protocol.",
+    "stars": 53,
+    "tags": ["sdk", "typescript", "defi", "lending"]
+  },
+  {
+    "id": "scallop-lending",
+    "name": "Scallop Lending Protocol",
+    "repo": "scallop-io/sui-lending-protocol",
+    "category": "defi",
+    "description": "Production lending and borrowing protocol on Sui.",
+    "stars": 86,
+    "tags": ["defi", "lending", "move"]
+  },
+  {
+    "id": "sui-kit",
+    "name": "Sui Kit",
+    "repo": "scallop-io/sui-kit",
+    "category": "sdk",
+    "description": "Ergonomic Sui SDK wrapper by Scallop simplifying common operations.",
+    "stars": 188,
+    "tags": ["sdk", "typescript", "utility"]
+  },
+  {
+    "id": "navi-sdk",
+    "name": "NAVI Protocol SDK",
+    "repo": "naviprotocol/navi-sdk",
+    "category": "defi",
+    "description": "TypeScript SDK for NAVI lending and borrowing protocol on Sui.",
+    "stars": 47,
+    "tags": ["sdk", "defi", "lending"]
+  },
+  {
+    "id": "suilend",
+    "name": "Suilend",
+    "repo": "suilend/suilend",
+    "category": "defi",
+    "description": "Lending protocol on Sui by the Solend team.",
+    "stars": 58,
+    "tags": ["defi", "lending", "move"]
+  },
+  {
+    "id": "interest-sui-defi",
+    "name": "Interest Protocol Sui DeFi",
+    "repo": "interest-protocol/sui-defi",
+    "category": "defi",
+    "description": "DeFi primitives and protocol contracts for Interest Protocol on Sui.",
+    "stars": 47,
+    "tags": ["defi", "move", "primitives"]
+  },
+  {
+    "id": "aftermath-ts-sdk",
+    "name": "Aftermath TypeScript SDK",
+    "repo": "AftermathFinance/aftermath-ts-sdk",
+    "category": "defi",
+    "description": "TypeScript SDK for Aftermath Finance DEX and DeFi suite.",
+    "stars": 25,
+    "tags": ["sdk", "defi", "typescript"]
+  },
+  {
+    "id": "bucket-protocol-sdk",
+    "name": "Bucket Protocol SDK",
+    "repo": "Bucket-Protocol/bucket-protocol-sdk",
+    "category": "defi",
+    "description": "SDK for interacting with Bucket Protocol stablecoin and CDP system.",
+    "stars": 21,
+    "tags": ["sdk", "defi", "stablecoin", "cdp"]
+  },
+  {
+    "id": "7k-sdk-ts",
+    "name": "7k Aggregator SDK",
+    "repo": "7k-ag/7k-sdk-ts",
+    "category": "defi",
+    "description": "TypeScript SDK for 7k DEX aggregator on Sui.",
+    "stars": 29,
+    "tags": ["sdk", "defi", "aggregator"]
+  },
+  {
+    "id": "turbos-clmm-sdk",
+    "name": "Turbos CLMM SDK",
+    "repo": "turbos-finance/turbos-clmm-sdk",
+    "category": "defi",
+    "description": "SDK for Turbos concentrated liquidity AMM on Sui.",
+    "stars": 20,
+    "tags": ["sdk", "defi", "amm", "clmm"]
+  },
+  {
+    "id": "turbos-move-interface",
+    "name": "Turbos Move Interface",
+    "repo": "turbos-finance/turbos-sui-move-interface",
+    "category": "defi",
+    "description": "Move smart contract interfaces for Turbos Finance DEX.",
+    "stars": 23,
+    "tags": ["defi", "move", "interface"]
+  },
+  {
+    "id": "sui-pump-move",
+    "name": "Sui Pump (Move)",
+    "repo": "haredoggy/Sui-Pump--Move",
+    "category": "defi",
+    "description": "Pump.fun-style bonding curve token launchpad on Sui in Move.",
+    "stars": 61,
+    "tags": ["defi", "launchpad", "bonding-curve", "move"]
+  },
+  {
+    "id": "integer-mate",
+    "name": "Integer Mate",
+    "repo": "CetusProtocol/integer-mate",
+    "category": "defi",
+    "description": "Fixed-point math library for Move DeFi protocols.",
+    "stars": 20,
+    "tags": ["defi", "math", "move", "library"]
+  },
+  {
+    "id": "move-stl",
+    "name": "Move STL",
+    "repo": "CetusProtocol/move-stl",
+    "category": "defi",
+    "description": "Standard template library of common data structures for Sui Move.",
+    "stars": 13,
+    "tags": ["defi", "move", "library", "data-structures"]
+  },
+  {
+    "id": "flowx-sdk",
+    "name": "FlowX Finance SDK",
+    "repo": "FlowX-Finance/sdk",
+    "category": "defi",
+    "description": "SDK for interacting with FlowX DEX aggregator on Sui.",
+    "stars": 2,
+    "tags": ["sdk", "defi", "aggregator"]
+  },
+  {
+    "id": "bluefin-client-sui",
+    "name": "Bluefin Client Sui",
+    "repo": "fireflyprotocol/bluefin-client-sui",
+    "category": "defi",
+    "description": "TypeScript client for Bluefin perpetuals exchange on Sui.",
+    "stars": 5,
+    "tags": ["defi", "perpetuals", "typescript"]
+  },
+  {
+    "id": "rinbot-sui-sdk",
+    "name": "Rinbot Sui SDK",
+    "repo": "aldrin-labs/rinbot-sui-sdk",
+    "category": "defi",
+    "description": "SDK for Rinbot automated trading on Sui DEXes.",
+    "stars": 5,
+    "tags": ["defi", "bot", "trading", "sdk"]
+  },
+  {
+    "id": "kriya-dex-interface",
+    "name": "Kriya DEX Interface",
+    "repo": "efficacy-finance/kriya-dex-interface",
+    "category": "defi",
+    "description": "Interface and SDK for Kriya DEX on Sui.",
+    "stars": 5,
+    "tags": ["defi", "dex", "interface"]
+  },
+  {
+    "id": "pysui",
+    "name": "PySui",
+    "repo": "FrankC01/pysui",
+    "category": "sdk",
+    "description": "Python SDK for Sui blockchain interaction and transaction building.",
+    "stars": 212,
+    "tags": ["sdk", "python"]
+  },
+  {
+    "id": "sui-go-sdk-blockvision",
+    "name": "Sui Go SDK (Block Vision)",
+    "repo": "block-vision/sui-go-sdk",
+    "category": "sdk",
+    "description": "Go SDK for Sui with JSON-RPC client and transaction builder.",
+    "stars": 196,
+    "tags": ["sdk", "go", "rpc"]
+  },
+  {
+    "id": "go-sui-sdk",
+    "name": "Go Sui SDK (ComingChat)",
+    "repo": "coming-chat/go-sui-sdk",
+    "category": "sdk",
+    "description": "Go SDK for Sui blockchain with wallet and transaction support.",
+    "stars": 101,
+    "tags": ["sdk", "go"]
+  },
+  {
+    "id": "mofalabs-sui",
+    "name": "Sui SDK (Mofa Labs)",
+    "repo": "mofalabs/sui",
+    "category": "sdk",
+    "description": "Alternative Sui SDK with streamlined developer experience.",
+    "stars": 37,
+    "tags": ["sdk", "typescript"]
+  },
+  {
+    "id": "suidouble",
+    "name": "SuiDouble",
+    "repo": "suidouble/suidouble",
+    "category": "sdk",
+    "description": "JavaScript SDK for Sui with simplified object and transaction handling.",
+    "stars": 24,
+    "tags": ["sdk", "javascript"]
+  },
+  {
+    "id": "ksui",
+    "name": "KSui",
+    "repo": "mcxross/ksui",
+    "category": "sdk",
+    "description": "Kotlin Multiplatform SDK for Sui blockchain.",
+    "stars": 17,
+    "tags": ["sdk", "kotlin", "multiplatform"]
+  },
+  {
+    "id": "suikit-swift",
+    "name": "SuiKit (Swift)",
+    "repo": "opendive/suikit",
+    "category": "sdk",
+    "description": "Swift SDK for building Sui applications on Apple platforms.",
+    "stars": 21,
+    "tags": ["sdk", "swift", "ios"]
+  },
+  {
+    "id": "sui-unity-sdk",
+    "name": "Sui Unity SDK",
+    "repo": "OpenDive/Sui-Unity-SDK",
+    "category": "sdk",
+    "description": "Unity game engine SDK for integrating Sui blockchain.",
+    "stars": 21,
+    "tags": ["sdk", "unity", "gaming", "csharp"]
+  },
+  {
+    "id": "sui-client-gen",
+    "name": "Sui Client Gen",
+    "repo": "kunalabs-io/sui-client-gen",
+    "category": "tooling",
+    "description": "Generate TypeScript client code from Sui Move packages.",
+    "stars": 103,
+    "tags": ["tooling", "codegen", "typescript"]
+  },
+  {
+    "id": "typemove",
+    "name": "TypeMove",
+    "repo": "sentioxyz/typemove",
+    "category": "tooling",
+    "description": "Type-safe Move contract bindings generator for TypeScript.",
+    "stars": 35,
+    "tags": ["tooling", "typescript", "codegen"]
+  },
+  {
+    "id": "sui-go-pattonkan",
+    "name": "Sui Go SDK (Pattonkan)",
+    "repo": "pattonkan/sui-go",
+    "category": "sdk",
+    "description": "Lightweight Go SDK for Sui blockchain operations.",
+    "stars": 12,
+    "tags": ["sdk", "go"]
+  },
+  {
+    "id": "dubhe",
+    "name": "Dubhe Engine",
+    "repo": "0xobelisk/dubhe",
+    "category": "sdk",
+    "description": "Full-stack framework for building on-chain applications on Sui.",
+    "stars": 70,
+    "tags": ["sdk", "framework", "fullstack"]
+  },
+  {
     "id": "sui-dapp-starter",
     "name": "Sui dApp Starter",
     "repo": "suiware/sui-dapp-starter",
@@ -9,177 +432,561 @@
     "tags": ["template", "react", "move", "fullstack"]
   },
   {
+    "id": "sui-dapp-scaffold",
+    "name": "Sui dApp Scaffold V1",
+    "repo": "Bucket-Protocol/sui-dapp-scaffold-v1",
+    "category": "scaffold",
+    "description": "Minimal scaffold for building Sui dApps with dApp Kit.",
+    "stars": 27,
+    "tags": ["template", "scaffold", "dapp-kit"]
+  },
+  {
     "id": "nextjs-sui-template",
     "name": "Next.js Sui dApp Template",
     "repo": "hoh-zone/Nextjs-Sui-Dapp-Template",
     "category": "scaffold",
     "description": "Next.js + Sui dApp Kit template for rapid prototyping.",
-    "stars": 30,
+    "stars": 14,
     "tags": ["template", "nextjs", "dapp-kit"]
   },
   {
-    "id": "sui-move-examples",
-    "name": "Sui Move Examples (Official)",
-    "repo": "MystenLabs/sui",
-    "path": "examples/move",
-    "category": "examples",
-    "description": "Official Move examples: coins, NFTs, DeFi patterns, games.",
-    "stars": 50000,
-    "tags": ["move", "examples", "official"]
+    "id": "suiue",
+    "name": "SuiUE",
+    "repo": "SuiFansCN/suiue",
+    "category": "scaffold",
+    "description": "Unreal Engine integration template for Sui blockchain games.",
+    "stars": 18,
+    "tags": ["template", "unreal-engine", "gaming"]
   },
   {
-    "id": "scallop-lending",
-    "name": "Scallop Lending Protocol",
-    "repo": "scallop-io/sui-lending-protocol",
-    "category": "defi",
-    "description": "Production lending protocol on Sui. Reference for building lending/borrowing.",
-    "stars": 86,
-    "tags": ["defi", "lending", "move"]
-  },
-  {
-    "id": "scallop-sdk",
-    "name": "Scallop TypeScript SDK",
-    "repo": "scallop-io/sui-scallop-sdk",
-    "category": "sdk",
-    "description": "TypeScript SDK for interacting with Scallop lending protocol.",
-    "stars": 53,
-    "tags": ["sdk", "typescript", "defi", "lending"]
-  },
-  {
-    "id": "cetus-clmm-sdk",
-    "name": "Cetus CLMM SDK",
-    "repo": "CetusProtocol/cetus-clmm-sui-sdk",
-    "category": "sdk",
-    "description": "Concentrated liquidity market maker SDK for Cetus Protocol.",
-    "stars": 40,
-    "tags": ["sdk", "typescript", "defi", "amm"]
-  },
-  {
-    "id": "sui-pump-move",
-    "name": "Sui Pump (Move)",
-    "repo": "haredoggy/Sui-Pump--Move",
-    "category": "defi",
-    "description": "Pump.fun-style bonding curve token launchpad on Sui in Move.",
-    "stars": 61,
-    "tags": ["defi", "launchpad", "move", "bonding-curve"]
-  },
-  {
-    "id": "sui-typescript-sdk",
-    "name": "Sui TypeScript SDK (Official)",
-    "repo": "MystenLabs/sui",
-    "path": "sdk/typescript",
-    "category": "sdk",
-    "description": "Official Sui TypeScript SDK — RPC client, PTB builder, BCS, keypairs.",
-    "stars": 50000,
-    "tags": ["sdk", "typescript", "official"]
-  },
-  {
-    "id": "sui-dapp-kit",
-    "name": "Sui dApp Kit (Official)",
-    "repo": "MystenLabs/sui",
-    "path": "sdk/dapp-kit",
-    "category": "sdk",
-    "description": "Official React components for Sui wallet connection and transactions.",
-    "stars": 50000,
-    "tags": ["sdk", "react", "wallet", "official"]
-  },
-  {
-    "id": "sui-kit",
-    "name": "Sui Kit (Scallop)",
-    "repo": "scallop-io/sui-kit",
-    "category": "sdk",
-    "description": "Ergonomic Sui SDK wrapper by Scallop. Simplifies common operations.",
-    "stars": 188,
-    "tags": ["sdk", "typescript", "utility"]
-  },
-  {
-    "id": "pysui",
-    "name": "PySui — Python SDK",
-    "repo": "FrankC01/pysui",
-    "category": "sdk",
-    "description": "Python SDK for Sui blockchain interaction.",
-    "stars": 212,
-    "tags": ["sdk", "python"]
-  },
-  {
-    "id": "sui-agent-kit-pelagos",
-    "name": "Sui Agent Kit (PelagosAI)",
-    "repo": "pelagosaionsui/sui-agent-kit",
-    "category": "agent",
-    "description": "Autonomous AI agent framework for Sui. LangChain, LangGraph, Vercel AI integration.",
-    "stars": 11,
-    "tags": ["agent", "ai", "langchain"]
-  },
-  {
-    "id": "nimbus-sui-agent",
-    "name": "Sui Agent Kit (Nimbus)",
-    "repo": "getnimbus/sui-agent-kit",
-    "category": "agent",
-    "description": "AI agent toolkit for Sui with DeFi integrations.",
-    "stars": 20,
-    "tags": ["agent", "ai", "defi"]
-  },
-  {
-    "id": "nexus-sdk-talus",
-    "name": "Nexus SDK (Talus Network)",
-    "repo": "Talus-Network/nexus-sdk",
-    "category": "agent",
-    "description": "Agentic workflow engine for building AI agent pipelines.",
-    "stars": 183,
-    "tags": ["agent", "ai", "workflow"]
-  },
-  {
-    "id": "walrus-sites",
-    "name": "Walrus Sites (Official)",
-    "repo": "MystenLabs/walrus-sites",
-    "category": "infrastructure",
-    "description": "Build decentralized websites on Walrus (Sui's decentralized storage).",
-    "stars": 179,
-    "tags": ["walrus", "storage", "website", "official"]
-  },
-  {
-    "id": "suibase",
-    "name": "Suibase",
-    "repo": "ChainMovers/suibase",
+    "id": "sui-move-runner",
+    "name": "SuiMoveRunner",
+    "repo": "blockchainBard101/SuiMoveRunner",
     "category": "tooling",
-    "description": "Local Sui development environment manager. Easier localnet/devnet/testnet switching.",
-    "stars": 52,
-    "tags": ["tooling", "devenv", "localnet"]
+    "description": "Tool for quickly running and testing Sui Move contracts.",
+    "stars": 19,
+    "tags": ["tooling", "move", "testing"]
   },
   {
-    "id": "move-book",
-    "name": "The Move Book",
-    "repo": "MystenLabs/move-book",
+    "id": "bsa-sui-template",
+    "name": "BSA Sui Template Frontend",
+    "repo": "bsaepfl/bsa-sui-template-frontend-2025",
+    "category": "scaffold",
+    "description": "Sui frontend starter template from BSA EPFL.",
+    "stars": 7,
+    "tags": ["template", "frontend", "scaffold"]
+  },
+  {
+    "id": "sui-move-intro-course",
+    "name": "Sui Move Intro Course",
+    "repo": "sui-foundation/sui-move-intro-course",
     "category": "learning",
-    "description": "Comprehensive Move language reference and tutorial.",
-    "stars": 261,
-    "tags": ["learning", "move", "documentation"]
+    "description": "Official introductory course for learning Sui Move programming.",
+    "stars": 2621,
+    "tags": ["learning", "move", "course", "beginner"]
+  },
+  {
+    "id": "awesome-sui",
+    "name": "Awesome Sui",
+    "repo": "sui-foundation/awesome-sui",
+    "category": "learning",
+    "description": "Curated list of Sui ecosystem resources, tools, and projects.",
+    "stars": 206,
+    "tags": ["learning", "awesome-list", "resources"]
+  },
+  {
+    "id": "awesome-move",
+    "name": "Awesome Move",
+    "repo": "MystenLabs/awesome-move",
+    "category": "learning",
+    "description": "Curated list of Move language resources across all Move ecosystems.",
+    "stars": 1498,
+    "tags": ["learning", "awesome-list", "move"]
+  },
+  {
+    "id": "sui-move-bootcamp",
+    "name": "Sui Move Bootcamp",
+    "repo": "MystenLabs/sui-move-bootcamp",
+    "category": "learning",
+    "description": "Official hands-on bootcamp materials for learning Sui Move.",
+    "stars": 89,
+    "tags": ["learning", "bootcamp", "move", "official"]
+  },
+  {
+    "id": "sui-move-intro-zh",
+    "name": "Sui Move Intro Course (Chinese)",
+    "repo": "RandyPen/sui-move-intro-course-zh",
+    "category": "learning",
+    "description": "Chinese translation of the Sui Move introductory course.",
+    "stars": 119,
+    "tags": ["learning", "move", "chinese"]
+  },
+  {
+    "id": "sui-mover-2024",
+    "name": "Sui Mover 2024",
+    "repo": "Bucket-Protocol/sui-mover-2024",
+    "category": "learning",
+    "description": "Learning materials and challenges from Sui Mover 2024 program.",
+    "stars": 14,
+    "tags": ["learning", "challenges", "move"]
+  },
+  {
+    "id": "21challenge",
+    "name": "21 Challenge",
+    "repo": "riva-labs/21Challenge",
+    "category": "learning",
+    "description": "21-day coding challenge for learning Sui Move development.",
+    "stars": 30,
+    "tags": ["learning", "challenge", "move"]
+  },
+  {
+    "id": "blackjack-sui",
+    "name": "Blackjack Sui",
+    "repo": "MystenLabs/blackjack-sui",
+    "category": "learning",
+    "description": "Blackjack card game built on Sui demonstrating on-chain randomness.",
+    "stars": 40,
+    "tags": ["learning", "game", "randomness", "official"]
+  },
+  {
+    "id": "satoshi-coin-flip",
+    "name": "Satoshi Coin Flip",
+    "repo": "MystenLabs/satoshi-coin-flip",
+    "category": "learning",
+    "description": "Coin flip game demonstrating verifiable random function usage on Sui.",
+    "stars": 29,
+    "tags": ["learning", "game", "vrf", "official"]
+  },
+  {
+    "id": "encrypted-nft-poc",
+    "name": "Encrypted NFT PoC",
+    "repo": "MystenLabs/encrypted-nft-poc",
+    "category": "learning",
+    "description": "Proof of concept for encrypted NFTs with access control on Sui.",
+    "stars": 5,
+    "tags": ["learning", "nft", "encryption", "official"]
+  },
+  {
+    "id": "contracts-sui",
+    "name": "OpenZeppelin Contracts Sui",
+    "repo": "OpenZeppelin/contracts-sui",
+    "category": "security",
+    "description": "OpenZeppelin standard security contracts and libraries for Sui Move.",
+    "stars": 39,
+    "tags": ["security", "contracts", "standards"]
+  },
+  {
+    "id": "move-audit-resources",
+    "name": "Move Audit Resources",
+    "repo": "0xriazaka/Move-Audit-Resources",
+    "category": "security",
+    "description": "Comprehensive collection of Move smart contract auditing resources.",
+    "stars": 154,
+    "tags": ["security", "audit", "resources"]
+  },
+  {
+    "id": "sui-move-auditing-primer",
+    "name": "Sui Move Auditing Primer",
+    "repo": "slowmist/Sui-MOVE-Smart-Contract-Auditing-Primer",
+    "category": "security",
+    "description": "SlowMist guide to auditing Sui Move smart contracts.",
+    "stars": 64,
+    "tags": ["security", "audit", "guide"]
   },
   {
     "id": "sui-fuzzer",
     "name": "Sui Move Fuzzer",
     "repo": "FuzzingLabs/sui-fuzzer",
     "category": "security",
-    "description": "Smart contract fuzzer for Sui Move programs.",
+    "description": "Smart contract fuzzer for finding bugs in Sui Move programs.",
     "stars": 51,
     "tags": ["security", "testing", "fuzzing"]
+  },
+  {
+    "id": "suiaudit",
+    "name": "SuiAudit",
+    "repo": "SuiAuditLab/suiaudit",
+    "category": "security",
+    "description": "Automated security analysis tool for Sui Move contracts.",
+    "stars": 15,
+    "tags": ["security", "audit", "analysis"]
+  },
+  {
+    "id": "skry",
+    "name": "Skry",
+    "repo": "nowarp/skry",
+    "category": "security",
+    "description": "Static analysis and decompilation tool for Sui Move bytecode.",
+    "stars": 7,
+    "tags": ["security", "static-analysis", "decompiler"]
+  },
+  {
+    "id": "sui-move-analyzer",
+    "name": "Sui Move Analyzer",
+    "repo": "movebit/sui-move-analyzer",
+    "category": "tooling",
+    "description": "Language server and IDE support for Sui Move development.",
+    "stars": 14,
+    "tags": ["tooling", "ide", "language-server"]
+  },
+  {
+    "id": "petergate",
+    "name": "PeterGate",
+    "repo": "0xpetern/PeterGate",
+    "category": "security",
+    "description": "Security-focused gateway and access control patterns for Sui.",
+    "stars": 4,
+    "tags": ["security", "access-control", "patterns"]
   },
   {
     "id": "suiet-wallet-kit",
     "name": "Suiet Wallet Kit",
     "repo": "suiet/wallet-kit",
     "category": "wallet",
-    "description": "Multi-wallet connection kit for Sui dApps.",
+    "description": "Multi-wallet connection kit for Sui dApps with React support.",
     "stars": 207,
     "tags": ["wallet", "react", "multi-wallet"]
   },
   {
+    "id": "zklogin-verifier",
+    "name": "zkLogin Verifier",
+    "repo": "MystenLabs/zklogin-verifier",
+    "category": "identity",
+    "description": "Verification service for Sui zkLogin zero-knowledge proofs.",
+    "stars": 26,
+    "tags": ["zklogin", "identity", "zk", "official"]
+  },
+  {
+    "id": "react-native-zklogin",
+    "name": "React Native zkLogin PoC",
+    "repo": "MystenLabs/react-native-zklogin-poc",
+    "category": "identity",
+    "description": "React Native proof of concept for zkLogin mobile authentication.",
+    "stars": 10,
+    "tags": ["zklogin", "react-native", "mobile", "official"]
+  },
+  {
+    "id": "use-sui-zklogin",
+    "name": "Use Sui zkLogin",
+    "repo": "pixelbrawlgames/use-sui-zklogin",
+    "category": "identity",
+    "description": "React hook for integrating Sui zkLogin authentication.",
+    "stars": 11,
+    "tags": ["zklogin", "react", "hook"]
+  },
+  {
+    "id": "guardians",
+    "name": "Suiet Guardians",
+    "repo": "suiet/guardians",
+    "category": "security",
+    "description": "Wallet security guardian system for protecting Sui transactions.",
+    "stars": 19,
+    "tags": ["security", "wallet", "guardian"]
+  },
+  {
+    "id": "evevault",
+    "name": "EveVault",
+    "repo": "evefrontier/evevault",
+    "category": "wallet",
+    "description": "Secure vault and wallet management solution for Sui.",
+    "stars": 13,
+    "tags": ["wallet", "vault", "security"]
+  },
+  {
+    "id": "nft-protocol",
+    "name": "OriginByte NFT Protocol",
+    "repo": "Origin-Byte/nft-protocol",
+    "category": "nft",
+    "description": "Comprehensive NFT standard and marketplace protocol for Sui.",
+    "stars": 157,
+    "tags": ["nft", "marketplace", "standard", "move"]
+  },
+  {
+    "id": "prime-machin-contracts",
+    "name": "Prime Machin Contracts",
+    "repo": "studio-mirai/prime-machin-contracts",
+    "category": "nft",
+    "description": "Smart contracts for Prime Machin NFT collection on Sui.",
+    "stars": 21,
+    "tags": ["nft", "collection", "move"]
+  },
+  {
+    "id": "sui-nft-launchpad",
+    "name": "Sui NFT Launchpad",
+    "repo": "0xalberto/Sui-nft-launchpad",
+    "category": "nft",
+    "description": "NFT launchpad implementation for minting collections on Sui.",
+    "stars": 11,
+    "tags": ["nft", "launchpad", "minting"]
+  },
+  {
+    "id": "nimbus-sui-agent",
+    "name": "Sui Agent Kit (Nimbus)",
+    "repo": "getnimbus/sui-agent-kit",
+    "category": "agent",
+    "description": "AI agent toolkit for Sui with DeFi integrations and natural language.",
+    "stars": 20,
+    "tags": ["agent", "ai", "defi"]
+  },
+  {
+    "id": "caterpillar-sui-agent",
+    "name": "Sui AI Agent Kit (Caterpillar)",
+    "repo": "caterpillardev/Sui-AI-Agent-Kit",
+    "category": "agent",
+    "description": "AI agent framework for autonomous Sui blockchain operations.",
+    "stars": 19,
+    "tags": ["agent", "ai", "autonomous"]
+  },
+  {
+    "id": "nexus-sdk",
+    "name": "Nexus SDK (Talus Network)",
+    "repo": "Talus-Network/nexus-sdk",
+    "category": "agent",
+    "description": "Agentic workflow engine for building AI agent pipelines on Sui.",
+    "stars": 183,
+    "tags": ["agent", "ai", "workflow"]
+  },
+  {
+    "id": "plugin-sui",
+    "name": "ElizaOS Sui Plugin",
+    "repo": "elizaos-plugins/plugin-sui",
+    "category": "agent",
+    "description": "Sui blockchain plugin for ElizaOS AI agent framework.",
+    "stars": 11,
+    "tags": ["agent", "ai", "plugin", "eliza"]
+  },
+  {
+    "id": "sui-ai-agents",
+    "name": "Sui AI Agents",
+    "repo": "fantasyni/sui-ai-agents",
+    "category": "agent",
+    "description": "Collection of AI agent implementations for Sui blockchain tasks.",
+    "stars": 10,
+    "tags": ["agent", "ai", "automation"]
+  },
+  {
+    "id": "sui-dev-skills",
+    "name": "Sui Dev Skills",
+    "repo": "MystenLabs/sui-dev-skills",
+    "category": "agent",
+    "description": "AI coding assistant skills for Sui Move development.",
+    "stars": 15,
+    "tags": ["agent", "ai", "dev-tools", "official"]
+  },
+  {
+    "id": "sui-stack-claude-code",
+    "name": "Sui Stack Claude Code Plugin",
+    "repo": "0x-j/sui-stack-claude-code-plugin",
+    "category": "agent",
+    "description": "Claude Code plugin for Sui development workflows.",
+    "stars": 7,
+    "tags": ["agent", "ai", "claude", "plugin"]
+  },
+  {
+    "id": "suibase",
+    "name": "Suibase",
+    "repo": "ChainMovers/suibase",
+    "category": "tooling",
+    "description": "Local Sui development environment manager with network switching.",
+    "stars": 52,
+    "tags": ["tooling", "devenv", "localnet"]
+  },
+  {
     "id": "suimon",
-    "name": "Suimon — Network Monitor",
+    "name": "Suimon",
     "repo": "bartosian/suimon",
     "category": "tooling",
     "description": "Real-time Sui network monitoring and validator dashboard.",
     "stars": 70,
     "tags": ["monitoring", "validator", "dashboard"]
+  },
+  {
+    "id": "sui-indexer",
+    "name": "Sui Indexer (Nimbus)",
+    "repo": "getnimbus/sui-indexer",
+    "category": "infra",
+    "description": "Sui blockchain indexer for querying on-chain data efficiently.",
+    "stars": 14,
+    "tags": ["infra", "indexer", "data"]
+  },
+  {
+    "id": "polymedia-suitcase",
+    "name": "Polymedia Suitcase",
+    "repo": "juzybits/polymedia-suitcase",
+    "category": "tooling",
+    "description": "Collection of Sui development utilities and helper functions.",
+    "stars": 22,
+    "tags": ["tooling", "utilities", "typescript"]
+  },
+  {
+    "id": "polymedia-commando",
+    "name": "Polymedia Commando",
+    "repo": "juzybits/polymedia-commando",
+    "category": "tooling",
+    "description": "Command-line tools for Sui blockchain operations and scripting.",
+    "stars": 16,
+    "tags": ["tooling", "cli", "scripting"]
+  },
+  {
+    "id": "suisql",
+    "name": "SuiSQL",
+    "repo": "FizzyFlow/suisql",
+    "category": "tooling",
+    "description": "SQL interface for querying Sui blockchain data.",
+    "stars": 18,
+    "tags": ["tooling", "sql", "query"]
+  },
+  {
+    "id": "sui-meta",
+    "name": "Sui Meta",
+    "repo": "suidouble/sui_meta",
+    "category": "tooling",
+    "description": "Metadata and introspection tools for Sui Move packages.",
+    "stars": 27,
+    "tags": ["tooling", "metadata", "introspection"]
+  },
+  {
+    "id": "sui-extension",
+    "name": "Sui Extension",
+    "repo": "zktx-io/sui-extension",
+    "category": "tooling",
+    "description": "VS Code extension for Sui Move development.",
+    "stars": 7,
+    "tags": ["tooling", "vscode", "ide"]
+  },
+  {
+    "id": "mvr",
+    "name": "Move Registry (MVR)",
+    "repo": "MystenLabs/mvr",
+    "category": "tooling",
+    "description": "Move package registry for discovering and publishing Sui packages.",
+    "stars": 19,
+    "tags": ["tooling", "registry", "packages", "official"]
+  },
+  {
+    "id": "minting-server",
+    "name": "Minting Server",
+    "repo": "MystenLabs/minting-server",
+    "category": "infra",
+    "description": "Server infrastructure for handling NFT and token minting at scale.",
+    "stars": 8,
+    "tags": ["infra", "minting", "server", "official"]
+  },
+  {
+    "id": "pyth-crosschain",
+    "name": "Pyth Crosschain",
+    "repo": "pyth-network/pyth-crosschain",
+    "category": "oracle",
+    "description": "Pyth Network cross-chain oracle providing real-time price feeds for Sui.",
+    "stars": 235,
+    "tags": ["oracle", "price-feed", "crosschain"]
+  },
+  {
+    "id": "axelar-cgp-sui",
+    "name": "Axelar CGP Sui",
+    "repo": "axelarnetwork/axelar-cgp-sui",
+    "category": "bridge",
+    "description": "Axelar cross-chain gateway protocol contracts for Sui.",
+    "stars": 23,
+    "tags": ["bridge", "crosschain", "gateway"]
+  },
+  {
+    "id": "stablecoin-sui",
+    "name": "Circle Stablecoin Sui",
+    "repo": "circlefin/stablecoin-sui",
+    "category": "payment",
+    "description": "Circle USDC stablecoin smart contracts for Sui blockchain.",
+    "stars": 11,
+    "tags": ["payment", "stablecoin", "usdc"]
+  },
+  {
+    "id": "sui-bitcoin-spv",
+    "name": "Sui Bitcoin SPV",
+    "repo": "gonative-cc/sui-bitcoin-spv",
+    "category": "bridge",
+    "description": "Bitcoin SPV light client verification on Sui for BTC bridging.",
+    "stars": 24,
+    "tags": ["bridge", "bitcoin", "spv"]
+  },
+  {
+    "id": "evm-sui-bridge",
+    "name": "EVM-Sui Bridge",
+    "repo": "MystenLabs/evm-sui-bridge",
+    "category": "bridge",
+    "description": "Official bridge between EVM chains and Sui blockchain.",
+    "stars": 19,
+    "tags": ["bridge", "evm", "crosschain", "official"]
+  },
+  {
+    "id": "fastcrypto",
+    "name": "FastCrypto",
+    "repo": "MystenLabs/fastcrypto",
+    "category": "infra",
+    "description": "High-performance cryptographic library used by Sui.",
+    "stars": 304,
+    "tags": ["crypto", "performance", "library", "official"]
+  },
+  {
+    "id": "wormhole-kit",
+    "name": "Wormhole Kit Monorepo",
+    "repo": "zktx-io/wormhole-kit-monorepo",
+    "category": "bridge",
+    "description": "Developer toolkit for integrating Wormhole bridge with Sui.",
+    "stars": 5,
+    "tags": ["bridge", "wormhole", "crosschain"]
+  },
+  {
+    "id": "sui-move-tdd",
+    "name": "Sui Move TDD",
+    "repo": "vibingstudio/sui-move-tdd",
+    "category": "learning",
+    "description": "Test-driven development patterns and examples for Sui Move.",
+    "stars": 15,
+    "tags": ["learning", "testing", "tdd", "move"]
+  },
+  {
+    "id": "supra-sui-oracle",
+    "name": "Supra Sui Oracle",
+    "repo": "Entropy-Foundation/supra-sui-oracle",
+    "category": "oracle",
+    "description": "Supra oracle integration contracts for Sui price feeds.",
+    "stars": 8,
+    "tags": ["oracle", "price-feed", "move"]
+  },
+  {
+    "id": "haedal-sui",
+    "name": "Haedal Protocol",
+    "repo": "haedal-finance/haedal-sui",
+    "category": "defi",
+    "description": "Liquid staking protocol for SUI token.",
+    "stars": 12,
+    "tags": ["defi", "staking", "liquid-staking"]
+  },
+  {
+    "id": "sui-multisig-toolkit",
+    "name": "Sui Multisig Toolkit",
+    "repo": "nicetomeetyou1/sui-multisig-toolkit",
+    "category": "wallet",
+    "description": "Multi-signature wallet toolkit for Sui transactions.",
+    "stars": 10,
+    "tags": ["wallet", "multisig", "security"]
+  },
+  {
+    "id": "shinami-typescript-sdk",
+    "name": "Shinami TypeScript SDK",
+    "repo": "shinamitech/shinami-typescript-sdk",
+    "category": "sdk",
+    "description": "SDK for Shinami gas station, zkLogin wallet, and node service on Sui.",
+    "stars": 18,
+    "tags": ["sdk", "gas-station", "zklogin", "infra"]
+  },
+  {
+    "id": "sui-overflow",
+    "name": "Sui Overflow",
+    "repo": "sui-foundation/sui-overflow",
+    "category": "learning",
+    "description": "Sui Overflow hackathon projects, resources, and submissions.",
+    "stars": 25,
+    "tags": ["learning", "hackathon", "projects"]
   }
 ]
