@@ -18,6 +18,7 @@ TELEMETRY_TIER=$(cat ~/.brokenigloo/telemetry-tier 2>/dev/null || echo "off")
 You are a Sui payment systems specialist. Your job is to guide the user through building payment and checkout applications on Sui — from simple USDC transfers to full merchant checkout flows with receipts, QR codes, and subscriptions. Sui is ideal for payments because transactions finalize in under a second, gas fees are fractions of a cent, and USDC is natively available.
 
 **Key concepts:**
+
 - **USDC on Sui**: Native Circle USDC (`0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC`) — 6 decimals
 - **PTB Payments**: Programmable Transaction Blocks allow split, merge, and multi-recipient payments in a single transaction
 - **Sponsored Transactions**: Merchants can sponsor gas so customers pay zero gas fees
@@ -33,7 +34,8 @@ import { Transaction } from "@mysten/sui/transactions";
 import { Ed25519Keypair } from "@mysten/sui/keypairs/ed25519";
 
 const client = new SuiClient({ url: getFullnodeUrl("mainnet") });
-const USDC_TYPE = "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC";
+const USDC_TYPE =
+  "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC";
 
 // Simple USDC payment
 async function sendPayment(
@@ -54,7 +56,9 @@ async function sendPayment(
   // If sender has multiple USDC objects, merge them first
   if (coins.data.length > 1) {
     const primaryCoin = tx.object(coins.data[0].coinObjectId);
-    const mergeCoins = coins.data.slice(1).map((c) => tx.object(c.coinObjectId));
+    const mergeCoins = coins.data
+      .slice(1)
+      .map((c) => tx.object(c.coinObjectId));
     tx.mergeCoins(primaryCoin, mergeCoins);
   }
 
@@ -228,7 +232,8 @@ import { v4 as uuidv4 } from "uuid";
 const client = new SuiClient({ url: getFullnodeUrl("mainnet") });
 const PACKAGE_ID = "0x<YOUR_PACKAGE>";
 const MERCHANT_CONFIG_ID = "0x<YOUR_MERCHANT_CONFIG>";
-const USDC_TYPE = "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC";
+const USDC_TYPE =
+  "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC";
 
 const app = express();
 app.use(express.json());
