@@ -7,10 +7,19 @@
     "brokenigloo": "./dist/cli/index.js",
     "sui-new": "./dist/cli/index.js"
   },
+  "files": [
+    "dist/",
+    "skills/",
+    "cli/data/",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsx cli/index.ts",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run build",
+    "postinstall": "node dist/cli/postinstall.js 2>/dev/null || true"
   },
   "keywords": [
     "sui",
@@ -20,11 +29,20 @@
     "agent",
     "claude",
     "codex",
+    "cursor",
     "defi",
-    "web3"
+    "web3",
+    "move-language",
+    "zklogin",
+    "ptb"
   ],
   "author": "eromonseleodigie",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SeventhOdyssey71/broken-igloo.git"
+  },
+  "homepage": "https://github.com/SeventhOdyssey71/broken-igloo",
   "engines": {
     "node": ">=20"
   },

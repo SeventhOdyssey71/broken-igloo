@@ -1,7 +1,9 @@
-skills/
 scripts/
 public/
 convex/
 .env*
 .github/
 *.tar.gz
+SLOPFREE.md
+cli/*.ts
+!cli/data/
