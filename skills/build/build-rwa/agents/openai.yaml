@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Rwa"
+  short_description: "Tokenize real-world assets on Sui. Covers PropertyToken pattern, fractional ownership, KYC-gated Kiosk trading, compliance checklist, Display standard for RWAs, legal wrapper patterns, dividend distribution, asset lifecycle management"
+  default_prompt: "Help me rwa"

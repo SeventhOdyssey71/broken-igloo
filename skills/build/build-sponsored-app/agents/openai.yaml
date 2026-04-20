@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Sponsored App"
+  short_description: "Build a fully gas-free app on Sui using sponsored transactions. Covers Shinami Gas Station, self-hosted gas pools, Enoki sponsorship, spending limits, budget management, and fraud prevention"
+  default_prompt: "Help me sponsored"

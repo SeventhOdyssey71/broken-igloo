@@ -1,0 +1,4 @@
+interface:
+  display_name: "Validate Idea"
+  short_description: "Stress-test a crypto idea before you build it. On-chain demand signals, competitive gap analysis, MVP feasibility, GO/NO-GO/PIVOT decision"
+  default_prompt: "Help me validate idea"

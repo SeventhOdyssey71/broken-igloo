@@ -1,0 +1,4 @@
+interface:
+  display_name: "Page Load Animations"
+  short_description: "Motion design guide for Sui dApps using Framer Motion. Page transitions, skeleton loading, transaction confirmation animations, list stagger, modal enter/exit, toast notifications, spring presets"
+  default_prompt: "Help me animations"

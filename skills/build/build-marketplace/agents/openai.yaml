@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Marketplace"
+  short_description: "Build an NFT/asset marketplace on Sui using the Kiosk standard. Covers listing, purchasing, royalty enforcement via TransferPolicy, search/filter UI, collection pages, escrow patterns, auction mechanics"
+  default_prompt: "Help me marketplace"

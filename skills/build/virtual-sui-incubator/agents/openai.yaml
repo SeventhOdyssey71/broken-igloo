@@ -1,0 +1,4 @@
+interface:
+  display_name: "Virtual Sui Incubator"
+  short_description: "Deep technical bootcamp on Sui architecture. Covers Mysticeti consensus, object model internals, PTB mechanics, Move VM execution, storage economics, validator architecture"
+  default_prompt: "Help me incubator"

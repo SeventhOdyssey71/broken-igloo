@@ -1,0 +1,4 @@
+interface:
+  display_name: "Number Formatting"
+  short_description: "Crypto-specific number formatting for Sui apps. MIST-to-SUI conversion, decimal handling, large number abbreviation, price formatting, balance display"
+  default_prompt: "Help me number formatting"

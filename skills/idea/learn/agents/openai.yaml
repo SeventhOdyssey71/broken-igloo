@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learn"
+  short_description: "Meta-skill for reviewing, searching, and exporting learnings across brokenigloo sessions. Review session notes, search by topic, summarize key takeaways, export to clean format, append new learnings"
+  default_prompt: "Help me review learnings"

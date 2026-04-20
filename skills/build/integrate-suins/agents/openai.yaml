@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrate Suins"
+  short_description: "Deep guide for integrating SuiNS (Sui Name Service) into apps. Covers name resolution, reverse lookup, registration, subnames, on-chain resolution in Move"
+  default_prompt: "Help me suins"

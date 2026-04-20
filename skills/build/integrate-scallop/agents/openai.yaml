@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrate Scallop"
+  short_description: "Deep integration guide for Scallop — the first Sui Foundation grant recipient and battle-tested lending protocol. Covers ScallopClient setup, supply/borrow/repay, obligation management, market queries, points/rewards, and comparison with Suilend"
+  default_prompt: "Help me scallop"

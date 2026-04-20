@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deploy Testnet"
+  short_description: "Deploy and test on Sui testnet. Covers environment setup, faucet usage, testnet-specific considerations, integration testing, monitoring deployed contracts, debugging failed transactions, testnet vs mainnet differences"
+  default_prompt: "Help me deploy testnet"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Review"
+  short_description: "Balanced UX evaluation for Sui apps. Review first-run experience, core loop, error handling, loading states, information architecture. Score dimensions 1-5 with improvement roadmap"
+  default_prompt: "Help me product review"

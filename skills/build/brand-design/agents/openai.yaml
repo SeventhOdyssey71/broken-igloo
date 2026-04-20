@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brand Design"
+  short_description: "Create a complete visual identity for a Sui app. Color palette generation, typography pairing, gradient systems, shadcn/ui theming, dark/light mode"
+  default_prompt: "Help me brand design"

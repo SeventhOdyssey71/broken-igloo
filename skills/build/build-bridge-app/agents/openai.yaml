@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Bridge App"
+  short_description: "Build cross-chain features on Sui. Covers Sui Bridge (native), Wormhole integration, bridged asset handling, cross-chain messaging, and multi-chain dApp patterns"
+  default_prompt: "Help me bridge"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scaffold Project"
+  short_description: "Set up a complete Sui workspace from a validated idea. Stack decisions, starter repos, MCP/skill installation"
+  default_prompt: "Help me scaffold"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrate Aftermath"
+  short_description: "Deep integration guide for Aftermath Finance — DEX aggregation, liquid staking (afSUI), swap router, and liquidity pools on Sui. Covers staking SUI for afSUI, swap routing, pool queries, and PTB composition"
+  default_prompt: "Help me aftermath"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Apply Grant"
+  short_description: "Sui Foundation grant application guidance. Types of grants, what the Foundation looks for, application template, common rejection reasons, timeline expectations. Practical tips for showing traction and Sui-specific technical advantages"
+  default_prompt: "Help me grant"

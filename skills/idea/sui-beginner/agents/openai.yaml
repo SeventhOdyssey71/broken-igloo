@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sui Beginner"
+  short_description: "Learn Sui fundamentals — object model, Move language, PTBs, zkLogin"
+  default_prompt: "Help me learn sui"

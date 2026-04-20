@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Depin"
+  short_description: "Build DePIN (Decentralized Physical Infrastructure) on Sui. Covers device registration objects, data submission with attestation, reward distribution based on contributions, oracle verification, device NFTs, coverage maps, slashing for bad data"
+  default_prompt: "Help me depin"

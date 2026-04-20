@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review And Iterate"
+  short_description: "Comprehensive code review for Sui projects covering Move security, TypeScript quality, and production readiness. Scores on 4 dimensions: code quality, security, test coverage, UX polish"
+  default_prompt: "Help me code review"

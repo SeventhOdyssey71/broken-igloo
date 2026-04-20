@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Taste"
+  short_description: "Anti-AI-slop design judgment. Recognize and fix common low-taste design problems: over-gradients, excessive rounding, meaningless animations, cluttered layouts, inconsistent spacing"
+  default_prompt: "Help me design taste"

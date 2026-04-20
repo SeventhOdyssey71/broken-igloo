@@ -1,0 +1,4 @@
+interface:
+  display_name: "Submit To Hackathon"
+  short_description: "Optimized hackathon submission for Sui Overflow and other Sui hackathons. Project description writing, demo video script, README optimization, judging criteria alignment, technical differentiation. Includes submission checklist and 3-minute demo script template"
+  default_prompt: "Help me hackathon submission"

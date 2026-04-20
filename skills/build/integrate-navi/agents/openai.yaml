@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrate Navi"
+  short_description: "Deep integration guide for NAVI Protocol — a one-stop DeFi liquidity protocol on Sui offering lending, borrowing, and swap aggregation. Covers SDK setup, supply/borrow/repay/withdraw, pool queries, interest rates, NAVI Aggregator, points/rewards"
+  default_prompt: "Help me navi"

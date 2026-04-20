@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Payment App"
+  short_description: "Complete guide to building a payment/checkout app on Sui. Covers stablecoin payments (USDC), Sui Payment Kit, merchant integration, receipt generation, QR code payments, and subscription models"
+  default_prompt: "Help me payment"

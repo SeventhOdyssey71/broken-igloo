@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Neobank"
+  short_description: "Build a neobank on Sui. Full architecture: zkLogin onboarding, stablecoin base currency, send/receive with contacts, FX via DEX aggregator, savings via lending protocols, transaction history, push notifications, card integration, compliance layer"
+  default_prompt: "Help me neobank"

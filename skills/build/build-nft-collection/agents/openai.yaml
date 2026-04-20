@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Nft Collection"
+  short_description: "Complete guide to creating and launching an NFT collection on Sui. Covers Move NFT module, Display standard, Kiosk listing, TransferPolicy with royalties, minting page, and marketplace integration"
+  default_prompt: "Help me nft"

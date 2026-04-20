@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Indexer"
+  short_description: "Build a custom Sui indexer for querying blockchain data. Covers event subscriptions, Sui GraphQL API, database persistence, real-time WebSocket feeds, and managed indexing services (ZettaBlock, Sentio, Envio)"
+  default_prompt: "Help me indexer"

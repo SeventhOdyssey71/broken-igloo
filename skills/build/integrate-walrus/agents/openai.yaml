@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrate Walrus"
+  short_description: "Deep guide for integrating Walrus decentralized storage on Sui. Covers blob storage, retrieval, Walrus Sites, file uploads, crash recovery, browser/Node.js usage"
+  default_prompt: "Help me walrus"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Data Pipeline"
+  short_description: "Build data pipelines and indexers for Sui. Covers Move event emission, JSON-RPC subscriptions, custom indexers, GraphQL API, managed indexing with ZettaBlock/Sentio"
+  default_prompt: "Help me data pipeline"

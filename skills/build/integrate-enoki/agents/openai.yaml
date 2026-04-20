@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrate Enoki"
+  short_description: "Deep guide for integrating Enoki (managed zkLogin + sponsored transactions) into Sui apps. Covers Google/Apple sign-in, gasless onboarding, React flows"
+  default_prompt: "Help me enoki"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Walrus Site"
+  short_description: "Deploy a decentralized website on Walrus Sites. Covers static site deployment, custom domains, CI/CD with Walrus CLI, dynamic content via service workers, SPA routing, asset optimization"
+  default_prompt: "Help me walrus site"

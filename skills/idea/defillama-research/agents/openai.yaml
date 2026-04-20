@@ -1,0 +1,4 @@
+interface:
+  display_name: "Defillama Research"
+  short_description: "Real-time DeFi market research using DefiLlama API. TVL by protocol on Sui, TVL trends, protocol comparison, yield opportunities, chain-level metrics. Data-driven insights for Sui builders"
+  default_prompt: "Help me defillama"

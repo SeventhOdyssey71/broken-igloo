@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrate 7K"
+  short_description: "Deep integration guide for 7K Aggregator — the meta-DEX aggregator on Sui that routes swaps across all DEXs for best pricing. Covers quote fetching, swap building, slippage protection, PTB composition, and error handling"
+  default_prompt: "Help me 7k"

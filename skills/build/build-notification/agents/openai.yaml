@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Notification"
+  short_description: "Build notification and alerting systems for Sui dApps. Covers event monitoring, WebSocket subscriptions, push notifications, email/Telegram/Discord integration, webhook handlers, real-time alerts for on-chain activity"
+  default_prompt: "Help me notification"

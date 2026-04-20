@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrate Dapp Kit"
+  short_description: "Deep guide for integrating @mysten/dapp-kit for React wallet connections on Sui. Covers ConnectButton, hooks, signing transactions, network switching, custom modals, Next.js setup"
+  default_prompt: "Help me dapp kit"

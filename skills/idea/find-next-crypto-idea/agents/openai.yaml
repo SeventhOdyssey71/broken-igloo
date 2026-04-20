@@ -1,0 +1,4 @@
+interface:
+  display_name: "Find Next Crypto Idea"
+  short_description: "Find your next crypto startup idea on Sui. Interviews you, searches 500+ curated ideas, scores on 5 dimensions, delivers a shortlist"
+  default_prompt: "Help me find idea"

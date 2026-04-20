@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create Pitch Deck"
+  short_description: "12-slide investor pitch deck framework tailored for Sui projects. Problem, Solution, Market, Product, Traction, Business Model, Competition, Team, Go-to-Market, Financials, Ask. Emphasizes Sui-native advantages for crypto/web3 investors"
+  default_prompt: "Help me pitch deck"

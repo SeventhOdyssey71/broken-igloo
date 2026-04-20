@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Loyalty Program"
+  short_description: "Build a loyalty and rewards program on Sui. Covers closed-loop tokens for points earning, redemption at approved merchants, tiered rewards, gamification mechanics, referral bonuses, expiring points, leaderboards"
+  default_prompt: "Help me loyalty program"

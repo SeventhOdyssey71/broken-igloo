@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Token Gated"
+  short_description: "Build token-gated access on Sui. Covers Seal encryption for gated content, NFT membership passes, coin-based access control, subscription models with closed-loop tokens, and on-chain access verification"
+  default_prompt: "Help me token gate"

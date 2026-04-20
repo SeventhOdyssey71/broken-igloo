@@ -1,0 +1,4 @@
+interface:
+  display_name: "Move Security"
+  short_description: "Move security deep dive for Sui. Covers common vulnerabilities, secure patterns, capability escrow risks, flash loan defenses, reentrancy considerations, integer overflow, access control auditing, and a comprehensive audit checklist"
+  default_prompt: "Help me move security"

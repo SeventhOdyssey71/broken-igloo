@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Oracle Integration"
+  short_description: "Integrate price oracles on Sui. Covers Pyth Network, Supra, Switchboard oracle setup, price feed consumption, staleness checks, TWAP calculations, confidence intervals, and DeFi oracle patterns"
+  default_prompt: "Help me oracle"

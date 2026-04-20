@@ -1,0 +1,4 @@
+interface:
+  display_name: "Move Testing"
+  short_description: "Comprehensive Move testing guide for Sui. Covers test_scenario, expected_failure, testing with Clock and Random, coverage reports, integration testing patterns, event assertions, and test organization"
+  default_prompt: "Help me move test"

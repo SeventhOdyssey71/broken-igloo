@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sui Overflow Copilot"
+  short_description: "Research assistant for Sui Overflow and other Sui hackathons. Research past winners, identify underserved tracks, analyze winning patterns, prepare a competitive submission strategy"
+  default_prompt: "Help me sui overflow"

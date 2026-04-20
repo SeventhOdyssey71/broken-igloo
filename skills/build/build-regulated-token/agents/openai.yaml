@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Regulated Token"
+  short_description: "Create regulated and compliance tokens on Sui. Covers DenyList integration, global pause, KYC gates, closed-loop tokens, Permissioned Asset Standard (PAS), transfer restrictions, allowlist/blocklist enforcement"
+  default_prompt: "Help me regulated token"

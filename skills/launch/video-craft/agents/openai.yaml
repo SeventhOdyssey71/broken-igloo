@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video Craft"
+  short_description: "Frame composition and visual polish for marketing and demo videos"
+  default_prompt: "Help me video craft"

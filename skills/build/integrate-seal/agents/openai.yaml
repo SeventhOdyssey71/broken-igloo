@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrate Seal"
+  short_description: "Deep guide for integrating Seal (decentralized secrets management) on Sui. Covers identity-based encryption, Move access policies, token-gated content, encrypted Walrus storage"
+  default_prompt: "Help me seal"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrate Pyth"
+  short_description: "Deep Pyth oracle integration on Sui. Covers price feed setup, VAA updates in PTBs, staleness checks, confidence intervals, TWAP calculation, multi-price-feed transactions, error handling, supported price IDs"
+  default_prompt: "Help me pyth"

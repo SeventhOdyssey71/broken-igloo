@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Staking"
+  short_description: "Build staking mechanics on Sui. Covers validator staking, custom staking pools, reward distribution, liquid staking token creation, unstaking with delay periods, time-weighted rewards, epoch tracking"
+  default_prompt: "Help me staking"

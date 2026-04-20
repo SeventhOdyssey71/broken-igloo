@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketing Video"
+  short_description: "Guide for creating marketing and demo videos for Sui projects. Script structure (hook, problem, solution, CTA), screen recording best practices, Remotion for code-driven video, AI video tools (Runway, HeyGen), audio/music selection. Tips for demonstrating blockchain features"
+  default_prompt: "Help me marketing video"

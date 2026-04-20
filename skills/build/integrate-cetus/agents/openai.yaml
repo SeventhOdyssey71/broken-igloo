@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrate Cetus"
+  short_description: "Deep integration guide for Cetus Protocol — the #1 concentrated liquidity AMM on Sui. Covers CLMM SDK setup, pool creation, liquidity management, swaps, fee collection, aggregator routing, and PTB composition"
+  default_prompt: "Help me cetus"

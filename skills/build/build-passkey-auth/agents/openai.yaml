@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Passkey Auth"
+  short_description: "Build passkey (WebAuthn) authentication on Sui. Covers secp256r1 keypairs, credential creation, biometric signing, combining with zkLogin multisig, passkey-based wallet creation, browser integration"
+  default_prompt: "Help me passkey"

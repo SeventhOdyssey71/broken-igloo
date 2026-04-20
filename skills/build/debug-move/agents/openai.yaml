@@ -1,0 +1,4 @@
+interface:
+  display_name: "Debug Move"
+  short_description: "Diagnose Move compilation errors, runtime aborts, object ownership issues, failed transactions, and gas estimation problems on Sui. Systematic approach: read error, identify category, apply fix"
+  default_prompt: "Help me debug"

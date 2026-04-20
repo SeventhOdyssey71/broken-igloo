@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Defi Protocol"
+  short_description: "Guided DeFi development on Sui using Move. Covers AMM pools, lending markets, vaults, DEX integration. Uses shared objects, TreasuryCap, capability pattern, hot potato, PTBs"
+  default_prompt: "Help me build defi"

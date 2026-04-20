@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Agent"
+  short_description: "Build an AI agent that interacts with Sui DeFi. Covers LangChain and Vercel AI SDK integration, tool definitions for on-chain actions, wallet management, safety guardrails, and autonomous DeFi strategies"
+  default_prompt: "Help me ai agent"

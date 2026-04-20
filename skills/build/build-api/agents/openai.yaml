@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Api"
+  short_description: "Build a backend API for a Sui dApp. Covers Express/Fastify server setup with Sui SDK, transaction building endpoints, sponsored transaction flow, webhook handlers, database integration, authentication with Sui signatures, caching strategies"
+  default_prompt: "Help me backend api"

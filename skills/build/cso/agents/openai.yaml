@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cso"
+  short_description: "Infrastructure security audit for Sui projects. Covers secrets management, dependency auditing, CI/CD security, OWASP for web3, environment isolation, UpgradeCap security. Produces a security scorecard"
+  default_prompt: "Help me security audit"

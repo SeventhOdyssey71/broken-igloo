@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Dao"
+  short_description: "Complete guide to building a DAO on Sui. Covers proposal creation, voting mechanisms (token-weighted, quadratic), proposal execution, treasury management, capability delegation, and governance UI"
+  default_prompt: "Help me dao"

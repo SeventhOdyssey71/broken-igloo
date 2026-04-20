@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build With Claude"
+  short_description: "Guided MVP implementation on Sui in 3-5 milestones. Reads build-context.md for stack decisions. Writes code, runs tests, reviews per milestone"
+  default_prompt: "Help me build mvp"

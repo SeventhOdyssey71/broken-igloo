@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Game"
+  short_description: "Complete guide to building an on-chain game on Sui. Covers game object design, on-chain randomness (sui::random), turn-based mechanics, asset ownership, leaderboards, and player progression"
+  default_prompt: "Help me game"

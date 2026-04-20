@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Multisig"
+  short_description: "Implement multisig wallets on Sui. Covers native k-of-n multisig, combining multisig with zkLogin, governance patterns, UpgradeCap multisig protection, and treasury management"
+  default_prompt: "Help me multisig"

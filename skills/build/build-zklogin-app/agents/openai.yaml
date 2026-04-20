@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Zklogin App"
+  short_description: "Complete guide to building a zkLogin-powered app on Sui from scratch. Covers OAuth provider setup, ephemeral key generation, ZK proof generation, salt management, address derivation, session management, and dApp Kit integration"
+  default_prompt: "Help me zklogin"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Airdrop"
+  short_description: "Execute token airdrops on Sui. Covers batch transfers via PTBs, Merkle tree claims, eligibility verification, gas-efficient multi-send, CSV processing, snapshot tools, claim portals"
+  default_prompt: "Help me airdrop"

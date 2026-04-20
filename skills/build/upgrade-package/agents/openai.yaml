@@ -1,0 +1,4 @@
+interface:
+  display_name: "Upgrade Package"
+  short_description: "Guide to upgrading Sui Move packages. Covers compatibility rules (additive, compatible, dep-only), UpgradeCap lifecycle, UpgradeTicket flow, version migration, multisig governance for upgrades, testing upgrades, rollback strategies"
+  default_prompt: "Help me upgrade package"

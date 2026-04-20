@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gas Optimization"
+  short_description: "Gas optimization guide for Sui Move. Covers owned vs shared object costs, PTB batching, storage rebates, object size optimization, benchmarking gas usage, computation vs storage costs, and cost-effective design patterns"
+  default_prompt: "Help me gas optimization"

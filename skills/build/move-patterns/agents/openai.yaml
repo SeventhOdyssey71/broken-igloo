@@ -1,0 +1,4 @@
+interface:
+  display_name: "Move Patterns"
+  short_description: "Advanced Move design patterns reference for Sui. Covers Capability, Witness, Hot Potato, Publisher, Version, Transfer Policy, Sentinel, and Namespace patterns with complete code examples"
+  default_prompt: "Help me move pattern"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Launch Token"
+  short_description: "Complete guide for creating and launching tokens on Sui. Covers coin::create_currency, TreasuryCap, CoinMetadata, DEX listing, liquidity pools, bonding curve launches"
+  default_prompt: "Help me launch token"

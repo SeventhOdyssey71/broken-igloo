@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrate Shinami"
+  short_description: "Deep guide for integrating Shinami services (Node RPC, Gas Station, Invisible Wallets) for production Sui apps. Covers sponsored transactions, backend wallets, zkLogin integration"
+  default_prompt: "Help me shinami"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Analytics Dashboard"
+  short_description: "Build an analytics dashboard for Sui. Covers GraphQL queries, SuiVision/SuiScan APIs, chart rendering with Recharts/D3, real-time updates via event subscriptions, portfolio tracking, TVL calculations, transaction history, token price feeds"
+  default_prompt: "Help me analytics dashboard"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrate Suilend"
+  short_description: "Deep integration guide for Suilend — the leading lending protocol on Sui (from the Solend team). Covers SDK setup, depositing collateral, borrowing, repaying, withdrawing, market queries, liquidation, SpringSui sSUI liquid staking, and PTB composition"
+  default_prompt: "Help me suilend"

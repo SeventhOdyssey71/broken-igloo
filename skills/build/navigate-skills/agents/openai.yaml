@@ -1,0 +1,4 @@
+interface:
+  display_name: "Navigate Skills"
+  short_description: "Browse all installed brokenigloo skills, repos, and MCPs"
+  default_prompt: "Help me navigate skills"

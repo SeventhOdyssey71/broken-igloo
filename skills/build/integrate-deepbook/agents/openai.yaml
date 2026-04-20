@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrate Deepbook"
+  short_description: "Deep integration guide for DeepBook V3 — the native on-chain Central Limit Order Book (CLOB) built by Mysten Labs. Covers BalanceManager, pool creation, limit/market orders, cancellation, flash loans, DEEP staking"
+  default_prompt: "Help me deepbook"

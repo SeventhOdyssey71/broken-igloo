@@ -1,0 +1,4 @@
+interface:
+  display_name: "Roast My Product"
+  short_description: "Brutal, honest product critique. Play the skeptical investor or power user who tears apart every weakness. Every criticism comes with a specific fix"
+  default_prompt: "Help me roast"

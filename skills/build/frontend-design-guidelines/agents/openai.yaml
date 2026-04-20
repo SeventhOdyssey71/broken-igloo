@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frontend Design Guidelines"
+  short_description: "Comprehensive frontend design guidelines for Sui dApps. Layout patterns, wallet connection UI, transaction state management, token display, loading skeletons, error states"
+  default_prompt: "Help me frontend design"

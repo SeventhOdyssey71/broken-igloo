@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Subscription"
+  short_description: "Build subscription and membership systems on Sui. Covers closed-loop tokens for recurring access, time-based expiry, tiered membership NFTs, renewal logic, auto-payment with sponsored transactions"
+  default_prompt: "Help me subscription"

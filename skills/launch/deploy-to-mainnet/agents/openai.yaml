@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deploy To Mainnet"
+  short_description: "Deploy your Sui project to mainnet. Pre-flight checklist, sui client publish, UpgradeCap management, production RPC setup"
+  default_prompt: "Help me deploy"

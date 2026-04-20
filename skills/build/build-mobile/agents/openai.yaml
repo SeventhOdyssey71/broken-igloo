@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Mobile"
+  short_description: "Build mobile Sui dApps with React Native. Covers wallet deep linking, zkLogin for mobile, biometric signing, transaction building"
+  default_prompt: "Help me mobile app"
