@@ -41,4 +41,4 @@ export const BUILD_CONTEXT_FILE = "build-context.md";
 export const LEARNINGS_FILE = "learnings.md";
 
 // Version
-export const VERSION = "0.1.0";
+export const VERSION = "0.1.1";

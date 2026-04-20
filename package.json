@@ -1,6 +1,6 @@
 {
   "name": "brokenigloo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Ship on Sui — Idea to Launch. The agentic layer for Sui.",
   "type": "module",
   "bin": {

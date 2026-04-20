@@ -18,11 +18,14 @@ export function generateWorkspaceFiles(cwd: string, config: WorkspaceConfig): vo
   const claudeMd = generateClaudeMd(config);
   writeFileSync(join(cwd, "CLAUDE.md"), claudeMd);
 
-  // Generate codex-instructions.md (for OpenAI Codex)
-  const codexMd = generateCodexInstructions(config);
+  // Generate AGENTS.md (for OpenAI Codex — Codex reads AGENTS.md, NOT codex-instructions.md)
+  const agentsMd = generateAgentsMd(config);
+  writeFileSync(join(cwd, "AGENTS.md"), agentsMd);
+
+  // Generate .codex/config.toml (for Codex MCP server config)
   const codexDir = join(cwd, ".codex");
   mkdirSync(codexDir, { recursive: true });
-  writeFileSync(join(codexDir, "codex-instructions.md"), codexMd);
+  writeFileSync(join(codexDir, "config.toml"), generateCodexConfig(config));
 
   // Generate .cursorrules (for Cursor)
   const cursorRules = generateCursorRules(config);
@@ -77,12 +80,16 @@ ${config.integrations.length > 0 ? `- **Integrations**: ${config.integrations.jo
 `;
 }
 
-function generateCodexInstructions(config: WorkspaceConfig): string {
-  return `# Codex Instructions — ${config.projectName}
+function generateAgentsMd(config: WorkspaceConfig): string {
+  return `# AGENTS.md
+
+Instructions for OpenAI Codex and other AI agent CLIs working in this repository.
+
+## ${config.projectName} — Sui Project
 
 Built on the Sui blockchain using brokenigloo.
 
-## Key Commands
+## Commands
 ${config.movePackage ? `- \`sui move build\` — compile Move modules
 - \`sui move test\` — run Move tests
 - \`sui client publish --gas-budget 500000000\` — deploy to current network` : ""}
@@ -96,13 +103,38 @@ ${config.framework !== "move-only" ? `- \`pnpm dev\` — start dev server
 - RPC: ${config.rpc}
 ${config.integrations.length > 0 ? `- Integrations: ${config.integrations.join(", ")}` : ""}
 
-## Conventions
-- Use \`@mysten/sui\` for all Sui SDK operations
+## Sui Conventions
+- Use \`@mysten/sui\` for all Sui SDK operations (ESM-only)
 - Build transactions with \`Transaction\` from \`@mysten/sui/transactions\`
 - SUI has 9 decimals (1 SUI = 1,000,000,000 MIST)
 - Objects are the fundamental data unit — no account model
-- Use PTBs to compose multiple operations atomically
+- Use PTBs to compose multiple operations atomically (up to 1,024 ops per tx)
+${config.movePackage ? `- First field of any \`key\` struct must be \`id: UID\`
+- Use \`Balance<T>\` inside shared objects, not \`Coin<T>\`
+- Use capability pattern for access control` : ""}
+
+## Available Skills
+Type \`$navigate-skills\` to browse all installed brokenigloo skills, or ask naturally:
+- "teach me Sui" — fundamentals tutorial
+- "scaffold a Sui project" — set up workspace
+- "build a neobank on Sui" — full neobank guide
+- "integrate Cetus" — DEX integration
+- "debug move" — error diagnosis
+- "deploy to mainnet" — production deployment
 `;
+}
+
+function generateCodexConfig(config: WorkspaceConfig): string {
+  let toml = `# Codex MCP server configuration for ${config.projectName}\n`;
+
+  // Add Sui MCP if available
+  toml += `
+[mcp_servers.sui-mcp]
+command = "npx"
+args = ["-y", "sui-mcp"]
+`;
+
+  return toml;
 }
 
 function generateCursorRules(config: WorkspaceConfig): string {
