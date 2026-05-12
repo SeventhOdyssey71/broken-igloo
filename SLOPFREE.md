@@ -10,7 +10,7 @@ A five-phase engineering workflow where humans own every decision and AI execute
 2. **Architecture before automation.** AI touches code only after a human has designed the structure and set the patterns.
 3. **Small vertical slices over broad AI dumps.** A 200-line PR with clear scope beats a 2,000-line AI-generated sprawl.
 4. **Decisions are written by decision-makers.** Cross-domain decisions require short written records authored by the person who made the call, never generated text.
-5. **Knowing what to build is the skill.** Prompting is a commodity. System thinking, domain knowledge, and architectural judgment are what matter.
+5. **Knowing what to build is the skill.** Prompting is a commodity. Sys1tem thinking, domain knowledge, and architectural judgment are what matter.
 
 ---
 

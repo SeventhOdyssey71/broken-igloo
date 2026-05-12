@@ -1,6 +1,6 @@
 ---
 name: submit-to-hackathon
-description: "Optimized hackathon submission for Sui Overflow and other Sui hackathons. Project description writing, demo video script, README optimization, judging criteria alignment, technical differentiation. Includes submission checklist and 3-minute demo script template. Triggers: hackathon submission, submit hackathon, sui overflow submit, hackathon prep, hackathon readme"
+description: "Submit a winning project to Sui Overflow 2026. Track selection, demo video script, README optimization, judging-criteria alignment, sponsor track strategy. Includes a track decision tree and full submission checklist. Triggers: hackathon submission, submit hackathon, sui overflow, sui overflow submit, hackathon prep, hackathon readme, overflow 2026"
 ---
 
 ```bash
@@ -15,347 +15,299 @@ TELEMETRY_TIER=$(cat ~/.brokenigloo/telemetry-tier 2>/dev/null || echo "off")
 
 ## Overview
 
-You are a hackathon submission optimizer for Sui. Your job is to take a project that's been built (or is nearly built) and prepare the absolute best submission possible. You write compelling project descriptions, structure READMEs for maximum impact, script demo videos, and ensure every judging criterion is addressed. The difference between a winning project and a good-but-forgotten project is often the submission quality, not the code quality.
+You are a Sui Overflow 2026 submission strategist. Your job is to take a builder's project and prepare a winning submission. You know the tracks, the prize structure, the judging signals, the 2025 winning patterns, and what differentiates 1st-place from honorable mentions.
 
-This skill assumes the project exists. If the user hasn't started building, route them to `sui-overflow-copilot` for strategy and `scaffold-project` for setup.
+**Authoritative sources** (the user should verify these themselves):
+- Hackathon site: https://overflow.sui.io/
+- 2026 Handbook: https://mystenlabs.notion.site/overflow-2026-handbook
+- 2025 winners: https://blog.sui.io/2025-sui-overflow-hackathon-winners/
+
+## Key Facts (Sui Overflow 2026)
+
+| | |
+|---|---|
+| Total prize pool | **$1,000,000+** + $250K ancillary (audit credits, infra credits) |
+| Submission deadline | **May 23, 2026** |
+| Demo days | **June 13–14, 2026** |
+| Winners announced | End of June 2026 |
+| Eligibility | Anyone, any experience level, teams of 1–6 |
+| Cost | Free, virtual |
+| Track selection | Must pick **exactly one** |
+
+### Core track prizes (per track)
+| Place | Prize |
+|---|---|
+| 1st | $30,000 |
+| 2nd | $15,000 |
+| 3rd | $10,000 |
+| 4th | $7,500 |
+
+### Specialized track pools
+| Track | Pool |
+|---|---|
+| Walrus (headline partner) | $70,000 |
+| DeepBook | $70,000 |
+| ONE Championship | $70,000 |
+| EVE Frontier | $50,000 |
+
+### Special awards
+- **University Award**: 10 × $2,500 (Scallop-sponsored, student teams only)
+- **Community Award**: $25,000 (community voting on demos)
 
 ## Workflow
 
-### Step 1: Assess Submission State
+### Step 1: Pick the Right Track
 
-Read available context:
+This is the single most important strategic decision. Do not skip it.
 
-```bash
-cat .brokenigloo/idea-context.md 2>/dev/null
-cat .brokenigloo/build-context.md 2>/dev/null
-cat README.md 2>/dev/null
-```
+Read `.brokenigloo/build-context.md` if it exists. Then interview the user:
+1. "What does your project do in one sentence?"
+2. "Which Sui-native primitives does it use? (PTBs, zkLogin, Walrus, Seal, DeepBook, Kiosk, dApp Kit, sponsored txns, object model)"
+3. "What stage is it at? (idea, prototype, testnet-deployed, mainnet)"
+4. "Is the team a student team? (eligibility for the Scallop University Award)"
 
-Determine what exists and what needs to be created:
+Apply the track decision tree:
 
-| Deliverable | Status | Priority |
-|-------------|--------|----------|
-| **Project Description** (submission form text) | [exists / needs writing] | Critical |
-| **README.md** | [exists / needs optimization] | Critical |
-| **Demo Video** (script + recording plan) | [exists / needs scripting] | Critical |
-| **Deployed Contract** (testnet or mainnet) | [exists / needs deploying] | High |
-| **Live Frontend** | [exists / needs deploying] | High |
-| **Architecture Diagram** | [exists / needs creating] | Medium |
-| **Screenshots** | [exists / needs capturing] | Medium |
+| If the project's strongest dimension is... | Pick this track |
+|---|---|
+| Autonomous AI agents using Sui object model | **Agentic Web (AI)** |
+| Stablecoin payments, novel DeFi primitive, or payment rail | **DeFi & Payments** |
+| SDK, indexer, dev tooling, or builder UX improvement | **Infra & DevX** |
+| Heavy Walrus blob storage or Walrus Sites usage | **Walrus** (specialized — $70K pool) |
+| On-chain order book trading on DeepBook V3 | **DeepBook** (specialized — $70K pool) |
+| Sports / entertainment integration | **ONE Championship** (specialized — $70K pool) |
+| EVE Frontier game integration (Smart Assembly mods or external tools) | **EVE Frontier** (separate $50K pool, earlier dates) |
+| Memes / viral culture / token launchpad | **Degen** |
+| Wallet UX, embedded wallets, account abstraction | **Payments & Wallets** |
+| Social, creator tools, gaming-adjacent | **Entertainment & Culture** |
+| RWA, DePIN, multi-chain bridges | **Explorations** |
 
-### Step 2: Write the Project Description
+**Non-negotiable rule**: pick the track where the **sponsor's interest aligns with your strongest dimension**, not just the track that loosely fits. A Walrus-heavy project goes in the Walrus track, not Programmable Storage. A DeepBook-built DEX goes in DeepBook, not DeFi & Payments — the specialized pools are larger.
 
-The project description is what judges read first (and sometimes only). It must communicate value in under 60 seconds of reading.
+### Step 2: Verify "Sui-ness"
 
-**Structure (250-500 words):**
+Every 2025 1st-place winner combined 2–3 Sui-native primitives meaningfully. Generic blockchain apps lose.
 
-```
-## [Project Name]
+Audit the project against this checklist:
 
-**One-liner**: [What it does in 10 words or fewer]
+| Sui primitive | Used? | If yes, where? |
+|---|---|---|
+| Object model (assets as objects, not ledger entries) | | |
+| PTBs (multi-command atomic transactions) | | |
+| zkLogin (OAuth → wallet, no seed phrase) | | |
+| Sponsored transactions (gasless onboarding) | | |
+| Walrus (decentralized blob storage) | | |
+| Seal (encryption + access control) | | |
+| DeepBook (on-chain CLOB) | | |
+| Kiosk standard (NFT trading with policies) | | |
+| Display standard (rich object metadata) | | |
+| Capability pattern (access control via objects) | | |
+| Hot potato pattern (atomic flows) | | |
+| Native randomness (`sui::random`) | | |
 
-### The Problem
-[2-3 sentences describing the specific problem. Be concrete, not abstract.
-Use numbers: "X% of users face...", "$Y is lost annually to..."]
+If the user has fewer than 2 primitives in use, route them back to `build-with-claude` to integrate more. **Note**: 2025 winning projects frequently combined Walrus + Seal + zkLogin — this stack consistently won the Cryptography and Entertainment tracks.
 
-### The Solution
-[2-3 sentences on what your project does. Focus on the user outcome,
-not the implementation. What does the user get that they didn't have before?]
+### Step 3: Write the Project Description
 
-### Why Sui?
-[2-3 sentences on which Sui primitives you use and why they matter.
-This is the most important section for Sui hackathon judges.
-Be specific: "We use PTBs to execute [X] in a single transaction,
-reducing gas costs by Y% and eliminating Z failure modes."]
-
-### How It Works
-[3-5 bullet points covering the technical architecture at a high level.
-- Smart contract: [what it does]
-- Frontend: [what framework, how it connects]
-- Sui SDK integration: [which SDKs you use]
-- Novel technique: [anything creative you did]]
-
-### What We Built During the Hackathon
-[Be explicit about what was built during the hackathon period vs. prior work.
-Judges penalize projects that appear to be pre-existing products repackaged.]
-
-### Track Alignment
-[1-2 sentences explaining why this fits the track you're submitting to.]
-```
-
-**Writing tips for hackathon descriptions:**
-- Lead with the user benefit, not the technology
-- Use active voice: "Users swap tokens" not "Tokens can be swapped by users"
-- Name specific Sui features: "zkLogin", "PTBs", "Kiosk standard" -- judges look for these
-- Include one surprising stat or insight that shows depth of understanding
-- End with a forward-looking statement: "This is the foundation for [bigger vision]"
-
-### Step 3: Optimize the README
-
-The README is your project's permanent home. Judges often spend more time on the README than the submission form.
-
-**README Structure for Hackathon Projects:**
+Use this template. It maps directly to what reviewers skim.
 
 ```markdown
 # [Project Name]
 
-> [One-liner tagline]
+**One-liner**: [Verb + noun + value. E.g., "Stealth-address payment rails for private USDC transfers on Sui."]
 
-[1-2 sentence description. What does this do and for whom?]
+**Track**: [Selected track]
 
-**Built for [Hackathon Name] | Track: [Track Name]**
+**Live demo**: [URL — testnet or mainnet, required]
+**Demo video**: [YouTube or Loom link, ≤3 minutes]
+**Repo**: [GitHub URL — must be public]
+**Pitch deck**: [PDF or link]
 
-## Demo
-
-- [Live App](https://...) (deployed on Sui [testnet/mainnet])
-- [Demo Video](https://...) (3 minutes)
-- [Presentation Slides](https://...) (if applicable)
-
-## Screenshots
-
-[2-4 screenshots showing the core user journey]
+---
 
 ## The Problem
-
-[Same as project description but can be slightly expanded]
+[2 sentences. Be specific. Who has this problem today, and how do they cope?]
 
 ## The Solution
+[2 sentences. What you built. Lead with the user-visible outcome, not the architecture.]
 
-[Same as project description but can be slightly expanded]
+## How Sui Makes This Possible
+[3–5 bullets. Name specific Sui primitives and explain why this project couldn't ship on EVM or other L1s without major compromise.]
 
-## Why Sui?
-
-[Expanded version with technical detail]
-
-### Sui Features Used
-- **[Feature 1]**: [How you use it and why it matters]
-- **[Feature 2]**: [How you use it and why it matters]
-- **[Feature 3]**: [How you use it and why it matters]
+- **PTBs**: [Specific composition you use]
+- **zkLogin**: [Onboarding flow]
+- **Walrus**: [What data lives on Walrus and why]
+- **Object model**: [What state lives as objects]
 
 ## Architecture
+[1 paragraph + a simple diagram. Highlight the Move modules + TypeScript flow.]
 
-[Architecture diagram -- even a simple ASCII diagram is better than nothing]
-
-```
-[User] -> [Frontend (React/Next.js)] -> [Sui SDK] -> [Move Smart Contract]
-                                                          |
-                                                    [Sui Network]
-                                                          |
-                                                   [DeepBook / Cetus / etc.]
-```
-
-## Smart Contract
-
-- **Package ID** (testnet): `0x...`
-- **Package ID** (mainnet): `0x...` (if applicable)
-- **Key modules**: [module name] -- [what it does]
-
-View on explorer: [SuiVision link] | [Suiscan link]
-
-## Getting Started
-
-### Prerequisites
-- Sui CLI installed (`sui --version`)
-- Node.js 18+ and pnpm
-- Sui wallet with testnet SUI
-
-### Installation
-```bash
-git clone [repo-url]
-cd [project-name]
-pnpm install
-```
-
-### Run Locally
-```bash
-# Deploy contracts to testnet
-cd move
-sui client publish --gas-budget 100000000
-
-# Start frontend
-cd ../frontend
-cp .env.example .env.local
-# Update NEXT_PUBLIC_PACKAGE_ID in .env.local
-pnpm dev
-```
-
-## Tech Stack
-
-| Component | Technology |
-|-----------|-----------|
-| Smart Contracts | Move on Sui |
-| Frontend | [React/Next.js/etc.] |
-| Sui SDK | [@mysten/sui, @mysten/dapp-kit] |
-| Auth | [zkLogin / standard wallet] |
-| Styling | [Tailwind / etc.] |
+## What Works Today
+[List of deployed, working features. Be honest. Reviewers verify.]
 
 ## What's Next
-
-- [ ] [Planned feature 1]
-- [ ] [Planned feature 2]
-- [ ] [Mainnet deployment]
+[3–6 month roadmap. Funding from Sui Foundation typically follows hackathon wins.]
 
 ## Team
-
-- [Name] -- [Role] -- [Link]
-- [Name] -- [Role] -- [Link]
-
-## License
-
-[MIT / Apache 2.0]
+[1–6 members. List relevant background per person.]
 ```
 
-**README optimization checklist:**
-- [ ] Can someone understand what this project does in 10 seconds?
-- [ ] Are Sui-specific features prominently highlighted?
-- [ ] Is the demo link above the fold (top of README)?
-- [ ] Are screenshots included?
-- [ ] Can someone clone and run the project with the instructions provided?
-- [ ] Is the contract deployed and verifiable on an explorer?
+### Step 4: Demo Video Script (3 minutes max)
 
-### Step 4: Script the Demo Video
-
-Demo videos are often the deciding factor for judges. Script it precisely.
-
-**3-Minute Demo Script Template:**
+Reviewers watch dozens of videos. Front-load value.
 
 ```
-## Demo Video Script (3:00 total)
-
-### [0:00 - 0:20] Hook (20 seconds)
-"[Attention-grabbing statement about the problem]"
-- Show the problem visually (screenshot, stat, or scenario)
-- "Today, I'm going to show you [Project Name], which [one-liner solution]."
-
-### [0:20 - 0:50] Context (30 seconds)
-- "This is built on Sui, and it uses [Sui feature 1] and [Sui feature 2]."
-- Briefly show the architecture or explain the Sui advantage
-- "What makes this different is [key differentiator]."
-
-### [0:50 - 2:20] Live Demo (90 seconds)
-This is the core. Show the actual product working.
-
-Step 1: [Action -- e.g., "I sign in with Google using zkLogin"]
-- Show the screen, narrate what's happening
-- Highlight the UX: "Notice there's no wallet popup, no seed phrase."
-
-Step 2: [Action -- e.g., "I create a new [object/position/item]"]
-- Show the transaction happening
-- "This single transaction actually does [X, Y, and Z] using a PTB."
-
-Step 3: [Action -- e.g., "I can now see [result]"]
-- Show the outcome
-- "On the explorer, you can see [transaction/object]." (Show SuiVision briefly)
-
-Step 4: [Action -- e.g., "Another user interacts with [shared object]"]
-- If applicable, show multi-user interaction
-- "This is a shared object on Sui, so [composability benefit]."
-
-### [2:20 - 2:50] Technical Highlight (30 seconds)
-- Briefly show a code snippet or the Move contract (don't linger)
-- "The smart contract uses [specific Move pattern] to ensure [safety property]."
-- "We deployed to [testnet/mainnet] -- here's the package on the explorer."
-
-### [2:50 - 3:00] Close (10 seconds)
-- "This is [Project Name] -- [one-liner]. Built on Sui for [Hackathon Name]."
-- "Thank you."
+0:00–0:10  Hook: "Sending money privately on-chain is broken. We fixed it on Sui."
+0:10–0:30  Problem: concrete user scenario showing the pain
+0:30–2:00  Live demo: actually using the product. Show, don't tell.
+           - Open the app
+           - Sign in (show zkLogin if used — judges love it)
+           - Execute the key user action end-to-end
+           - Show on-chain confirmation (SuiVision link, sub-second)
+2:00–2:30  Why Sui: 3 sentences on which primitives you used and why
+2:30–3:00  Vision + ask: roadmap, team, call-to-action
 ```
 
-**Demo video production tips:**
-- Record at 1080p minimum, 1440p preferred
-- Use a clean desktop background with no personal tabs visible
-- Pre-load all pages so there's no waiting for network requests during recording
-- Use Loom, OBS, or QuickTime for screen recording
-- Speak clearly and at a moderate pace -- judges watch many videos
-- If showing code, use a large font size (14pt minimum)
-- If the app is slow on testnet, pre-record and do a voiceover
-- Add captions if possible -- many judges watch with sound off initially
+Production rules:
+- 1080p minimum, 30fps
+- Show the actual product, not slides
+- Keep the cursor visible, move deliberately
+- No background music louder than your voiceover
+- Caption every key claim
+- If you use zkLogin or sponsored txns, **show it on camera** — these are differentiators
 
-### Step 5: Judging Criteria Alignment Check
+### Step 5: Optimize the README
 
-Map your submission against typical Sui hackathon judging criteria:
+Reviewers spend ~60 seconds on each README. Make those seconds count.
 
-```
-## Judging Criteria Alignment
+```markdown
+# [Project Name]
 
-| Criterion | Weight | Your Score (1-5) | Evidence |
-|-----------|--------|-------------------|----------|
-| **Technical Innovation** | High | | [What's technically novel?] |
-| **Sui-Native Design** | High | | [Which Sui features do you use and why?] |
-| **Completeness** | Medium | | [Does the demo work end-to-end?] |
-| **User Experience** | Medium | | [Is the UX polished?] |
-| **Presentation Quality** | Medium | | [README, video, description quality] |
-| **Potential Impact** | Medium | | [How many people could this help?] |
-| **Code Quality** | Low-Med | | [Is the code clean and well-documented?] |
-| **Originality** | Medium | | [Has this been done before on Sui?] |
+[One-line description with the track name]
 
-Overall Submission Strength: [Strong / Moderate / Needs Work]
-Areas to Improve Before Deadline: [specific recommendations]
-```
+![Demo screenshot or GIF](./docs/demo.gif)
 
-### Step 6: Final Submission Checklist
+> **Sui Overflow 2026 submission — [Track Name] track**
 
-```
-## Submission Checklist
+## What it does
+[3 sentences max]
 
-### Required
-- [ ] Project name finalized
-- [ ] One-liner description (10 words or fewer)
-- [ ] Project description (250-500 words) written and reviewed
-- [ ] Track selected and alignment explained
-- [ ] Demo video recorded (under 3 minutes)
-- [ ] Demo video uploaded and link tested
-- [ ] README.md complete with all sections
-- [ ] Repository is public (or shared with judges)
-- [ ] Smart contract deployed to testnet (minimum)
-- [ ] Package ID listed in README
-- [ ] Explorer link included and verified
-- [ ] Screenshots included in README
-- [ ] Team member information listed
-- [ ] All submission form fields completed
+## Live Demo
+- App: [URL]
+- Video: [URL]
+- Sui mainnet/testnet package: [explorer link]
 
-### Recommended
-- [ ] Live frontend deployed (Vercel, Netlify, etc.)
-- [ ] Architecture diagram included
-- [ ] .env.example file provided (no secrets)
-- [ ] Installation instructions tested by someone other than the developer
-- [ ] Demo video has captions
-- [ ] README includes "What's Next" section
-- [ ] At least one Sui-specific feature prominently highlighted
+## Sui primitives used
+- [Primitive 1]: [where in the code]
+- [Primitive 2]: [where in the code]
+- [Primitive 3]: [where in the code]
 
-### Common Mistakes to Avoid
-- [ ] No broken links in README
-- [ ] No hardcoded testnet/devnet addresses in frontend that judges can't reproduce
-- [ ] No console errors in the deployed app
-- [ ] No references to other hackathons (if resubmitting)
-- [ ] No placeholder text or TODO items in the submission
-- [ ] Repository does not include node_modules or build artifacts
+## Quick start
+\`\`\`bash
+git clone …
+pnpm install
+sui move build
+sui move test
+pnpm dev
+\`\`\`
+
+## Architecture
+[Brief overview + diagram if helpful]
+
+## Team
+[Names + roles + relevant links]
 ```
 
-### Step 7: Save and Handoff
+### Step 6: Submit
 
-Save the submission materials to the project:
-- Update `README.md` with the optimized version
-- Save demo script to `.brokenigloo/demo-script.md`
-- Save submission checklist status to `.brokenigloo/build-context.md`
+The 2026 submission portal is at https://overflowportal.sui.io (login-gated). Required fields (based on prior years):
 
-## Prior Context
+- [ ] Public GitHub repo URL
+- [ ] Demo video link (≤3 min, hosted on YouTube/Loom)
+- [ ] Pitch deck (PDF or link)
+- [ ] Written project description (problem, solution, Sui stack)
+- [ ] Live deployed URL (testnet or mainnet)
+- [ ] Track selection (exactly one)
+- [ ] Team info (1–6 members)
+- [ ] Screenshots / logo
+- [ ] README with setup instructions
 
-- Read `.brokenigloo/idea-context.md` for project concept and hackathon strategy (from `sui-overflow-copilot`).
-- Read `.brokenigloo/build-context.md` for technical details, deployed addresses, stack info.
-- Read existing `README.md` for current state of the project description.
-- **Never block on missing files.** Work with whatever exists.
+**Submit at least 24 hours before the deadline.** Portal traffic spikes in the final hour every year.
+
+### Step 7: Follow-On Strategy
+
+Don't stop at submission.
+
+- **Apply for follow-on funding**: Sui Foundation grants are explicitly available to hackathon winners (Magma, GiveRep, PIVY all received them in 2025). Route to `apply-grant`.
+- **Sui Basecamp ticket**: Often given as a perk; budget for travel just in case.
+- **Audit credits**: 1st-place DeFi/Payments winners typically get OpenZeppelin or OtterSec audit credits. Use them before mainnet launch.
+- **Mainnet deployment**: Use `deploy-to-mainnet` to ship within 30 days of winning — it's the strongest signal for follow-on funding.
+
+## Judging Criteria
+
+The 2026 handbook is the canonical source for weights. Based on past years and Sui Foundation communications:
+
+| Criterion | What reviewers look for |
+|---|---|
+| **Innovation** | Genuinely new approach. Not a port. |
+| **Impact** | Could users / TVL / dev adoption follow? |
+| **Technical complexity** | Real Move modules, real architecture, not a thin wrapper |
+| **User Experience** | A non-crypto person can use it end-to-end |
+| **"Sui-ness"** | 2+ Sui primitives used in a way that wouldn't work on other chains |
+
+Tell the user explicitly: **the canonical judging weights live in the 2026 handbook — they should verify before banking on any specific weighting**.
+
+## 2025 Winner Patterns (Use for Strategy, Not Imitation)
+
+| Track | 2025 Winner | What worked |
+|---|---|---|
+| AI | Suithetic | LLM-generated verifiable synthetic data, used the object model for provenance |
+| Cryptography | ZeroLeaks | Walrus + Seal for ZK whistleblowing — combined 3 primitives |
+| DeFi | Magma Finance | AI-optimized yield abstraction, polished UX, working mainnet deploy |
+| Degen | MoonBags | Token launchpad that shares fees with creators |
+| Entertainment | GiveRep | Reputation gamifying X engagement, simple core loop |
+| Explorations | Suibotics | Hardware DePIN with on-chain coordination |
+| Infra & Tooling | SuiSQL | Decentralized SQL on Walrus, useful to other builders |
+| Payments & Wallets | PIVY | Stealth-address payments, niche but solved a real problem |
+| Programmable Storage | SuiSign | Document signing on Walrus, sharp use case |
+
+Common patterns across winners:
+1. **Working mainnet or testnet deployment** — every 1st-place had one
+2. **Combined 2–3 Sui primitives** — single-primitive projects rarely won
+3. **Polished demo videos** with the actual product, not slides
+4. **Sharp, specific use case** — "platform for X" lost to "X for [specific user]"
+5. **Open-source repo** with a clean README
+
+## Sponsor Tracks — Strategy Notes
+
+| Sponsor | Track | What they fund |
+|---|---|---|
+| Walrus | Walrus track | Anything substantive using Walrus blob storage / Sites |
+| OpenZeppelin | DeFi & Payments 1st | Security-focused DeFi |
+| OtterSec | DeFi & Payments 3rd | Audit-ready code |
+| Alibaba Cloud | Infra & DevX 4th | Infra credits prize |
+| Navi | Payments & Wallets 3rd | Lending-adjacent payment flows |
+| Scallop | Multiple + University | Lending integrations, student teams |
+| Bucket | Entertainment 3rd | Stablecoin-adjacent culture apps |
+| Hippo | Community Award | Apps that earn community votes |
+| Uniswap | Degen track | DeFi memes |
 
 ## Non-Negotiables
 
-1. **The demo must work**: Do not submit a hackathon project with a broken demo. If the contract isn't deployed or the frontend doesn't load, fix that before polishing the README.
-2. **Sui features must be named explicitly**: Judges ctrl+F for "zkLogin", "PTB", "object model". If you use them, name them. If you don't use any Sui-specific features, this is a problem.
-3. **Under 3 minutes for the video**: Judges will stop watching at 3:00. Plan for 2:45 to leave a buffer.
-4. **README must be self-contained**: A judge should understand your project from the README alone, without watching the video or opening the app.
-5. **Deployed contract is non-negotiable**: Even if the frontend is rough, having a deployed and verifiable contract on testnet shows technical execution.
-6. **Honesty about what was built**: Clearly state what was built during the hackathon period. Misrepresenting pre-existing work as hackathon work is grounds for disqualification.
-7. **Test the submission links**: Every link in your submission must work. Broken links signal carelessness and judges will move on.
-8. **One message per slide/section**: Don't overload any single section. Each part of the submission should convey one clear idea.
+1. **Pick the right track first.** Wrong track = top-of-the-pile project gets buried.
+2. **Show, don't tell.** Live demo > slide deck. Working product > whitepaper.
+3. **Verify the handbook.** Dates, judging weights, video length caps may change. The user should open the Notion handbook themselves and confirm.
+4. **Submit early.** Last-hour submissions risk portal timeouts.
+5. **Open source.** Most Sui Overflow tracks require public GitHub repos. Do not submit private repos.
+6. **Sui-native primitives belong in the README.** Reviewers grep for "PTB", "zkLogin", "Walrus" — make them findable.
+
+## References
+
+- `skills/data/sui-knowledge/05-sui-stack-components.md` — deep reference for Seal, Walrus, Enoki, DeepBook, SuiNS, Passkeys
+- `skills/data/sui-knowledge/06-onchain-finance.md` — stablecoins, neobanks, regulated tokens for DeFi & Payments track
+- `sui-overflow-copilot` skill — research past winners and find underserved tracks
+- `marketing-video` and `video-craft` skills — produce the demo video
+- `apply-grant` skill — follow-on Sui Foundation funding after winning
 
 ```bash
 # Telemetry postamble

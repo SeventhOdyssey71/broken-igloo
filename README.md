@@ -2,51 +2,71 @@
 
 **Ship on Sui — Idea to Launch.**
 
-The agentic layer for Sui. Build tasteful & useful crypto apps using AI in a few hours.
+The agentic layer for Sui. 77 AI-guided skills that turn Claude Code, OpenAI Codex, and Cursor into a Sui expert.
+
+[![npm version](https://img.shields.io/npm/v/brokenigloo)](https://www.npmjs.com/package/brokenigloo)
 
 ## Install
 
 ```bash
-curl -fsSL https://brokenigloo.dev/setup.sh | bash
+npm i -g brokenigloo
 ```
 
-Uses built-in skills, MCPs, and CLIs with **Claude Code**, **OpenAI Codex**, and **Cursor**.
+That's it. The postinstall script copies 77 skills to `~/.claude/skills/`, `~/.codex/skills/`, and `~/.agents/skills/` automatically. Open Claude Code or Codex and start building.
 
-## What It Does
+Prefer running ad-hoc? `npx brokenigloo doctor` works without installing.
 
-brokenigloo installs 31 AI-guided skills into your coding assistant, organized across 4 phases:
+## Verify
 
-### Idea — Discovery & Planning
-- **Find Next Crypto Idea** — 500+ curated ideas from YC, Alliance, a16z, and Sui ecosystem
-- **Validate Idea** — On-chain demand signals, competitive analysis, go/no-go decision
-- **Sui Beginner** — Adaptive Sui fundamentals (object model, Move, PTBs, zkLogin)
+```bash
+brokenigloo doctor    # Check your environment
+brokenigloo skills    # Browse installed skills
+```
 
-### Build — Implementation
-- **Scaffold Project** — Stack decisions, starter repos, dependency installation
-- **Build with Claude** — Guided MVP in 3-5 milestones
-- **Build DeFi Protocol** — AMMs, lending, vaults with Move modules
-- **Debug Move** — Diagnose Move errors, object ownership issues, failed transactions
-- **Review & Iterate** — Security review, code quality scoring
+## Use
 
-### Launch — Go to Market
-- **Deploy to Mainnet** — Pre-flight checklist, `sui client publish`, UpgradeCap management
-- **Create Pitch Deck** — 12-slide investor framework
-- **Apply for Grant** — Sui Foundation grant guidance
+Open your AI coding assistant and say one of:
 
-### Plus: Design, Security, Marketing skills and more.
+| Say this | What happens |
+|---|---|
+| `teach me Sui` | Sui fundamentals tutor (object model, Move, PTBs, zkLogin) |
+| `find a crypto idea` | 520+ curated ideas, scored on 5 dimensions |
+| `scaffold a Sui project` | Stack decisions + dependency install |
+| `build a neobank on Sui` | Full neobank: zkLogin + USDC + DEX + lending |
+| `integrate Cetus for swaps` | Complete Cetus AMM integration guide |
+| `integrate DeepBook` | On-chain order book setup |
+| `build an NFT collection` | Move NFT module + Kiosk + royalties |
+| `launch a token on Sui` | `coin::create_currency` + DEX listing |
+| `debug move` | Move error diagnosis |
+| `deploy to mainnet` | Pre-flight checklist + `sui client publish` |
+| `submit to Sui Overflow` | Hackathon submission strategy |
 
-## How It Works
+In Claude Code, every skill is also a slash command — type `/build-` or `/integrate-` to see them.
 
-Skills are structured markdown files installed to `~/.claude/skills/`. When you open Claude Code and say something like:
+## What's Inside
 
-- *"teach me Sui"* → triggers the `sui-beginner` skill
-- *"help me find a crypto idea"* → triggers `find-next-crypto-idea`
-- *"scaffold a Sui project"* → triggers `scaffold-project`
-- *"deploy to mainnet"* → triggers `deploy-to-mainnet`
+| | Count |
+|---|---|
+| Skills | **77** |
+| Curated startup ideas | **520+** |
+| Sui starter repos | **110** |
+| MCP servers cataloged | **39** |
+| Knowledge docs | **8** (~20K lines) |
+| Deep protocol integrations | **12** |
 
-Each skill interviews you, reads context from previous phases, executes a structured workflow, and hands off to the next skill.
+### Phases
 
-## Sui Ecosystem Integrations
+```
+Idea (7)   →   Build (64)   →   Launch (6)
+```
+
+**Idea** — `sui-beginner`, `find-next-crypto-idea`, `validate-idea`, `competitive-landscape`, `defillama-research`, `sui-overflow-copilot`, `learn`
+
+**Build** — Includes 12 deep protocol integrations: `integrate-cetus`, `integrate-deepbook`, `integrate-suilend`, `integrate-scallop`, `integrate-7k`, `integrate-navi`, `integrate-aftermath`, `integrate-walrus`, `integrate-enoki`, `integrate-shinami`, `integrate-seal`, `integrate-suins`, `integrate-dapp-kit`, `integrate-pyth`. Plus app skills: `build-neobank`, `build-nft-collection`, `build-game`, `build-dao`, `build-rwa`, `build-zklogin-app`, `build-walrus-site`, `build-staking`, `build-marketplace`, and more.
+
+**Launch** — `deploy-to-mainnet`, `submit-to-hackathon`, `create-pitch-deck`, `apply-grant`, `marketing-video`, `video-craft`
+
+## Sui Ecosystem Coverage
 
 | Protocol | What | Package |
 |----------|------|---------|
@@ -60,11 +80,35 @@ Each skill interviews you, reads context from previous phases, executes a struct
 | Shinami | RPC + Gas Station + Wallets | `@shinami/clients` |
 | Enoki | zkLogin + sponsored txns | `@mysten/enoki` |
 | dApp Kit | Wallet connection (React) | `@mysten/dapp-kit` |
+| Walrus | Decentralized storage | `@mysten/walrus` |
+| Seal | Secrets management | `@mysten/seal` |
 | Kiosk | NFT marketplace standard | `@mysten/kiosk` |
+| SuiNS | Name service | `@mysten/suins` |
+| Pyth | Price oracles | `@pythnetwork/pyth-sui-js` |
+
+## Built for Sui Overflow 2026
+
+The `submit-to-hackathon` and `sui-overflow-copilot` skills are tuned for **[Sui Overflow 2026](https://overflow.sui.io/)** — $1M+ prize pool, submissions due May 23, 2026, demo days June 13–14. Covers all tracks: Agentic Web, DeFi & Payments, Infra & DevX, plus specialized tracks for Walrus, DeepBook, ONE Championship, and EVE Frontier.
+
+## CLI Commands
+
+```bash
+brokenigloo ship          # Interactive journey TUI
+brokenigloo init          # Re-install skills
+brokenigloo search <q>    # Search repos, skills, MCPs
+brokenigloo repos         # Browse 110 Sui repos
+brokenigloo skills        # Browse 77 skills
+brokenigloo doctor        # Environment health check
+brokenigloo --help        # All commands
+```
+
+Every command accepts `--agent` for machine-readable JSON output.
 
 ## Development
 
 ```bash
+git clone https://github.com/SeventhOdyssey71/broken-igloo.git
+cd broken-igloo
 pnpm install
 pnpm build
 pnpm dev
