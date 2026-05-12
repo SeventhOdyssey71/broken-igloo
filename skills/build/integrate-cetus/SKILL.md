@@ -33,6 +33,8 @@ The CLMM SDK provides everything: pool queries, position management, swaps, and 
 npm i @cetusprotocol/aggregator-sdk
 ```
 
+> **Note on SDK versions (verify before depending on this)**: Cetus published a v2 package `@cetusprotocol/sui-clmm-sdk` (split out from the monolithic `@cetusprotocol/cetus-sui-clmm-sdk`). For new projects, check both packages on npm and pick the one with recent updates. The v2 split also includes separate `@cetusprotocol/vaults-sdk`, `@cetusprotocol/farms-sdk`, and `@cetusprotocol/limit-sdk` for those features. APIs are similar but not identical — see Cetus docs.
+
 ### Step 2: Initialize the SDK
 
 ```typescript
@@ -345,7 +347,7 @@ const swapPayload = await mainnetSDK.Swap.createSwapTransactionPayload({
 // Step 2: You can also build raw moveCall-based swaps for more control
 // This gives you the output coin reference for chaining
 const CETUS_CLMM_PACKAGE = "0x1eabed72c53feb3805120a081dc15963c204dc8d091542592abaf7a35689b2fb";
-const CETUS_GLOBAL_CONFIG = "0xdaa46292632c3c4d8f31f23ea0f9b36a28ff3677e9684980e69d9fb27baea4b8";
+const CETUS_GLOBAL_CONFIG = "0xdaa46292632c3c4d8f31f23ea0f9b36a28ff3677e9684980e4438403a67a3d8f";
 
 const [outputCoin] = tx.moveCall({
   target: `${CETUS_CLMM_PACKAGE}::pool_script::swap_a2b`,

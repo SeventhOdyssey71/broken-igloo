@@ -2,6 +2,29 @@
 
 > Copy-paste initialization and key methods for every Sui protocol SDK. Use this as a cheat sheet when building integrations.
 
+## Verified package versions (as of 2026-05-12)
+
+Always run `npm view <pkg> version` to confirm before pinning. These are the latest published versions at the time this doc was written:
+
+| Package | Version | Notes |
+|---|---|---|
+| `@mysten/sui` | ^2.16 | Core SDK, ESM-only |
+| `@mysten/dapp-kit` | ^1.0 | React wallet integration |
+| `@mysten/walrus` | ^1.1 | Decentralized storage |
+| `@mysten/seal` | ^1.1 | Secrets / encryption |
+| `@mysten/enoki` | ^1.0 | zkLogin + sponsored txns |
+| `@mysten/kiosk` | ^1.2 | NFT marketplace standard |
+| `@mysten/deepbook-v3` | ^1.3 | On-chain CLOB |
+| `@mysten/suins` | ^1.1 | Name service |
+| `@7kprotocol/sdk-ts` | ^4.0 | DEX aggregator |
+| `@cetusprotocol/sui-clmm-sdk` | ^1.4 | Cetus v2 (prefer over legacy `cetus-sui-clmm-sdk@5.4` which is 11+ months stale) |
+| `@scallop-io/sui-scallop-sdk` | ^3.0 | Scallop lending |
+| `@naviprotocol/lending` | ^1.4 | NAVI lending |
+| `@suilend/sdk` | ^3.0 | Suilend lending |
+| `aftermath-ts-sdk` | ^2.0 | Aftermath DEX + afSUI |
+| `@shinami/clients` | ^0.10 | RPC + Gas Station |
+| `@pythnetwork/pyth-sui-js` | ^3.0 | Pyth oracles |
+
 ## Core SDK — @mysten/sui
 
 ```bash
@@ -69,7 +92,12 @@ const { tx, coinOut } = await buildTx({
 ## Cetus — @cetusprotocol/cetus-sui-clmm-sdk
 
 ```bash
+# Legacy monolithic SDK (last updated 2025-06)
 npm i @cetusprotocol/cetus-sui-clmm-sdk
+
+# Or the v2 modular packages (recommended for new projects)
+npm i @cetusprotocol/sui-clmm-sdk
+# Plus optional: @cetusprotocol/aggregator-sdk @cetusprotocol/vaults-sdk @cetusprotocol/farms-sdk @cetusprotocol/limit-sdk
 ```
 
 ```typescript
